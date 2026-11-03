@@ -233,7 +233,8 @@ const softPrompt = p => p.replace(/\b(blood\w*|dead|death|die\w*|kill\w*|corpse|
   .replace(/\s{2,}/g, ' ');
 
 // Cloudflare Workers AI: FLUX.2 klein 4B (Apache-2.0, multipart), FLUX.1 schnell as fallback → JPG/PNG file.
-export async function fluxImage(prompt, outPath, { width = 1344, height = 768 } = {}) {
+// 1024x576 (owner wants 2 long videos/day on the free 10k neurons: ~75 images/day instead of ~44 at 1344x768)
+export async function fluxImage(prompt, outPath, { width = 1024, height = 576 } = {}) {
   const base = stripStyle(prompt);
   const tries = [base, softPrompt(base), 'an ancient Indian temple on a river bank at sunrise with oil lamps floating on the water'];
   let last;

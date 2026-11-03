@@ -2,9 +2,12 @@ name: SRA Bhakti video
 
 on:
   schedule:
-    - cron: '15 1 * * *'    # 06:45 IST: new day's free AI quota → script/voice/images
-    - cron: '15 13 * * *'   # 18:45 IST: second pass (more images, render, reel, queue to Drive)
-    - cron: '45 13 * * *'   # 19:15 IST (+ GitHub delay): publish the oldest ⭐ approved video + Drive cleanup
+    - cron: '15 0 * * *'    # 05:45 IST: free AI quota just reset → script/voice/images
+    - cron: '15 6 * * *'    # 11:45 IST: continue (render, reel, queue to Drive, start the next video)
+    - cron: '15 12 * * *'   # 17:45 IST: continue
+    - cron: '15 18 * * *'   # 23:45 IST: continue
+    - cron: '50 1 * * *'    # 07:20 IST (+ GitHub delay ≈ 8 AM): publish slot 1
+    - cron: '50 12 * * *'   # 18:20 IST (+ GitHub delay ≈ 7 PM): publish slot 2
   workflow_dispatch:
     inputs:
       topic:
@@ -29,7 +32,7 @@ jobs:
     timeout-minutes: 300
     concurrency: { group: make, cancel-in-progress: false }
     # schedule runs only when the repo variable AUTO_POST is "on" (pause switch)
-    if: (github.event_name == 'workflow_dispatch' && inputs.mode == 'make') || (github.event_name == 'schedule' && (github.event.schedule == '15 1 * * *' || github.event.schedule == '15 13 * * *') && vars.AUTO_POST == 'on')
+    if: (github.event_name == 'workflow_dispatch' && inputs.mode == 'make') || (github.event_name == 'schedule' && startsWith(github.event.schedule, '15 ') && vars.AUTO_POST == 'on')
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -97,7 +100,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     concurrency: { group: publish, cancel-in-progress: false }
-    if: (github.event_name == 'workflow_dispatch' && inputs.mode == 'publish') || (github.event_name == 'schedule' && github.event.schedule == '45 13 * * *' && vars.AUTO_POST == 'on')
+    if: (github.event_name == 'workflow_dispatch' && inputs.mode == 'publish') || (github.event_name == 'schedule' && startsWith(github.event.schedule, '50 ') && vars.AUTO_POST == 'on')
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -105,7 +108,7 @@ jobs:
           node-version: '24'
       - name: Tools
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
-      - name: Publish oldest approved video (YouTube + Facebook + Instagram) + Drive cleanup
+      - name: Publish oldest ready video (YouTube + Short, Facebook video + Reel, Instagram reel) + Drive cleanup
         env:
           ENV_FILE: ${{ secrets.ENV_FILE }}
         run: |
@@ -119,7 +122,7 @@ jobs:
 
   tune:
     runs-on: ubuntu-latest
-    if: github.event_name == 'schedule' && github.event.schedule == '15 1 * * *' && vars.AUTO_POST == 'on'
+    if: github.event_name == 'schedule' && github.event.schedule == '15 0 * * *' && vars.AUTO_POST == 'on'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

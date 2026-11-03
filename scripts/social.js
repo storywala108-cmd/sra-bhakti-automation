@@ -47,6 +47,23 @@ export async function publishFacebookVideo(file, thumb, title, description) {
   return `https://www.facebook.com/${page}/videos/${vid}`;
 }
 
+// Facebook Reel (the cut reel = our "short"): video_reels start → rupload → finish
+export async function publishFacebookReel(file, title, description) {
+  const tok = env.FB_PAGE_TOKEN, page = env.FB_PAGE_ID;
+  const start = await call(`${GRAPH}/${page}/video_reels`, { method: 'POST', headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ upload_phase: 'start', access_token: tok }) });
+  if (!start.body.video_id) throw new Error('FB reel start failed: ' + JSON.stringify(start.body).slice(0, 300));
+  const vid = start.body.video_id;
+  const up = await call(`https://rupload.facebook.com/video-upload/v26.0/${vid}`, { method: 'POST', body: fs.readFileSync(file),
+    headers: { authorization: 'OAuth ' + tok, offset: '0', file_size: String(fs.statSync(file).size), 'content-type': 'application/octet-stream' } }, 600000);
+  if (!up.body.success) throw new Error('FB reel upload failed: ' + JSON.stringify(up.body).slice(0, 300));
+  const fin = await call(`${GRAPH}/${page}/video_reels`, { method: 'POST', headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ upload_phase: 'finish', video_id: vid, video_state: 'PUBLISHED', title: title.slice(0, 100),
+      description: description.slice(0, 2200), is_ai_generated: true, access_token: tok }) }, 120000);
+  if (!fin.body.success) throw Object.assign(new Error('FB reel finish failed: ' + JSON.stringify(fin.body).slice(0, 300)), { maybePosted: true });
+  return `https://www.facebook.com/reel/${vid}`;
+}
+
 async function instagramOnce(file, caption) {
   const tok = env.FB_PAGE_TOKEN, ig = env.IG_USER_ID;
   const c = await call(`${GRAPH}/${ig}/media`, { method: 'POST', headers: { 'content-type': 'application/json' },
@@ -76,4 +93,38 @@ export async function publishInstagramReel(file, caption) {
       log(`instagram try ${a} failed (${e.message.slice(0, 90)}), retry in ${a * 45} s`); await sleep(a * 45000);
     }
   }
+}
+
+// Stories (owner 2026-11-03): the reel also goes out as a Facebook Story and an Instagram Story (≤60 s)
+export async function publishFacebookStory(file) {
+  const tok = env.FB_PAGE_TOKEN, page = env.FB_PAGE_ID;
+  const start = await call(`${GRAPH}/${page}/video_stories`, { method: 'POST', body: new URLSearchParams({ upload_phase: 'start', access_token: tok }) });
+  if (!start.body.video_id) throw new Error('FB story start failed: ' + JSON.stringify(start.body).slice(0, 300));
+  const up = await call(start.body.upload_url || `https://rupload.facebook.com/video-upload/v26.0/${start.body.video_id}`, { method: 'POST',
+    body: fs.readFileSync(file), headers: { authorization: 'OAuth ' + tok, offset: '0', file_size: String(fs.statSync(file).size), 'content-type': 'application/octet-stream' } }, 600000);
+  if (!up.body.success) throw new Error('FB story upload failed: ' + JSON.stringify(up.body).slice(0, 300));
+  const fin = await call(`${GRAPH}/${page}/video_stories`, { method: 'POST',
+    body: new URLSearchParams({ upload_phase: 'finish', video_id: start.body.video_id, access_token: tok }) }, 120000);
+  if (!fin.body.success) throw Object.assign(new Error('FB story finish failed: ' + JSON.stringify(fin.body).slice(0, 300)), { maybePosted: true });
+  return fin.body.post_id ? `https://www.facebook.com/${fin.body.post_id}` : 'posted';
+}
+
+export async function publishInstagramStory(file) {
+  const tok = env.FB_PAGE_TOKEN, ig = env.IG_USER_ID;
+  const c = await call(`${GRAPH}/${ig}/media`, { method: 'POST', headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ media_type: 'STORIES', upload_type: 'resumable', access_token: tok }) });
+  if (!c.body.id) throw new Error('IG story container failed: ' + JSON.stringify(c.body).slice(0, 300));
+  const up = await call(`https://rupload.facebook.com/ig-api-upload/v26.0/${c.body.id}`, { method: 'POST', body: fs.readFileSync(file),
+    headers: { authorization: 'OAuth ' + tok, offset: '0', file_size: String(fs.statSync(file).size) } }, 600000);
+  if (!up.body.success) throw new Error('IG story upload failed: ' + JSON.stringify(up.body).slice(0, 300));
+  let st = '';
+  for (let k = 0; k < 40 && st !== 'FINISHED'; k++) {
+    await sleep(15000);
+    st = (await call(`${GRAPH}/${c.body.id}?fields=status_code&access_token=${encodeURIComponent(tok)}`)).body.status_code || '';
+    if (st === 'ERROR' || st === 'EXPIRED') throw new Error('IG story processing ' + st);
+  }
+  const pub = await call(`${GRAPH}/${ig}/media_publish`, { method: 'POST', headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ creation_id: c.body.id, access_token: tok }) });
+  if (!pub.body.id) throw Object.assign(new Error('IG story publish failed: ' + JSON.stringify(pub.body).slice(0, 300)), { maybePosted: true });
+  return 'posted';
 }

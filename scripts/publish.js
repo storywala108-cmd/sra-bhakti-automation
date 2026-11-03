@@ -9,7 +9,7 @@ import { execFileSync } from 'node:child_process';
 import { ROOT, env, log } from './lib.js';
 import { folder, list, download, move, remove, usage, QUEUE, PUBLISHED } from './drive.js';
 import { upload, setThumbnail, api } from './yt.js';
-import { publishFacebookVideo, publishInstagramReel } from './social.js';
+import { publishFacebookVideo, publishFacebookReel, publishInstagramReel, publishFacebookStory, publishInstagramStory } from './social.js';
 
 const FORCE = process.argv.includes('--force');
 const STATE = path.join(ROOT, 'state');
@@ -70,7 +70,8 @@ if (!already) {
   const d = Number(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', path.join(tmp, 'final.mp4')]).toString());
   if (Math.abs(d - meta.duration) > 3) throw new Error(`downloaded video length ${d} ≠ ${meta.duration}`);
   const slot = new Date(); slot.setUTCHours(hour, 0, 0, 0);
-  const publishAt = slot - Date.now() > 60 * 60e3 ? slot.toISOString() : null;   // < 1 h left → public right away
+  // two publish slots a day (morning + evening IST): the job runs at the slot, so the video goes public right away
+  const publishAt = String(env.PUBLISH_NOW ?? 'true') === 'true' ? null : (slot - Date.now() > 60 * 60e3 ? slot.toISOString() : null);
   log('uploading', meta.title, publishAt ? `(goes public ${publishAt})` : '(public now)');
   const v = await upload(path.join(tmp, 'final.mp4'), { title: meta.title, description: meta.description, tags: meta.tags,
     publishAt, privacy: 'public', categoryId: '24', synthetic: String(env.YT_SYNTHETIC ?? 'true').toLowerCase() === 'true' });
@@ -99,6 +100,38 @@ if (rec && !rec.ig && files['reel.mp4'] && String(env.IG_ENABLED).toLowerCase() 
     rec.ig = await publishInstagramReel(path.join(tmp, 'reel.mp4'), meta.igCaption || meta.title);
     log('INSTAGRAM', rec.ig);
   } catch (e) { log('instagram failed:', e.message.slice(0, 200)); if (e.maybePosted) rec.ig = 'maybe-posted'; }
+  const all = rj(uploadsFile, []); Object.assign(all.find(u => u.run === run), rec); wj(uploadsFile, all);
+}
+// the cut reel also goes out as a YouTube Short and a Facebook Reel (owner 2026-11-03: 2 long + 2 shorts a day)
+if (rec && files['reel.mp4']) {
+  for (const k of ['reel.mp4', 'meta.json']) if (!fs.existsSync(path.join(tmp, k))) await download(files[k].id, path.join(tmp, k));
+  const meta = JSON.parse(fs.readFileSync(path.join(tmp, 'meta.json'), 'utf8'));
+  const hook = (meta.igCaption || meta.title).split('\n')[0].replace(/[🙏]/g, '').trim();
+  const desc = `${hook}\nपूरी कथा देखें: https://youtu.be/${rec.id}\n\n#shorts #bhakti #katha #hindumythology`;
+  if (!rec.ytShort && String(env.YT_ENABLED).toLowerCase() === 'true') {
+    try {
+      const sv = await upload(path.join(tmp, 'reel.mp4'), { title: `${hook} #shorts`.slice(0, 100), description: desc, tags: meta.tags,
+        privacy: 'public', categoryId: '24', synthetic: true });
+      rec.ytShort = 'https://youtube.com/shorts/' + sv.id; log('YOUTUBE SHORT', rec.ytShort);
+    } catch (e) { log('youtube short failed:', e.message.slice(0, 200)); }
+    const all = rj(uploadsFile, []); Object.assign(all.find(u => u.run === run), rec); wj(uploadsFile, all);
+  }
+  if (!rec.fbReel && String(env.FB_ENABLED).toLowerCase() === 'true') {
+    try { rec.fbReel = await publishFacebookReel(path.join(tmp, 'reel.mp4'), hook, desc); log('FACEBOOK REEL', rec.fbReel); }
+    catch (e) { log('facebook reel failed:', e.message.slice(0, 200)); if (e.maybePosted) rec.fbReel = 'maybe-posted'; }
+    const all = rj(uploadsFile, []); Object.assign(all.find(u => u.run === run), rec); wj(uploadsFile, all);
+  }
+}
+// stories: only after the reel really posted on that platform; each once
+if (rec && files['reel.mp4'] && fs.existsSync(path.join(tmp, 'reel.mp4'))) {
+  if (!rec.fbStory && rec.fbReel && rec.fbReel !== 'maybe-posted') {
+    try { rec.fbStory = await publishFacebookStory(path.join(tmp, 'reel.mp4')); log('FACEBOOK STORY', rec.fbStory); }
+    catch (e) { log('facebook story failed:', e.message.slice(0, 200)); if (e.maybePosted) rec.fbStory = 'maybe-posted'; }
+  }
+  if (!rec.igStory && rec.ig && rec.ig !== 'maybe-posted') {
+    try { rec.igStory = await publishInstagramStory(path.join(tmp, 'reel.mp4')); log('INSTAGRAM STORY', rec.igStory); }
+    catch (e) { log('instagram story failed:', e.message.slice(0, 200)); if (e.maybePosted) rec.igStory = 'maybe-posted'; }
+  }
   const all = rj(uploadsFile, []); Object.assign(all.find(u => u.run === run), rec); wj(uploadsFile, all);
 }
 const props = { publishedAt: new Date().toISOString(), videoId };
