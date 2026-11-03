@@ -61,13 +61,13 @@ export async function competitorDemand(trendList, { perRun = 5 } = {}) {
   if (!scans.length) { log('competitors: nothing scanned'); return rj(path.join(STATE, 'audience.json'), null); }
 
   const { data } = await aiJson(
-    `You analyse competitor YouTube channels for "Ink & Crowns" (history & geopolitics explainers, US audience).\n` +
+    `You analyse competitor YouTube channels for "SRA भक्ति" (Hindi Hindu mythological kathas, Indian audience).\n` +
     `For each competitor: their videos that beat their own normal the most (vsNormal = views/day ÷ the channel's ` +
     `median; 3 = three times their usual), with top viewer comments, and their weakest recent videos:\n` +
     `${JSON.stringify(scans).slice(0, 14000)}\n\n` +
     `Work out what this audience demands: which subjects/angles over-perform, what viewers explicitly ask for ` +
     `("do X next", "part 2", questions left unanswered), what they complain is missing, and which subjects are ` +
-    `saturated. Only real, documented history/geopolitics topics.\nReturn JSON {"wants":[{"topic":"specific topic ` +
+    `saturated. Only Hindu mythology topics; never other religions.\nReturn JSON {"wants":[{"topic":"specific topic ` +
     `or angle","evidence":"which videos/comments show it","strength":1-10}],"gaps":["what viewers say nobody covers well"],` +
     `"saturated":["subjects done to death right now"],"title_patterns":["title styles that over-perform"]}`,
     { check: d => { if (!Array.isArray(d.wants)) throw new Error('no wants'); return d; }, temperature: 0.5 },

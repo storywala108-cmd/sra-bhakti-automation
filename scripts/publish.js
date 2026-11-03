@@ -1,5 +1,7 @@
-// Publish day: take the OLDEST ready video from the Drive queue → YouTube (goes public at 6 PM Eastern) →
-// move its files to "Published". Every run also deletes Published files 1 day after a confirmed upload.
+// Publish: take the OLDEST APPROVED video from the Drive queue (owner approves by starring final.mp4 in Google Drive)
+// → YouTube (public) → Facebook page (full video) → Instagram (cut reel) → move to "Published".
+// Each platform is recorded in state/uploads.json the moment it succeeds, so nothing is ever posted twice.
+// Every run also deletes Published files 1 day after a confirmed upload.
 // Usage: node scripts/publish.js [--force]   (--force = publish even if today isn't a publish day)
 import fs from 'node:fs';
 import path from 'node:path';
@@ -7,6 +9,7 @@ import { execFileSync } from 'node:child_process';
 import { ROOT, env, log } from './lib.js';
 import { folder, list, download, move, remove, usage, QUEUE, PUBLISHED } from './drive.js';
 import { upload, setThumbnail, api } from './yt.js';
+import { publishFacebookVideo, publishInstagramReel } from './social.js';
 
 const FORCE = process.argv.includes('--force');
 const STATE = path.join(ROOT, 'state');
@@ -41,15 +44,17 @@ for (const [run, files] of Object.entries(byRun)) {
 }
 
 // 2) publish
-const days = (env.PUBLISH_DAYS || '1,3,5').split(',').map(Number);
-const hour = Number(env.PUBLISH_HOUR_UTC || 22);
+const days = (env.PUBLISH_DAYS || '0,1,2,3,4,5,6').split(',').map(Number);
+const hour = Number(env.PUBLISH_HOUR_UTC || 14);   // 14:00 UTC = 7:30 PM IST
 if (!FORCE && !days.includes(new Date().getUTCDay())) { log('not a publish day'); process.exit(0); }
 if (String(env.YT_ENABLED).toLowerCase() !== 'true') { log('YT_ENABLED is not true → not publishing'); process.exit(0); }
 
 const queue = await list(qid);
-const runs = [...new Set(queue.filter(f => f.appProperties?.kind === 'final.mp4').map(f => f.appProperties.run))].sort();
-log(`queue: ${runs.length} ready`, JSON.stringify(await usage()));
-if (!runs.length) { log('WARNING: queue empty — nothing to publish today'); process.exit(0); }
+const ready = queue.filter(f => f.appProperties?.kind === 'final.mp4');
+// approval gate (owner 2026-11-02): only videos whose final.mp4 is ⭐ starred in Google Drive go out
+const runs = [...new Set(ready.filter(f => f.starred || String(env.REQUIRE_APPROVAL).toLowerCase() === 'false').map(f => f.appProperties.run))].sort();
+log(`queue: ${ready.length} ready, ${runs.length} approved`, JSON.stringify(await usage()));
+if (!runs.length) { log(ready.length ? 'waiting for approval: star the video in Drive folder "SRA Bhakti Queue"' : 'WARNING: queue empty'); process.exit(0); }
 const run = runs[0];
 const files = Object.fromEntries(queue.filter(f => f.appProperties?.run === run).map(f => [f.appProperties.kind, f]));
 const uploads = rj(uploadsFile, []);
@@ -59,7 +64,7 @@ const tmp = path.join(ROOT, 'runs', '_publish');
 fs.mkdirSync(tmp, { recursive: true });
 let videoId = already?.id;
 if (!already) {
-  for (const k of ['final.mp4', 'thumb.jpg', 'meta.json']) if (files[k]) await download(files[k].id, path.join(tmp, k));
+  for (const k of ['final.mp4', 'thumb.jpg', 'meta.json', 'reel.mp4']) if (files[k]) await download(files[k].id, path.join(tmp, k));
   const meta = JSON.parse(fs.readFileSync(path.join(tmp, 'meta.json'), 'utf8'));
   // preflight on the downloaded copy
   const d = Number(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', path.join(tmp, 'final.mp4')]).toString());
@@ -68,12 +73,33 @@ if (!already) {
   const publishAt = slot - Date.now() > 60 * 60e3 ? slot.toISOString() : null;   // < 1 h left → public right away
   log('uploading', meta.title, publishAt ? `(goes public ${publishAt})` : '(public now)');
   const v = await upload(path.join(tmp, 'final.mp4'), { title: meta.title, description: meta.description, tags: meta.tags,
-    publishAt, privacy: 'public', synthetic: String(env.YT_SYNTHETIC).toLowerCase() === 'true' });
+    publishAt, privacy: 'public', categoryId: '24', synthetic: String(env.YT_SYNTHETIC ?? 'true').toLowerCase() === 'true' });
   videoId = v.id;
   uploads.push({ run, id: v.id, title: meta.title, topic: meta.topic, publishAt: publishAt || new Date().toISOString(), at: new Date().toISOString() });
+  if (publishAt) log('note: YouTube goes public at', publishAt);
   wj(uploadsFile, uploads);                                    // recorded before anything else can fail → never twice
   try { await setThumbnail(v.id, path.join(tmp, 'thumb.jpg')); log('thumbnail set'); } catch (e) { log('thumbnail failed:', e.message.slice(0, 120)); }
   log('UPLOADED https://youtu.be/' + v.id);
+}
+// Facebook (full video) + Instagram (reel): each once, failures isolated from each other and from YouTube
+const rec = rj(uploadsFile, []).find(u => u.run === run);
+if (rec && !rec.fb && String(env.FB_ENABLED).toLowerCase() === 'true') {
+  try {
+    for (const k of ['final.mp4', 'thumb.jpg', 'meta.json']) if (files[k] && !fs.existsSync(path.join(tmp, k))) await download(files[k].id, path.join(tmp, k));
+    const meta = JSON.parse(fs.readFileSync(path.join(tmp, 'meta.json'), 'utf8'));
+    rec.fb = await publishFacebookVideo(path.join(tmp, 'final.mp4'), path.join(tmp, 'thumb.jpg'), meta.title, meta.description);
+    log('FACEBOOK', rec.fb);
+  } catch (e) { log('facebook failed:', e.message.slice(0, 200)); if (e.maybePosted) rec.fb = 'maybe-posted'; }
+  const all = rj(uploadsFile, []); Object.assign(all.find(u => u.run === run), rec); wj(uploadsFile, all);
+}
+if (rec && !rec.ig && files['reel.mp4'] && String(env.IG_ENABLED).toLowerCase() === 'true') {
+  try {
+    for (const k of ['reel.mp4', 'meta.json']) if (!fs.existsSync(path.join(tmp, k))) await download(files[k].id, path.join(tmp, k));
+    const meta = JSON.parse(fs.readFileSync(path.join(tmp, 'meta.json'), 'utf8'));
+    rec.ig = await publishInstagramReel(path.join(tmp, 'reel.mp4'), meta.igCaption || meta.title);
+    log('INSTAGRAM', rec.ig);
+  } catch (e) { log('instagram failed:', e.message.slice(0, 200)); if (e.maybePosted) rec.ig = 'maybe-posted'; }
+  const all = rj(uploadsFile, []); Object.assign(all.find(u => u.run === run), rec); wj(uploadsFile, all);
 }
 const props = { publishedAt: new Date().toISOString(), videoId };
 for (const f of Object.values(files)) await move(f.id, qid, pid, props);

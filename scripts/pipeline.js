@@ -6,6 +6,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { ROOT, env, log, tts, TTS_MODELS, fluxImage } from './lib.js';
 import { makeThumb } from './thumb.js';
+import { makeReel } from './reel.js';
 import { researchTrends, pickTopic, nextFormat } from './trends.js';
 import { competitorDemand } from './competitors.js';
 import { makeShorts } from './shorts.js';
@@ -143,7 +144,9 @@ async function step(r) {
   }
   // 4 Shorts cut from this video, posted on the days without a new long video (asked 2026-11-01)
   if (s.stage === 'shorts') {
-    // Shorts need a Hindi layout first (Devanagari hook text); default OFF until built and approved
+    // Instagram gets a cut reel of the video (owner 2026-11-03); a failure never blocks the long video
+    try { s.reel = makeReel(dir, s.sceneTimes, s.script.pack.thumb_text); } catch (e) { log('reel failed:', e.message.slice(0, 160)); s.reel = null; }
+    // YouTube Shorts need a Hindi layout first; default OFF until built and approved
     if (!flag('SHORTS_ENABLED')) { s.shorts = []; s.stage = 'upload'; save(r); }
     else try { s.shorts = await makeShorts(dir, s.script, s.sceneTimes); }
     catch (e) { log('shorts failed (long video still goes ahead):', e.message.slice(0, 160)); s.shorts = []; }
@@ -155,6 +158,9 @@ async function step(r) {
     const p = s.script.pack;
     const meta = {
       run: s.id, topic: s.topic.topic, title: p.title.slice(0, 100), tags: p.tags, duration: s.duration,
+      // Instagram caption: hook + where the full katha is + hashtags (Hindi hook, English tags)
+      igCaption: `${p.thumb_text} 🙏\nपूरी कथा YouTube (SRA@Bhakti Channel) और Facebook (SRA Bhakti Channel) पर।\n\n` +
+        (p.tags || []).filter(t => /^[a-z0-9 ]+$/i.test(t)).slice(0, 8).map(t => '#' + t.replace(/\s+/g, '')).join(' ') + ' #bhakti #hindumythology #katha',
       description: `${p.description}\n\nChapters\n${s.chapters.map(([t, n]) => `${t} ${n}`).join('\n')}\n\n` +
         `Music: ${s.music.join(', ')} (Mixkit).\n\nDisclaimer: This video presents a devotional katha for faith, moral ` +
         `learning and entertainment. Visuals and voice are AI-generated.`,
@@ -165,6 +171,7 @@ async function step(r) {
     const files = [['final.mp4', 'video/mp4'], ['thumb.jpg', 'image/jpeg'], ['meta.json', 'application/json']];
     for (const sh of s.shorts || []) if (fs.existsSync(path.join(dir, sh.file))) files.push([sh.file, 'video/mp4']);
     if (s.shorts?.length) files.push(['shorts.json', 'application/json']);
+    if (s.reel && fs.existsSync(path.join(dir, 'reel.mp4'))) files.push(['reel.mp4', 'video/mp4']);
     for (const [f, mime] of files) {
       if (have.includes(`${s.id}__${f}`)) continue;
       log('to Drive:', f);
@@ -173,7 +180,7 @@ async function step(r) {
     s.stage = 'done'; s.queuedAt = new Date().toISOString(); save(r);
     // free the Actions cache: only state.json + script.json stay
     for (const f of fs.readdirSync(dir)) if (!['state.json', 'script.json'].includes(f)) fs.rmSync(path.join(dir, f), { recursive: true, force: true });
-    log('QUEUED in Google Drive:', meta.title);
+    log('QUEUED in Google Drive (waiting for your ⭐ approval):', meta.title);
     return 'queued';
   }
   return s.stage;

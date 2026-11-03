@@ -58,8 +58,8 @@ server.listen(0, '127.0.0.1', () => {
   const redirect = `http://127.0.0.1:${server.address().port}`;
   const auth = 'https://accounts.google.com/o/oauth2/v2/auth?' + new URLSearchParams({
     client_id: env.YT_CLIENT_ID, redirect_uri: redirect, response_type: 'code',
-    scope: SCOPES, access_type: 'offline', prompt: 'consent', login_hint: 'inkandcrowns@gmail.com',
+    scope: SCOPES, access_type: 'offline', prompt: 'consent', login_hint: 'storywala108@gmail.com',
   });
   console.log('AUTH_URL ' + auth);
 });
-setTimeout(() => { console.log('TIMEOUT'); process.exit(2); }, 15 * 60 * 1000);
+setTimeout(() => { console.log('TIMEOUT'); process.exit(2); }, 120 * 60 * 1000);

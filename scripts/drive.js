@@ -1,5 +1,5 @@
 // Google Drive queue of ready videos (scope drive.file: only files this app made).
-// Folders: "Ink & Crowns Queue" (ready, oldest first) and "Ink & Crowns Published" (uploaded, deleted after 1 day).
+// Folders: "SRA Bhakti Queue" (ready, oldest first) and "SRA Bhakti Published" (uploaded, deleted after 1 day).
 import fs from 'node:fs';
 import { pipeline as streamPipe } from 'node:stream/promises';
 import { Readable } from 'node:stream';
@@ -27,8 +27,8 @@ export async function folder(name) {
     body: JSON.stringify({ name, mimeType: 'application/vnd.google-apps.folder' }) });
   return c.id;
 }
-export const QUEUE = 'Ink & Crowns Queue';
-export const PUBLISHED = 'Ink & Crowns Published';
+export const QUEUE = 'SRA Bhakti Queue';
+export const PUBLISHED = 'SRA Bhakti Published';
 
 // Resumable upload in 32 MB chunks (an 18-min 1080p video is ~1 GB); each chunk retried.
 export async function uploadFile(localPath, name, parentId, mime = 'application/octet-stream', appProperties = {}) {
@@ -63,7 +63,7 @@ export async function uploadFile(localPath, name, parentId, mime = 'application/
 
 export async function list(parentId) {
   const r = await httpJson(`${API}/files?q=${q(`'${parentId}' in parents and trashed=false`)}&orderBy=createdTime&pageSize=200` +
-    `&fields=files(id,name,size,createdTime,modifiedTime,appProperties)`, { headers: await H() });
+    `&fields=files(id,name,size,createdTime,modifiedTime,appProperties,starred)`, { headers: await H() });
   return r.files;
 }
 

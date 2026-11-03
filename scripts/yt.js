@@ -23,8 +23,8 @@ export const api = async (p, opts = {}) =>
 // Most-viewed recent videos for a query (search = 100 quota units, videos.list = 1).
 export async function topRecent(q, days = 30, max = 25) {
   const after = new Date(Date.now() - days * 864e5).toISOString();
-  const s = await api(`search?part=snippet&type=video&order=viewCount&maxResults=${max}&regionCode=US&relevanceLanguage=en` +
-    `&videoDuration=long&publishedAfter=${after}&q=${encodeURIComponent(q)}`);
+  const s = await api(`search?part=snippet&type=video&order=viewCount&maxResults=${max}&regionCode=IN&relevanceLanguage=hi` +
+    `&publishedAfter=${after}&q=${encodeURIComponent(q)}`);
   const ids = s.items.map(i => i.id.videoId).join(',');
   if (!ids) return [];
   const v = await api(`videos?part=statistics,snippet,contentDetails&id=${ids}`);
@@ -68,7 +68,7 @@ export async function upload(file, { title, description, tags, categoryId = '27'
   const start = await fetch('https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status', {
     method: 'POST',
     headers: { ...(await auth()), 'content-type': 'application/json', 'x-upload-content-length': String(size), 'x-upload-content-type': 'video/mp4' },
-    body: JSON.stringify({ snippet: { title, description, tags, categoryId, defaultLanguage: 'en', defaultAudioLanguage: 'en' }, status }),
+    body: JSON.stringify({ snippet: { title, description, tags, categoryId, defaultLanguage: 'hi', defaultAudioLanguage: 'hi' }, status }),
   });
   const loc = start.headers.get('location');
   if (!loc) throw new Error(`upload start ${start.status}: ${(await start.text()).slice(0, 300)}`);
