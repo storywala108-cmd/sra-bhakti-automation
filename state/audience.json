@@ -1,0 +1,49 @@
+{
+  "at": "2026-11-03T13:05:21.050Z",
+  "channels": [
+    "KATHA SAGAR",
+    "JagaLeela Studio",
+    "Rasiya Films",
+    "GuruVaani Studio\n",
+    "The Divine Journey"
+  ],
+  "wants": [
+    {
+      "topic": "Adhaiya Brahmin & Navdurga Household Domestic Dramas (Maa Durga taking human forms to work/cook in humble homes)",
+      "evidence": "GuruVaani Studio (vsNormal 600.72 & 108.75), Rasiya Films (vsNormal 17.91 & 12.29), JagaLeela Studio (vsNormal 18.7, 17.18, 16.66)",
+      "strength": 10
+    },
+    {
+      "topic": "Nostalgic Period Documentary Kathas ('100 साल पहले...' 1926 Village Festival Celebrations)",
+      "evidence": "The Divine Journey's top 3 videos: Kanya Pujan 1926 (vsNormal 18.66), Dhanteras 1926 (vsNormal 12.02), Navratri 1926 (vsNormal 7.15)",
+      "strength": 9
+    },
+    {
+      "topic": "Shocking Domestic Testing of Deities (Old woman/stepmother making God do heavy chores like sweeping or cooking)",
+      "evidence": "GuruVaani Studio video on Durga made to do household work by old woman (5.9M views, vsNormal 600.72) and Chanda lifting broom against Durga (vsNormal 108.75)",
+      "strength": 9
+    },
+    {
+      "topic": "Full Iconic Mythological Vadh & Origin Battles (Mata Vaishno Devi Bhaironath Vadh, Ganesha Gajanan origin, Mahisasur Vadh)",
+      "evidence": "Rasiya Films Vaishno Devi Bhaironath Vadh (vsNormal 84.77) and KATHA SAGAR Ganesha origin (vsNormal 7.23, 33M views)",
+      "strength": 8
+    }
+  ],
+  "gaps": [
+    "100-year-old period documentary format applied to other major festivals (1926 Ram Navami, 1926 Diwali, 1926 Shivratri in ancient Indian villages)",
+    "Deep character-driven emotional stories of lesser-known household devotees interacting directly with localized forms of Goddesses",
+    "Detailed backstories of major rivalries and origin kathas rendered in high-curiosity dramatic storytelling rather than plain narration"
+  ],
+  "saturated": [
+    "Generic short-form motivational reels or generic festival status Shorts",
+    "Standard non-animated Bhajans or song clips mixed into story channels",
+    "Basic textbook re-tellings of Navratri days without emotional/dramatic hooks (e.g. plain Maa Shailputri story)",
+    "Out-of-niche non-mythological social drama stories (e.g. brick kiln DM wife stories)"
+  ],
+  "title_patterns": [
+    "100 साल पहले [Festival Name] कैसी होती थी? | [Year] के भारत की अद्भुत कहानी",
+    "माँ दुर्गा से आखिर क्यों [Shocking Action/Chore] करवाया? 😱🔥 | [Character Name] Katha",
+    "[Character Name] ने कहा — '[Funny/Shocking God Demand]' 😂🙏 | [Deity] Divya Leela",
+    "[Deity Name] Vs [Demon/Rival Name] की अद्भुत कथा | [Deity] Full Story"
+  ]
+}
