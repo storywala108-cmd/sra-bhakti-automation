@@ -1,0 +1,10 @@
+.env
+node_modules/
+temp/
+output/
+runs/
+music/
+logs/
+*.cmd
+STATUS.html
+brand/src/_*

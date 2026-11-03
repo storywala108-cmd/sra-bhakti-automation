@@ -1,0 +1,45 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: Tiro; src: url(../../fonts/TiroDevanagariHindi-Regular.ttf); }
+@font-face { font-family: Mukta; src: url(../../fonts/Mukta-ExtraBold.ttf); }
+@font-face { font-family: Poppins; src: url(../../fonts/Poppins-Black.ttf); }
+:root { --maroon: #2a0508; --gold: #f2c14e; --gold2: #ffe49a; --cream: #fff3d6; }
+* { margin: 0; box-sizing: border-box; }
+body { background: var(--maroon); }
+.art { position: relative; overflow: hidden; background: var(--maroon); }
+.title { font-family: Tiro; line-height: 1.05; color: var(--cream); text-shadow: 0 4px 18px #000c; }
+.title b { font-weight: normal; color: var(--gold); }
+.latin { font-family: Poppins; color: var(--gold); letter-spacing: .22em; text-transform: uppercase; }
+.tag { font-family: Mukta; color: var(--cream); }
+.rule { height: 4px; background: linear-gradient(90deg, transparent, var(--gold), transparent); }
+.scene { position: absolute; object-fit: cover; }
+.fade-r { -webkit-mask-image: linear-gradient(to right, #000 50%, transparent); }
+.fade-l { -webkit-mask-image: linear-gradient(to left, #000 50%, transparent); }
+.mid { z-index: 1; white-space: nowrap; }
+.mid::before { content: ''; position: absolute; inset: -70px -110px; z-index: -1;
+  background: radial-gradient(closest-side, rgba(42,5,8,.92) 60%, rgba(42,5,8,0)); }
+
+#profile { width: 1080px; height: 1080px; }
+#profile img { position: absolute; inset: 0; width: 1080px; height: 1080px; object-fit: cover; }
+#profile .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(42,5,8,.75) 0%, rgba(42,5,8,0) 30%); }
+#profile .title { position: absolute; width: 100%; text-align: center; top: 150px; font-size: 130px; }
+
+#cover { width: 1640px; height: 856px; }
+#cover .l { left: 0; top: 0; width: 700px; height: 856px; }
+#cover .r { right: 0; top: 0; width: 700px; height: 856px; }
+#cover .mid { position: absolute; left: 420px; width: 800px; top: 250px; text-align: center; }
+</style></head>
+<body>
+<div id="profile" class="art"><img src="emblem.png"><div class="shade"></div><div class="title">SRA <b>भक्ति</b></div></div>
+
+<div id="cover" class="art">
+  <img class="scene l fade-r" src="scene_left.png"><img class="scene r fade-l" src="scene_right.png">
+  <div class="mid">
+    <div class="title" style="font-size:120px">SRA <b>भक्ति</b></div>
+    <div class="rule" style="width:320px;margin:16px auto 20px"></div>
+    <div class="tag" style="font-size:46px">भगवान की कथाएँ · देव-दानव की कहानियाँ</div>
+    <div class="tag" style="font-size:30px;margin-top:18px;color:var(--gold)">क्यों · क्या · कैसे — रोज़ नई कथा</div>
+  </div>
+</div>
+</body></html>
