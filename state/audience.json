@@ -1,56 +1,48 @@
 {
-  "at": "2026-11-03T18:59:07.594Z",
+  "at": "2026-11-04T13:09:20.260Z",
   "channels": [
-    "Hubba Bubba",
-    "Bhakti Magic ",
-    "Krishn Kehte hai",
-    "प्रदीप मिश्रा live",
-    "Shri Leela Charitam"
+    "Kalia Katha",
+    "gurudevToon",
+    "Veda Story",
+    "Gyan Adhyatmik Katha",
+    "Prem Bhagti Gyan"
   ],
   "wants": [
     {
-      "topic": "Bhagwan Shiv testing common devotees in disguise (Leela involving elderly devotees, scolding, misunderstandings)",
-      "evidence": "Shri Leela Charitam's top videos hit 8.8M ('बुढी अम्मा भगवान शिव को झाड़ू लेकर क्यों भगाने लगी') and 825k views at 7.08x and 4.18x vsNormal; Bhakti Magic's Shiva kathas pull up to 24.7x and 13.69x vsNormal.",
+      "topic": "Festival-Specific Vrat Kathas (Karwa Chauth, Chhath, Navratri)",
+      "evidence": "Gyan Adhyatmik Katha and Prem Bhagti Gyan's massive spikes during festival windows (vsNormal 8-900x).",
       "strength": 10
     },
     {
-      "topic": "Epic Devi Mahatmya & Asura Slaying battles (Durga vs Mahishasur full lore, 9-day war tactics)",
-      "evidence": "Krishn Kehte hai's 'How Maa Durga Defeated the Unbeatable Mahishasur' gained nearly 5M views at 190k views/day (18.41x vsNormal) with over 1.4k comments.",
+      "topic": "Emotional/Miraculous Intervention in Poverty/Hardship",
+      "evidence": "Prem Bhagti Gyan's 'Step-mother kicks out daughter' and 'Jitiya Vrat' stories showing extreme virality.",
       "strength": 9
     },
     {
-      "topic": "Lesser-known Puranic backstories behind sacred Hindu rituals and pilgrimage sites (Gayasur & Gaya Pind Daan, Amarnath Amar Katha)",
-      "evidence": "Krishn Kehte hai's Gayasur video reached 1.47M views (4.05x vsNormal); Bhakti Magic's Amarnath Amar Katha hit 9.73x vsNormal in just 8 days.",
+      "topic": "3D Animation of Lesser-Known Bhakt Stories",
+      "evidence": "gurudevToon's high performance on 'Bhakt Kuba Ji' and 'Bhakt Kevalram' vs standard mythological re-tellings.",
       "strength": 8
     },
     {
-      "topic": "Rare Guru-Shishya and Vedic Sage secrets (Rishi Shukdev, Raja Janak, Kamadev & Mohini Leela)",
-      "evidence": "Bhakti Magic's video 'शुकदेव ऋषि को भगवान विष्णु ने क्यों रोका? | राजा जनक बने गुरु' hit 3.6M views at 24.7x vsNormal.",
+      "topic": "Direct Divine Interaction (God as a servant/cook/child)",
+      "evidence": "Kalia Katha and gurudevToon's success with themes where Krishna personally serves his devotees.",
       "strength": 8
-    },
-    {
-      "topic": "Sympathetic or deep-dive villain arcs in Ramayana & Mahabharata (Kumbhakarna's duty vs righteousness)",
-      "evidence": "Krishn Kehte hai's Kumbhakarna battle story gained 2.56M views at 3.03x vsNormal.",
-      "strength": 7
     }
   ],
   "gaps": [
-    "Authentic Puranic explanation of why specific rituals exist (e.g., origin of Pind Daan, exact mantras/reasons tied to Puranic asuras rather than generic ritual guides)",
-    "Uncut, chapter-by-chapter deep narrative of Sage encounters (like Raja Janak and Shukdev) without mixing modern sectarian/sant philosophies",
-    "Detailed tactical breakdowns of Devi battles with Asuras from the Markandeya Purana beyond superficial Navratri summaries",
-    "Emotional devotee-deity folklore (Lok-kathas of Bholenath and rustic devotees) executed with high emotional storytelling rather than generic discourse"
+    "High-quality 3D animation for regional or localized folk-mythology (many viewers are tired of generic Ramayana/Mahabharata re-hashes).",
+    "Clearer pacing in animated stories; viewers often drop off when the 'miracle' payoff is delayed too long.",
+    "Interactive storytelling where the moral lesson is tied to a specific modern-day life struggle."
   ],
   "saturated": [
-    "Generic repetitive Shiv Mahapuran livestreams without a focused story hook or unique narrative framing",
-    "Modern self-help/motivational advice repackaged under Hindu deities ('सफल इंसान अपनी ये बातें कभी किसी को नहीं बताते')",
-    "Superficial Mahabharata relationship drama without deep textual backing ('Why Duryodhana Never Forgave Draupadi')",
-    "Sectarian sant and reformist stories disguised as traditional deity kathas"
+    "Generic 'Lord Krishna' shorts without a unique emotional hook or specific 'leela'.",
+    "Standard 'Daily Katha' videos that lack a specific festival or urgency-driven title.",
+    "Repetitive Hanuman Ji or Shiva stories that do not offer a new narrative angle or emotional twist."
   ],
   "title_patterns": [
-    "[Deity/Devotee] ने [Absurd/Shocking Action] क्यों किया😱 आखिर [Deity] ने ऐसा क्या कर दिया | [Deity] Katha",
-    "[Rishi/Devotee] को भगवान [Name] ने क्यों रोका? | [Surprising Guru/Event] | रहस्यमयी धार्मिक कथा",
-    "Who Was [Lesser-Known Asura/Character]? The Mystery Behind [Famous Sacred Ritual/Tirth]!",
-    "How Maa Durga Defeated the Unbeatable [Demon] | Full Story of the [X]-Day War",
-    "[Tirth Kshetra] की अद्भुत कथा | [Deity] Untold Story Full Video"
+    "Use of urgency markers like '2026' or 'Vrat Katha' for seasonal relevance.",
+    "High-stakes emotional conflict in titles (e.g., 'Step-mother', 'Kicked out', 'Saving a life').",
+    "Use of emojis (😭, 😱, 🙏) to signal emotional or miraculous content.",
+    "Direct address of the 'Bhakt' (devotee) in the title to create personal resonance."
   ]
 }
