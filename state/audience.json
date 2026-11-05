@@ -1,50 +1,47 @@
 {
-  "at": "2026-11-05T01:07:55.217Z",
+  "at": "2026-11-05T19:00:40.905Z",
   "channels": [
-    "Daksh Cinematics",
-    "KATHA SAGAR",
-    "JagaLeela Studio",
-    "Rasiya Films",
-    "GuruVaani Studio\n"
+    "Bk Usha Motivational ",
+    "The Divine Journey",
+    "Hubba Bubba",
+    "Bhakti Magic ",
+    "Krishn Kehte hai"
   ],
   "wants": [
     {
-      "topic": "Domestic drama & relatable home situations featuring Maa Durga (unexpected household encounters)",
-      "evidence": "GuruVaani Studio's 'Maa Durga se aakhir kyon boodhi aurat ne karwaya khoob kaam' (591.74x normal) and 'Maa Durga par Chanda ne kyon uthai jharoo' (108.46x normal)",
-      "strength": 10
-    },
-    {
-      "topic": "Epic high-action cinematic Devi battles and Vadh kathas (Mahakali, Durga, Vaishno Devi)",
-      "evidence": "Daksh Cinematics' 'Mahakali vs Raktabeej' (1627.26x normal) and 'Maa Durga vs Shumbh Nishumbh' (1370.72x normal); Rasiya Films' 'Vaishno Devi Bhaironath Vadh' (75.06x normal)",
-      "strength": 10
-    },
-    {
-      "topic": "Folk character comedy/bhakti storytelling (Adhaiya Devotee stories with Gods)",
-      "evidence": "JagaLeela Studio's Adhaiya series (16x–18x normal) and Rasiya Films' 'Adhaiya ki Diwali' (46.17x normal)",
+      "topic": "Historical retro perspective on Hindu festivals (100 years ago concept)",
+      "evidence": "The Divine Journey videos on '100 साल पहले Navratri/Kanya Pujan/Dhanteras (1926)' achieved 7x to 18x vsNormal view performance.",
       "strength": 9
     },
     {
-      "topic": "Famous Bal Krishna and Ganesha origin & miracle kathas",
-      "evidence": "KATHA SAGAR's 'Ganesh Ji ke Gajanan banne ki katha' (33M+ views, 7.12x normal) and 'Kaliya Naag Vs Bal Krishna' (1.29x normal)",
+      "topic": "Lesser-known Rishi stories and spiritual moral kathas",
+      "evidence": "Bhakti Magic videos on Shukdev Rishi & Raja Janak (21.42 vsNormal) and Rishi Chunak's ego (9.07 vsNormal).",
+      "strength": 9
+    },
+    {
+      "topic": "Deep philosophical questions explaining Hindu concepts",
+      "evidence": "Bk Usha Motivational video 'हिंदू धर्म में इतने भगवान और दूसरे धर्म में एक ही भगवान क्यों ?' gained 175.97 vsNormal.",
+      "strength": 10
+    },
+    {
+      "topic": "Origin stories of sacred rituals, places, and major mythological battles",
+      "evidence": "Krishn Kehte hai videos on 'Mystery Behind Gaya Pind Daan (Gayasur)' and 'Full Story of 9-Day War (Mahishasur)' performed 3.9x to 17.5x vsNormal.",
       "strength": 8
     }
   ],
   "gaps": [
-    "Humorous, high-emotion 3D animated folk stories integrating proper Puranic accuracy rather than standard moral stories",
-    "Cinematic action-oriented visual kathas focusing on lesser-known Devi forms and Puranic demon battles",
-    "Story-driven Navratri / Navdurga leelas framed around realistic daily life struggles of female protagonists"
+    "Authentic historical documentary-style kathas showing how rural ancient India practiced Vedic rituals 100 years ago.",
+    "Detailed origin stories behind specific Hindu rituals, pilgrimage sites (Pind Daan, Dham origins), and rare Rishi lore."
   ],
   "saturated": [
-    "Generic devotional song/bhajan tracks uploaded as main videos (KATHA SAGAR HD Song vsNormal 0.01)",
-    "English-titled mythological videos targeted at Hindi audiences",
-    "Generic motivational shorts/reels cross-posted on long-form channels (GuruVaani vsNormal 0.08)",
-    "Modern non-mythological social/moral stories (Rasiya Films DM Wife story vsNormal 0.05)",
-    "Basic informative/expository festival guides without a narrative story (Pitru Paksha informational video vsNormal 0.04)"
+    "Basic day-by-day festival recaps (e.g., Maa Shailputri Navratri Day 1 story).",
+    "Overdone Mahabharata rivalries (e.g., Duryodhana vs Krishna's Narayani Sena, Duryodhana and Draupadi conflict).",
+    "Generic short quote videos without in-depth narrative story structure."
   ],
   "title_patterns": [
-    "Shocking Domestic Premise + Deity: '[Deity] से / पर [Unexpected household conflict/action]? 😱 | [Story Title]'",
-    "Cinematic Battles: '[Deity] vs [Demon]: [Descriptive Conflict / Vadh] | Cinematic Story / Movie Full HD'",
-    "Folk Hero / Comedy Bhakti: '[Character] ने [Bizarre Demand/Condition]... फिर [Deity] ने क्या किया? 🙏 | 3D Animation Story'",
-    "Curiosity / Origin Story Question: '[Deity] ने क्यों [Famous Violent/Miraculous Act]? | [Deity] की सम्पूर्ण कथा'"
+    "100 साल पहले [Festival/Ritual] कैसी होती थी? | 1926 के [Topic] की कहानी",
+    "[Deep Question / Mystery Question] ? | [Topic / Keyword]",
+    "[Lesser-known Rishi/Asur] की रहस्यमयी कथा | [Moral Lesson / Event]",
+    "How [Deity] Defeated [Demon] | Full Story of [Battle/Event]"
   ]
 }
