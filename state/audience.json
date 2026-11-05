@@ -1,48 +1,50 @@
 {
-  "at": "2026-11-04T13:09:20.260Z",
+  "at": "2026-11-05T01:07:55.217Z",
   "channels": [
-    "Kalia Katha",
-    "gurudevToon",
-    "Veda Story",
-    "Gyan Adhyatmik Katha",
-    "Prem Bhagti Gyan"
+    "Daksh Cinematics",
+    "KATHA SAGAR",
+    "JagaLeela Studio",
+    "Rasiya Films",
+    "GuruVaani Studio\n"
   ],
   "wants": [
     {
-      "topic": "Festival-Specific Vrat Kathas (Karwa Chauth, Chhath, Navratri)",
-      "evidence": "Gyan Adhyatmik Katha and Prem Bhagti Gyan's massive spikes during festival windows (vsNormal 8-900x).",
+      "topic": "Domestic drama & relatable home situations featuring Maa Durga (unexpected household encounters)",
+      "evidence": "GuruVaani Studio's 'Maa Durga se aakhir kyon boodhi aurat ne karwaya khoob kaam' (591.74x normal) and 'Maa Durga par Chanda ne kyon uthai jharoo' (108.46x normal)",
       "strength": 10
     },
     {
-      "topic": "Emotional/Miraculous Intervention in Poverty/Hardship",
-      "evidence": "Prem Bhagti Gyan's 'Step-mother kicks out daughter' and 'Jitiya Vrat' stories showing extreme virality.",
+      "topic": "Epic high-action cinematic Devi battles and Vadh kathas (Mahakali, Durga, Vaishno Devi)",
+      "evidence": "Daksh Cinematics' 'Mahakali vs Raktabeej' (1627.26x normal) and 'Maa Durga vs Shumbh Nishumbh' (1370.72x normal); Rasiya Films' 'Vaishno Devi Bhaironath Vadh' (75.06x normal)",
+      "strength": 10
+    },
+    {
+      "topic": "Folk character comedy/bhakti storytelling (Adhaiya Devotee stories with Gods)",
+      "evidence": "JagaLeela Studio's Adhaiya series (16x–18x normal) and Rasiya Films' 'Adhaiya ki Diwali' (46.17x normal)",
       "strength": 9
     },
     {
-      "topic": "3D Animation of Lesser-Known Bhakt Stories",
-      "evidence": "gurudevToon's high performance on 'Bhakt Kuba Ji' and 'Bhakt Kevalram' vs standard mythological re-tellings.",
-      "strength": 8
-    },
-    {
-      "topic": "Direct Divine Interaction (God as a servant/cook/child)",
-      "evidence": "Kalia Katha and gurudevToon's success with themes where Krishna personally serves his devotees.",
+      "topic": "Famous Bal Krishna and Ganesha origin & miracle kathas",
+      "evidence": "KATHA SAGAR's 'Ganesh Ji ke Gajanan banne ki katha' (33M+ views, 7.12x normal) and 'Kaliya Naag Vs Bal Krishna' (1.29x normal)",
       "strength": 8
     }
   ],
   "gaps": [
-    "High-quality 3D animation for regional or localized folk-mythology (many viewers are tired of generic Ramayana/Mahabharata re-hashes).",
-    "Clearer pacing in animated stories; viewers often drop off when the 'miracle' payoff is delayed too long.",
-    "Interactive storytelling where the moral lesson is tied to a specific modern-day life struggle."
+    "Humorous, high-emotion 3D animated folk stories integrating proper Puranic accuracy rather than standard moral stories",
+    "Cinematic action-oriented visual kathas focusing on lesser-known Devi forms and Puranic demon battles",
+    "Story-driven Navratri / Navdurga leelas framed around realistic daily life struggles of female protagonists"
   ],
   "saturated": [
-    "Generic 'Lord Krishna' shorts without a unique emotional hook or specific 'leela'.",
-    "Standard 'Daily Katha' videos that lack a specific festival or urgency-driven title.",
-    "Repetitive Hanuman Ji or Shiva stories that do not offer a new narrative angle or emotional twist."
+    "Generic devotional song/bhajan tracks uploaded as main videos (KATHA SAGAR HD Song vsNormal 0.01)",
+    "English-titled mythological videos targeted at Hindi audiences",
+    "Generic motivational shorts/reels cross-posted on long-form channels (GuruVaani vsNormal 0.08)",
+    "Modern non-mythological social/moral stories (Rasiya Films DM Wife story vsNormal 0.05)",
+    "Basic informative/expository festival guides without a narrative story (Pitru Paksha informational video vsNormal 0.04)"
   ],
   "title_patterns": [
-    "Use of urgency markers like '2026' or 'Vrat Katha' for seasonal relevance.",
-    "High-stakes emotional conflict in titles (e.g., 'Step-mother', 'Kicked out', 'Saving a life').",
-    "Use of emojis (😭, 😱, 🙏) to signal emotional or miraculous content.",
-    "Direct address of the 'Bhakt' (devotee) in the title to create personal resonance."
+    "Shocking Domestic Premise + Deity: '[Deity] से / पर [Unexpected household conflict/action]? 😱 | [Story Title]'",
+    "Cinematic Battles: '[Deity] vs [Demon]: [Descriptive Conflict / Vadh] | Cinematic Story / Movie Full HD'",
+    "Folk Hero / Comedy Bhakti: '[Character] ने [Bizarre Demand/Condition]... फिर [Deity] ने क्या किया? 🙏 | 3D Animation Story'",
+    "Curiosity / Origin Story Question: '[Deity] ने क्यों [Famous Violent/Miraculous Act]? | [Deity] की सम्पूर्ण कथा'"
   ]
 }
