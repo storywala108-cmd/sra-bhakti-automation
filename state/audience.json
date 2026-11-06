@@ -1,47 +1,47 @@
 {
-  "at": "2026-11-05T19:00:40.905Z",
+  "at": "2026-11-06T07:22:05.378Z",
   "channels": [
-    "Bk Usha Motivational ",
-    "The Divine Journey",
-    "Hubba Bubba",
-    "Bhakti Magic ",
-    "Krishn Kehte hai"
+    "Mystery of the World",
+    "Kalia Katha",
+    "gurudevToon",
+    "Veda Story",
+    "Gyan Adhyatmik Katha"
   ],
   "wants": [
     {
-      "topic": "Historical retro perspective on Hindu festivals (100 years ago concept)",
-      "evidence": "The Divine Journey videos on '100 साल पहले Navratri/Kanya Pujan/Dhanteras (1926)' achieved 7x to 18x vsNormal view performance.",
-      "strength": 9
-    },
-    {
-      "topic": "Lesser-known Rishi stories and spiritual moral kathas",
-      "evidence": "Bhakti Magic videos on Shukdev Rishi & Raja Janak (21.42 vsNormal) and Rishi Chunak's ego (9.07 vsNormal).",
-      "strength": 9
-    },
-    {
-      "topic": "Deep philosophical questions explaining Hindu concepts",
-      "evidence": "Bk Usha Motivational video 'हिंदू धर्म में इतने भगवान और दूसरे धर्म में एक ही भगवान क्यों ?' gained 175.97 vsNormal.",
+      "topic": "Rare Puranic and Mahabharat secret backstories and lesser-known origins",
+      "evidence": "Mystery of the World's Brahma & Sati video hit vsNormal 124.83 and Parashar-Satyavati hit vsNormal 50.02.",
       "strength": 10
     },
     {
-      "topic": "Origin stories of sacred rituals, places, and major mythological battles",
-      "evidence": "Krishn Kehte hai videos on 'Mystery Behind Gaya Pind Daan (Gayasur)' and 'Full Story of 9-Day War (Mahishasur)' performed 3.9x to 17.5x vsNormal.",
+      "topic": "Surprising, reverse-role acts of humility by God for devotees (God stealing, cooking, taking scolding)",
+      "evidence": "gurudevToon's God cooking for Bhakt Kooba (vsNormal 10.13) and stealing for Bhaktin (vsNormal 29.66); Veda Story's Jagannath chasing story (vsNormal 7.05).",
+      "strength": 9
+    },
+    {
+      "topic": "High-stakes survival miracles and extreme tests of devotion",
+      "evidence": "gurudevToon's Bhakt Kevalram trapped in a well for a month (vsNormal 8.93) and Sati Anasuya's divine test (vsNormal 14.53).",
+      "strength": 9
+    },
+    {
+      "topic": "Event-driven Vrat Kathas timed specifically around major Hindu festivals (Karwa Chauth, Sharad Purnima, Chhath Puja)",
+      "evidence": "Gyan Adhyatmik Katha Karwa Chauth videos (vsNormal 6.88 and 6.43) and Sharad Purnima (vsNormal 5.99).",
       "strength": 8
     }
   ],
   "gaps": [
-    "Authentic historical documentary-style kathas showing how rural ancient India practiced Vedic rituals 100 years ago.",
-    "Detailed origin stories behind specific Hindu rituals, pilgrimage sites (Pind Daan, Dham origins), and rare Rishi lore."
+    "Deep narrative storytelling around obscure Puranic events and Mahabharat lineages (e.g., Agrayudh, Rishi Parashar origins, Ganga Sagar mystery).",
+    "High-emotion miracle stories of lesser-known real Bhakts (like Bhakt Kooba, Kevalram) told with narrative drama rather than dry biographical summaries.",
+    "Heart-wrenching personal devotee Leelas of Jagannath Ji and Chhathi Maiya focusing on elderly or vulnerable family members."
   ],
   "saturated": [
-    "Basic day-by-day festival recaps (e.g., Maa Shailputri Navratri Day 1 story).",
-    "Overdone Mahabharata rivalries (e.g., Duryodhana vs Krishna's Narayani Sena, Duryodhana and Draupadi conflict).",
-    "Generic short quote videos without in-depth narrative story structure."
+    "Late-stage day-by-day Navratri Kathas (Day 7 Kalratri vsNormal 0.21, Day 9 Siddhidatri vsNormal 0.12 suffer from strong viewer fatigue).",
+    "Generic, vague moral stories tagged with generic titles like '#viralvideo' or standard 'dacoit gets a lesson' tropes (vsNormal 0.01 - 0.09).",
+    "Dry saint biographies lacking high emotional stakes or miraculous turnarounds (e.g., Chaturbhuj Das and Govind Das Leelas performing at 0.11-0.13 vsNormal)."
   ],
   "title_patterns": [
-    "100 साल पहले [Festival/Ritual] कैसी होती थी? | 1926 के [Topic] की कहानी",
-    "[Deep Question / Mystery Question] ? | [Topic / Keyword]",
-    "[Lesser-known Rishi/Asur] की रहस्यमयी कथा | [Moral Lesson / Event]",
-    "How [Deity] Defeated [Demon] | Full Story of [Battle/Event]"
+    "Divine role-reversal shocker: 'जब भगवान ने खुद [surprising act]!' / 'जब अपनी भक्त के लिए स्वयं ठाकुर जी ने...'",
+    "Curiosity and mystery hook: '...ने ऐसी परीक्षा क्यों ली, और फिर... क्या किया?' / '...से सती ने छीने पति के प्राण'",
+    "High emotional vulnerability + dramatic quotes: '😭 [Name] की ज़िद! बीमार माँ के लिए...', using evocative local terms ('सौ साल की कट्टी', 'झाड़ू लेकर भगा रही है')."
   ]
 }
