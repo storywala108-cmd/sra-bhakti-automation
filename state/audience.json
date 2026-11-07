@@ -1,47 +1,50 @@
 {
-  "at": "2026-11-06T07:22:05.378Z",
+  "at": "2026-11-07T01:00:40.258Z",
   "channels": [
-    "Mystery of the World",
-    "Kalia Katha",
-    "gurudevToon",
-    "Veda Story",
-    "Gyan Adhyatmik Katha"
+    "Daksh Cinematics",
+    "KATHA SAGAR",
+    "JagaLeela Studio",
+    "Rasiya Films",
+    "GuruVaani Studio\n"
   ],
   "wants": [
     {
-      "topic": "Rare Puranic and Mahabharat secret backstories and lesser-known origins",
-      "evidence": "Mystery of the World's Brahma & Sati video hit vsNormal 124.83 and Parashar-Satyavati hit vsNormal 50.02.",
+      "topic": "Maa Durga & Mahakali High-Action Demon Battles (Mahishasur, Raktabeej, Shumbh-Nishumbh Vadh)",
+      "evidence": "Daksh Cinematics' 'Mahakali vs Raktabeej' (1649.6x vsNormal) and 'Maa Durga vs Shumbh Nishumbh' (1345.65x vsNormal); KATHA SAGAR's 'Mahisasur Vadh' (4.8M views).",
       "strength": 10
     },
     {
-      "topic": "Surprising, reverse-role acts of humility by God for devotees (God stealing, cooking, taking scolding)",
-      "evidence": "gurudevToon's God cooking for Bhakt Kooba (vsNormal 10.13) and stealing for Bhaktin (vsNormal 29.66); Veda Story's Jagannath chasing story (vsNormal 7.05).",
+      "topic": "Divine Domestic Intervention: Maa Durga doing household chores / testing poor devotees (Adhaiya, Sugandha, Chanda)",
+      "evidence": "GuruVaani Studio's 'Maa Durga se aakhir kyon boodhi aurat ne karwaya kaam' (584.21x vsNormal) and 'Chanda ne kyon uthai jharoo' (108.13x vsNormal); JagaLeela Studio & Rasiya Films' Adhaiya series.",
+      "strength": 10
+    },
+    {
+      "topic": "Origin Stories & Untold Leelas of Major Deities (How Ganesha got his trunk, Vaishno Devi & Bhaironath)",
+      "evidence": "KATHA SAGAR's 'Ganesh Ji ke Gajanan banne ki adbhut katha' (33.3M views, 6.92x vsNormal); Rasiya Films' 'Maa Vaishno Devi vs Bhaironath' (91.62x vsNormal).",
       "strength": 9
     },
     {
-      "topic": "High-stakes survival miracles and extreme tests of devotion",
-      "evidence": "gurudevToon's Bhakt Kevalram trapped in a well for a month (vsNormal 8.93) and Sati Anasuya's divine test (vsNormal 14.53).",
-      "strength": 9
-    },
-    {
-      "topic": "Event-driven Vrat Kathas timed specifically around major Hindu festivals (Karwa Chauth, Sharad Purnima, Chhath Puja)",
-      "evidence": "Gyan Adhyatmik Katha Karwa Chauth videos (vsNormal 6.88 and 6.43) and Sharad Purnima (vsNormal 5.99).",
+      "topic": "Folk Character Crossovers & Lighthearted Devotion (Adhaiya interacting with Shri Ram, Hanuman, Durga)",
+      "evidence": "Rasiya Films' 'Adhaiya ki Diwali with Shri Ram & Hanuman' (34.08x vsNormal); JagaLeela Studio's Adhaiya series (11x–13x vsNormal consistently).",
       "strength": 8
     }
   ],
   "gaps": [
-    "Deep narrative storytelling around obscure Puranic events and Mahabharat lineages (e.g., Agrayudh, Rishi Parashar origins, Ganga Sagar mystery).",
-    "High-emotion miracle stories of lesser-known real Bhakts (like Bhakt Kooba, Kevalram) told with narrative drama rather than dry biographical summaries.",
-    "Heart-wrenching personal devotee Leelas of Jagannath Ji and Chhathi Maiya focusing on elderly or vulnerable family members."
+    "High-stakes cinematic breakdown of specific Devi Mahatmya chapters beyond basic Durga battles.",
+    "Emotional storytelling linking real-life domestic hardships (mistreatment by relatives, poverty) directly with authentic mythological miracles rather than generic preachy morals.",
+    "Engaging animated narratives focusing on Bal Krishna leelas with high visual action."
   ],
   "saturated": [
-    "Late-stage day-by-day Navratri Kathas (Day 7 Kalratri vsNormal 0.21, Day 9 Siddhidatri vsNormal 0.12 suffer from strong viewer fatigue).",
-    "Generic, vague moral stories tagged with generic titles like '#viralvideo' or standard 'dacoit gets a lesson' tropes (vsNormal 0.01 - 0.09).",
-    "Dry saint biographies lacking high emotional stakes or miraculous turnarounds (e.g., Chaturbhuj Das and Govind Das Leelas performing at 0.11-0.13 vsNormal)."
+    "Generic overview of Dashavatars of Lord Vishnu without a specific character angle.",
+    "Overdone basic myths like Hanuman eating the Sun or Bheem vs Hanuman.",
+    "Modern non-mythological moral dramas (e.g., DM wife/husband stories) uploaded on Bhakti channels.",
+    "Audio Bhajans/Songs posted on story-driven animation channels.",
+    "Dry ritual explainers (e.g., Pitru Paksha rules) lacking narrative character arcs."
   ],
   "title_patterns": [
-    "Divine role-reversal shocker: 'जब भगवान ने खुद [surprising act]!' / 'जब अपनी भक्त के लिए स्वयं ठाकुर जी ने...'",
-    "Curiosity and mystery hook: '...ने ऐसी परीक्षा क्यों ली, और फिर... क्या किया?' / '...से सती ने छीने पति के प्राण'",
-    "High emotional vulnerability + dramatic quotes: '😭 [Name] की ज़िद! बीमार माँ के लिए...', using evocative local terms ('सौ साल की कट्टी', 'झाड़ू लेकर भगा रही है')."
+    "[Deity] vs [Demon]: [Dramatic Subtitle] | [Vadh / Battle Type] | Cinematic Story",
+    "Maa Durga से आखिर क्यों [Character Name] ने करवाया खूब काम? 😱",
+    "[Deity] के [Form/Event] बनने की अद्भुत कथा | Untold Story Of [Deity]",
+    "[Character] की शर्तें देखकर/सुनकर क्या करेंगे [Deity]? 🙏 | 3D Animation"
   ]
 }
