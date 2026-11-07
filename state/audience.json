@@ -1,50 +1,42 @@
 {
-  "at": "2026-11-07T01:00:40.258Z",
+  "at": "2026-11-07T12:54:53.068Z",
   "channels": [
-    "Daksh Cinematics",
-    "KATHA SAGAR",
-    "JagaLeela Studio",
-    "Rasiya Films",
-    "GuruVaani Studio\n"
+    "GK Hindi Stories 1m",
+    "Divya Katha Marathi ",
+    "Bk Usha Motivational ",
+    "The Divine Journey",
+    "Hubba Bubba"
   ],
   "wants": [
     {
-      "topic": "Maa Durga & Mahakali High-Action Demon Battles (Mahishasur, Raktabeej, Shumbh-Nishumbh Vadh)",
-      "evidence": "Daksh Cinematics' 'Mahakali vs Raktabeej' (1649.6x vsNormal) and 'Maa Durga vs Shumbh Nishumbh' (1345.65x vsNormal); KATHA SAGAR's 'Mahisasur Vadh' (4.8M views).",
+      "topic": "Historical/Nostalgic Reconstruction of Rituals",
+      "evidence": "The Divine Journey's '100 years ago' series (1926) consistently outperforms all other content by a massive margin (vsNormal 46.22).",
       "strength": 10
     },
     {
-      "topic": "Divine Domestic Intervention: Maa Durga doing household chores / testing poor devotees (Adhaiya, Sugandha, Chanda)",
-      "evidence": "GuruVaani Studio's 'Maa Durga se aakhir kyon boodhi aurat ne karwaya kaam' (584.21x vsNormal) and 'Chanda ne kyon uthai jharoo' (108.13x vsNormal); JagaLeela Studio & Rasiya Films' Adhaiya series.",
-      "strength": 10
-    },
-    {
-      "topic": "Origin Stories & Untold Leelas of Major Deities (How Ganesha got his trunk, Vaishno Devi & Bhaironath)",
-      "evidence": "KATHA SAGAR's 'Ganesh Ji ke Gajanan banne ki adbhut katha' (33.3M views, 6.92x vsNormal); Rasiya Films' 'Maa Vaishno Devi vs Bhaironath' (91.62x vsNormal).",
+      "topic": "Emotional/Moral Life Lessons tied to Mythology",
+      "evidence": "GK Hindi Stories and Bk Usha Motivational videos blending emotional narratives with mythological/spiritual undertones show high vsNormal scores.",
       "strength": 9
     },
     {
-      "topic": "Folk Character Crossovers & Lighthearted Devotion (Adhaiya interacting with Shri Ram, Hanuman, Durga)",
-      "evidence": "Rasiya Films' 'Adhaiya ki Diwali with Shri Ram & Hanuman' (34.08x vsNormal); JagaLeela Studio's Adhaiya series (11x–13x vsNormal consistently).",
+      "topic": "Festival-Specific Significance and 'Why' Questions",
+      "evidence": "Divya Katha Marathi's high-performing videos are tied to specific festivals (Navratri, Vasubaras, Kojagiri Purnima) explaining the 'why' behind rituals.",
       "strength": 8
     }
   ],
   "gaps": [
-    "High-stakes cinematic breakdown of specific Devi Mahatmya chapters beyond basic Durga battles.",
-    "Emotional storytelling linking real-life domestic hardships (mistreatment by relatives, poverty) directly with authentic mythological miracles rather than generic preachy morals.",
-    "Engaging animated narratives focusing on Bal Krishna leelas with high visual action."
+    "Clear, logical explanations for the multiplicity of deities in Hinduism (viewers are asking for clarity on monotheism vs. polytheism).",
+    "Evidence-based or 'documentary-style' mythological storytelling that avoids pure fantasy or cartoonish presentation.",
+    "Deep dives into the 'how-to' of specific ancient rituals rather than just the mythological backstory."
   ],
   "saturated": [
-    "Generic overview of Dashavatars of Lord Vishnu without a specific character angle.",
-    "Overdone basic myths like Hanuman eating the Sun or Bheem vs Hanuman.",
-    "Modern non-mythological moral dramas (e.g., DM wife/husband stories) uploaded on Bhakti channels.",
-    "Audio Bhajans/Songs posted on story-driven animation channels.",
-    "Dry ritual explainers (e.g., Pitru Paksha rules) lacking narrative character arcs."
+    "General 'Shiva' episodes or generic mythological cartoons.",
+    "Standard mythological story recaps that lack a unique 'hook' (e.g., historical framing or emotional twist).",
+    "Over-simplified 'Rakshabandhan' or 'Shravan' stories that are already covered by thousands of channels."
   ],
   "title_patterns": [
-    "[Deity] vs [Demon]: [Dramatic Subtitle] | [Vadh / Battle Type] | Cinematic Story",
-    "Maa Durga से आखिर क्यों [Character Name] ने करवाया खूब काम? 😱",
-    "[Deity] के [Form/Event] बनने की अद्भुत कथा | Untold Story Of [Deity]",
-    "[Character] की शर्तें देखकर/सुनकर क्या करेंगे [Deity]? 🙏 | 3D Animation"
+    "Time-travel/Historical framing: '100 साल पहले कैसे होता था...' (100 years ago how it happened)",
+    "Emotional/Twist-based: '...गरीब लड़की ने... फिर जो हुआ किसी ने सोचा नहीं था' (Emotional twist/unexpected outcome)",
+    "Theological/Philosophical curiosity: 'हिंदू धर्म में इतने भगवान... क्यों?' (Why so many gods in Hinduism?)"
   ]
 }
