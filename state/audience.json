@@ -1,42 +1,48 @@
 {
-  "at": "2026-11-07T12:54:53.068Z",
+  "at": "2026-11-08T07:05:20.179Z",
   "channels": [
-    "GK Hindi Stories 1m",
-    "Divya Katha Marathi ",
-    "Bk Usha Motivational ",
-    "The Divine Journey",
-    "Hubba Bubba"
+    "Shri Leela Charitam",
+    "Bhakti Magic ",
+    "Krishn Kehte hai",
+    "Kalia Katha",
+    "Gyan Adhyatmik Katha"
   ],
   "wants": [
     {
-      "topic": "Historical/Nostalgic Reconstruction of Rituals",
-      "evidence": "The Divine Journey's '100 years ago' series (1926) consistently outperforms all other content by a massive margin (vsNormal 46.22).",
+      "topic": "Humanized/Relatable Leelas of Mahadev",
+      "evidence": "Shri Leela Charitam's top videos (e.g., 'Bholenath being scolded by an old woman') show that viewers love seeing God in domestic, mundane, or humorous human situations.",
       "strength": 10
     },
     {
-      "topic": "Emotional/Moral Life Lessons tied to Mythology",
-      "evidence": "GK Hindi Stories and Bk Usha Motivational videos blending emotional narratives with mythological/spiritual undertones show high vsNormal scores.",
+      "topic": "Moralistic/Lesson-based Krishna Stories",
+      "evidence": "Kalia Katha and Bhakti Magic consistently perform well when the narrative focuses on a specific moral lesson or a unique interaction between a devotee and Krishna.",
+      "strength": 8
+    },
+    {
+      "topic": "Festival-specific Vrat Kathas",
+      "evidence": "Gyan Adhyatmik Katha's extreme spikes during Dhanteras prove that timely, ritual-focused content for upcoming festivals is in massive demand.",
       "strength": 9
     },
     {
-      "topic": "Festival-Specific Significance and 'Why' Questions",
-      "evidence": "Divya Katha Marathi's high-performing videos are tied to specific festivals (Navratri, Vasubaras, Kojagiri Purnima) explaining the 'why' behind rituals.",
-      "strength": 8
+      "topic": "Theological/Philosophical Mysteries",
+      "evidence": "Krishn Kehte Hai's high performance on 'Who was Gayasur?' or 'Mahishasur' suggests viewers want deep-dives into the origins and backstories of mythological figures.",
+      "strength": 7
     }
   ],
   "gaps": [
-    "Clear, logical explanations for the multiplicity of deities in Hinduism (viewers are asking for clarity on monotheism vs. polytheism).",
-    "Evidence-based or 'documentary-style' mythological storytelling that avoids pure fantasy or cartoonish presentation.",
-    "Deep dives into the 'how-to' of specific ancient rituals rather than just the mythological backstory."
+    "High-quality 3D animation for lesser-known Puranic characters",
+    "Detailed explanations of why specific rituals are performed (beyond just the story)",
+    "Content bridging the gap between ancient scripture and modern-day life problems"
   ],
   "saturated": [
-    "General 'Shiva' episodes or generic mythological cartoons.",
-    "Standard mythological story recaps that lack a unique 'hook' (e.g., historical framing or emotional twist).",
-    "Over-simplified 'Rakshabandhan' or 'Shravan' stories that are already covered by thousands of channels."
+    "General summaries of the Ramayana or Mahabharata without a unique angle",
+    "Generic 'Ekadashi Vrat' stories that lack a hook or visual differentiation",
+    "Over-dramatized thumbnails that don't match the video content (viewers are starting to complain about clickbait)"
   ],
   "title_patterns": [
-    "Time-travel/Historical framing: '100 साल पहले कैसे होता था...' (100 years ago how it happened)",
-    "Emotional/Twist-based: '...गरीब लड़की ने... फिर जो हुआ किसी ने सोचा नहीं था' (Emotional twist/unexpected outcome)",
-    "Theological/Philosophical curiosity: 'हिंदू धर्म में इतने भगवान... क्यों?' (Why so many gods in Hinduism?)"
+    "Use of '😱' emoji in titles to signal a shocking or miraculous event",
+    "Question-based hooks: 'Why did [God] do [X]?'",
+    "Conflict-driven titles: 'Why did [Character] scold [God]?'",
+    "Urgency-based phrasing: 'Finally revealed', 'The mystery behind...'"
   ]
 }
