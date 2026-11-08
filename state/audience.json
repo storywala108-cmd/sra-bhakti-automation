@@ -1,48 +1,48 @@
 {
-  "at": "2026-11-08T07:05:20.179Z",
+  "at": "2026-11-08T18:52:21.680Z",
   "channels": [
-    "Shri Leela Charitam",
-    "Bhakti Magic ",
-    "Krishn Kehte hai",
-    "Kalia Katha",
-    "Gyan Adhyatmik Katha"
+    "gurudevToon",
+    "Daksh Cinematics",
+    "KATHA SAGAR",
+    "JagaLeela Studio",
+    "Rasiya Films"
   ],
   "wants": [
     {
-      "topic": "Humanized/Relatable Leelas of Mahadev",
-      "evidence": "Shri Leela Charitam's top videos (e.g., 'Bholenath being scolded by an old woman') show that viewers love seeing God in domestic, mundane, or humorous human situations.",
+      "topic": "Animated cinematic retellings of specific divine battles",
+      "evidence": "Daksh Cinematics' 'Mahakali vs Raktabeej' and 'Maa Durga vs Shumbh Nishumbh' have extremely high vsNormal scores (1300-1700x).",
       "strength": 10
     },
     {
-      "topic": "Moralistic/Lesson-based Krishna Stories",
-      "evidence": "Kalia Katha and Bhakti Magic consistently perform well when the narrative focuses on a specific moral lesson or a unique interaction between a devotee and Krishna.",
-      "strength": 8
-    },
-    {
-      "topic": "Festival-specific Vrat Kathas",
-      "evidence": "Gyan Adhyatmik Katha's extreme spikes during Dhanteras prove that timely, ritual-focused content for upcoming festivals is in massive demand.",
+      "topic": "Lila-based storytelling featuring relatable human-divine interactions",
+      "evidence": "JagaLeela Studio's 'Adhaiya' series consistently performs 11-13x above normal, suggesting a preference for character-driven narratives over pure historical recitation.",
       "strength": 9
     },
     {
-      "topic": "Theological/Philosophical Mysteries",
-      "evidence": "Krishn Kehte Hai's high performance on 'Who was Gayasur?' or 'Mahishasur' suggests viewers want deep-dives into the origins and backstories of mythological figures.",
-      "strength": 7
+      "topic": "Origin stories of specific deities (Untold/Full Life stories)",
+      "evidence": "KATHA SAGAR's 'Ganesh Ji' origin story achieved massive reach (33M+ views), indicating high demand for comprehensive, long-form mythological biographies.",
+      "strength": 9
+    },
+    {
+      "topic": "Moral-based lessons (Moral Story) integrated into mythological figures",
+      "evidence": "Rasiya Films' success with 'Moral Story' branding on Vaishno Devi and Ramayana content shows the audience favors educational/inspirational angles.",
+      "strength": 8
     }
   ],
   "gaps": [
-    "High-quality 3D animation for lesser-known Puranic characters",
-    "Detailed explanations of why specific rituals are performed (beyond just the story)",
-    "Content bridging the gap between ancient scripture and modern-day life problems"
+    "High-quality 3D animation for lesser-known regional saints or specific 'Bhakta' stories beyond the main Pantheon",
+    "Interactive storytelling where viewers can influence the outcome or request specific divine interventions",
+    "Deep-dive explanations of why certain deities took specific forms (the 'reasoning' behind the myth is often left unanswered in short clips)"
   ],
   "saturated": [
-    "General summaries of the Ramayana or Mahabharata without a unique angle",
-    "Generic 'Ekadashi Vrat' stories that lack a hook or visual differentiation",
-    "Over-dramatized thumbnails that don't match the video content (viewers are starting to complain about clickbait)"
+    "Generic 'Dashavatars' summaries which are now treated as background noise",
+    "Short-form clips of 'Hanuman vs Bheem' or generic ego-clash videos which have low engagement compared to full-length narratives",
+    "Repetitive 'Kaliya Mardan' or 'Mahishasur Vadh' content without a unique visual or narrative twist"
   ],
   "title_patterns": [
-    "Use of '😱' emoji in titles to signal a shocking or miraculous event",
-    "Question-based hooks: 'Why did [God] do [X]?'",
-    "Conflict-driven titles: 'Why did [Character] scold [God]?'",
-    "Urgency-based phrasing: 'Finally revealed', 'The mystery behind...'"
+    "Using 'vs' or 'Battle' in titles for conflict-based mythological stories",
+    "Including 'Animated Film' or '3D Animation' to signal production quality",
+    "Using emotional hooks like 'जब स्वयं भगवान बने' (When God himself became) or 'अद्भुत कथा' (Amazing story)",
+    "Capitalizing on 'Full Movie' or 'Sampurna Katha' to denote long-form, high-value content"
   ]
 }
