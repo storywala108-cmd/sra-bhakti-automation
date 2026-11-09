@@ -1,48 +1,47 @@
 {
-  "at": "2026-11-08T18:52:21.680Z",
+  "at": "2026-11-09T13:17:45.833Z",
   "channels": [
-    "gurudevToon",
-    "Daksh Cinematics",
-    "KATHA SAGAR",
-    "JagaLeela Studio",
-    "Rasiya Films"
+    "THE BH STORIES ",
+    "GuruVaani Studio\n",
+    "GK Hindi Stories 1m",
+    "Divya Katha Marathi ",
+    "Bk Usha Motivational "
   ],
   "wants": [
     {
-      "topic": "Animated cinematic retellings of specific divine battles",
-      "evidence": "Daksh Cinematics' 'Mahakali vs Raktabeej' and 'Maa Durga vs Shumbh Nishumbh' have extremely high vsNormal scores (1300-1700x).",
+      "topic": "Divine interventions & tests of devotion for poor/oppressed devotees during major festivals (Navratri, Laxmi Pujan)",
+      "evidence": "GuruVaani Studio's Maa Durga videos (Maa Durga working for old woman vsNormal 1271.31, steptmother story vsNormal 195.43) and Divya Katha Marathi's Laxmi Pujan & Ghatasthapana stories (vsNormal 13.22, 8.44).",
       "strength": 10
     },
     {
-      "topic": "Lila-based storytelling featuring relatable human-divine interactions",
-      "evidence": "JagaLeela Studio's 'Adhaiya' series consistently performs 11-13x above normal, suggesting a preference for character-driven narratives over pure historical recitation.",
+      "topic": "Addressing core theological/philosophical questions in simple Hindi (e.g., Why many gods in Sanatan Dharma)",
+      "evidence": "Bk Usha Motivational video 'हिंदू धर्म में इतने भगवान और दूसरे धर्म में एक ही भगवान क्यों ?' achieved vsNormal 185.49 (1.45M views on a 12k sub channel).",
       "strength": 9
     },
     {
-      "topic": "Origin stories of specific deities (Untold/Full Life stories)",
-      "evidence": "KATHA SAGAR's 'Ganesh Ji' origin story achieved massive reach (33M+ views), indicating high demand for comprehensive, long-form mythological biographies.",
-      "strength": 9
+      "topic": "Folk-mythological 'Swayamvar' & impossible divine task stories (Ordinary boy vs Arrogant Princess/Raja)",
+      "evidence": "THE BH STORIES multiple uploads of 'घमंडी राजकुमारी का स्वयंवर: 5 असंभव शर्तें' consistently beating channel median by 10x to 29x vsNormal.",
+      "strength": 8
     },
     {
-      "topic": "Moral-based lessons (Moral Story) integrated into mythological figures",
-      "evidence": "Rasiya Films' success with 'Moral Story' branding on Vaishno Devi and Ramayana content shows the audience favors educational/inspirational angles.",
+      "topic": "Acts of selfless kindness/hospitality by poor characters resulting in sudden miraculous blessings",
+      "evidence": "GK Hindi Stories 1m video 'प्यासे मुसाफिर को गरीब लड़की ने पानी पिलाया' reached vsNormal 864.92 (9.4M views).",
       "strength": 8
     }
   ],
   "gaps": [
-    "High-quality 3D animation for lesser-known regional saints or specific 'Bhakta' stories beyond the main Pantheon",
-    "Interactive storytelling where viewers can influence the outcome or request specific divine interventions",
-    "Deep-dive explanations of why certain deities took specific forms (the 'reasoning' behind the myth is often left unanswered in short clips)"
+    "Stories bridging emotional domestic struggles (stepmother abuse, extreme poverty) directly with scriptural Hindu miracles, rather than standard lecture-style kathas.",
+    "Theological Q&A (like why multi-deity worship exists) narrated through engaging story arcs rather than monologue motivational speeches."
   ],
   "saturated": [
-    "Generic 'Dashavatars' summaries which are now treated as background noise",
-    "Short-form clips of 'Hanuman vs Bheem' or generic ego-clash videos which have low engagement compared to full-length narratives",
-    "Repetitive 'Kaliya Mardan' or 'Mahishasur Vadh' content without a unique visual or narrative twist"
+    "Dry historical origins of festivals without emotional character narrative (e.g., standard Rakshabandhan origin or generic Shravan Somvar vrat kathas).",
+    "Generic Aghori horror/mystery clickbait stories (e.g., Hostel Room 13, Aghori mysteries performing at vsNormal 0.00).",
+    "Abstract academic Vedic debates (e.g., Karma Yoga vs Sanyasa Yoga without narrative framing)."
   ],
   "title_patterns": [
-    "Using 'vs' or 'Battle' in titles for conflict-based mythological stories",
-    "Including 'Animated Film' or '3D Animation' to signal production quality",
-    "Using emotional hooks like 'जब स्वयं भगवान बने' (When God himself became) or 'अद्भुत कथा' (Amazing story)",
-    "Capitalizing on 'Full Movie' or 'Sampurna Katha' to denote long-form, high-value content"
+    "[Deity Name] से आखिर क्यों [Shocking/Humble Act] करवाया? 😱🔥 | [Festival Name/Year]",
+    "[Deity Name] बनीं सच्ची भक्त [Name] का सहारा! [Trouble/Constraint] फिर हुआ चमत्कार 🔱",
+    "[Philosophical Question about Hindu Faith]? || [Speaker/Channel Name]",
+    "घमंडी [Royal Character] का स्वयंवर: जब एक साधारण [Humble Character] पहुंचा [Number] असंभव शर्तें पूरी करने!"
   ]
 }
