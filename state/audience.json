@@ -1,47 +1,43 @@
 {
-  "at": "2026-11-09T13:17:45.833Z",
+  "at": "2026-11-09T19:02:03.112Z",
   "channels": [
-    "THE BH STORIES ",
-    "GuruVaani Studio\n",
-    "GK Hindi Stories 1m",
-    "Divya Katha Marathi ",
-    "Bk Usha Motivational "
+    "FaKT Dharmik Katha",
+    "The Divine Journey",
+    "Hubba Bubba",
+    "Bhakti Magic ",
+    "Krishn Kehte hai"
   ],
   "wants": [
     {
-      "topic": "Divine interventions & tests of devotion for poor/oppressed devotees during major festivals (Navratri, Laxmi Pujan)",
-      "evidence": "GuruVaani Studio's Maa Durga videos (Maa Durga working for old woman vsNormal 1271.31, steptmother story vsNormal 195.43) and Divya Katha Marathi's Laxmi Pujan & Ghatasthapana stories (vsNormal 13.22, 8.44).",
+      "topic": "Historical/Documentary style mythology",
+      "evidence": "The Divine Journey's '1926' series (48.11 vsNormal) proves that mixing mythology with a 'documentary/archival' format significantly outperforms standard storytelling.",
       "strength": 10
     },
     {
-      "topic": "Addressing core theological/philosophical questions in simple Hindi (e.g., Why many gods in Sanatan Dharma)",
-      "evidence": "Bk Usha Motivational video 'हिंदू धर्म में इतने भगवान और दूसरे धर्म में एक ही भगवान क्यों ?' achieved vsNormal 185.49 (1.45M views on a 12k sub channel).",
+      "topic": "Vrat Katha with ritual/puja instructions",
+      "evidence": "FaKT Dharmik Katha's high performance on festival-specific content (Karwa Chauth, Rama Ekadashi) shows a demand for actionable 'how-to' worship guides.",
       "strength": 9
     },
     {
-      "topic": "Folk-mythological 'Swayamvar' & impossible divine task stories (Ordinary boy vs Arrogant Princess/Raja)",
-      "evidence": "THE BH STORIES multiple uploads of 'घमंडी राजकुमारी का स्वयंवर: 5 असंभव शर्तें' consistently beating channel median by 10x to 29x vsNormal.",
-      "strength": 8
-    },
-    {
-      "topic": "Acts of selfless kindness/hospitality by poor characters resulting in sudden miraculous blessings",
-      "evidence": "GK Hindi Stories 1m video 'प्यासे मुसाफिर को गरीब लड़की ने पानी पिलाया' reached vsNormal 864.92 (9.4M views).",
+      "topic": "Moral-heavy, lesser-known Rishi/Guru stories",
+      "evidence": "Bhakti Magic's success with 'Rishi Chunak' and 'Shukdev Rishi' stories indicates a desire for deeper, philosophical narratives beyond the mainstream Ramayana/Mahabharata.",
       "strength": 8
     }
   ],
   "gaps": [
-    "Stories bridging emotional domestic struggles (stepmother abuse, extreme poverty) directly with scriptural Hindu miracles, rather than standard lecture-style kathas.",
-    "Theological Q&A (like why multi-deity worship exists) narrated through engaging story arcs rather than monologue motivational speeches."
+    "High-quality visual production that avoids the 'stock-photo slideshow' look common in the niche.",
+    "Authentic historical context for festivals rather than just repeating the standard Puranic stories.",
+    "Detailed explanations of why specific rituals are performed (the logic behind the puja) rather than just the procedure."
   ],
   "saturated": [
-    "Dry historical origins of festivals without emotional character narrative (e.g., standard Rakshabandhan origin or generic Shravan Somvar vrat kathas).",
-    "Generic Aghori horror/mystery clickbait stories (e.g., Hostel Room 13, Aghori mysteries performing at vsNormal 0.00).",
-    "Abstract academic Vedic debates (e.g., Karma Yoga vs Sanyasa Yoga without narrative framing)."
+    "Generic 'Navratri' daily updates (especially short-form or low-effort daily recaps).",
+    "Basic retellings of the Mahishasur Mardini story without a unique angle.",
+    "Surface-level 'Why did X happen' shorts that lack depth."
   ],
   "title_patterns": [
-    "[Deity Name] से आखिर क्यों [Shocking/Humble Act] करवाया? 😱🔥 | [Festival Name/Year]",
-    "[Deity Name] बनीं सच्ची भक्त [Name] का सहारा! [Trouble/Constraint] फिर हुआ चमत्कार 🔱",
-    "[Philosophical Question about Hindu Faith]? || [Speaker/Channel Name]",
-    "घमंडी [Royal Character] का स्वयंवर: जब एक साधारण [Humble Character] पहुंचा [Number] असंभव शर्तें पूरी करने!"
+    "Historical Hook: '100 साल पहले कैसे होता था...' (How it was 100 years ago)",
+    "Urgency & Benefit: 'सुनने मात्र से दूर होते हैं...' (Remove obstacles just by listening)",
+    "Specific Festival + Action: 'व्रत कथा एवं पूजा विधि' (Vrat Katha and Puja Method)",
+    "Mystery/Secret Angle: 'रहस्यमयी धार्मिक कथा' (Mysterious religious story)"
   ]
 }
