@@ -1,43 +1,48 @@
 {
-  "at": "2026-11-09T19:02:03.112Z",
+  "at": "2026-11-10T18:59:47.430Z",
   "channels": [
-    "FaKT Dharmik Katha",
-    "The Divine Journey",
-    "Hubba Bubba",
-    "Bhakti Magic ",
-    "Krishn Kehte hai"
+    "Mystery of the World",
+    "Kalia Katha",
+    "Gyan Adhyatmik Katha",
+    "Daksh Cinematics",
+    "KATHA SAGAR"
   ],
   "wants": [
     {
-      "topic": "Historical/Documentary style mythology",
-      "evidence": "The Divine Journey's '1926' series (48.11 vsNormal) proves that mixing mythology with a 'documentary/archival' format significantly outperforms standard storytelling.",
-      "strength": 10
-    },
-    {
-      "topic": "Vrat Katha with ritual/puja instructions",
-      "evidence": "FaKT Dharmik Katha's high performance on festival-specific content (Karwa Chauth, Rama Ekadashi) shows a demand for actionable 'how-to' worship guides.",
+      "topic": "Origin stories of specific deities (Ganesha, Sati, Satyavati)",
+      "evidence": "High vsNormal performance in 'Mystery of the World' and 'KATHA SAGAR' for origin/birth narratives.",
       "strength": 9
     },
     {
-      "topic": "Moral-heavy, lesser-known Rishi/Guru stories",
-      "evidence": "Bhakti Magic's success with 'Rishi Chunak' and 'Shukdev Rishi' stories indicates a desire for deeper, philosophical narratives beyond the mainstream Ramayana/Mahabharata.",
-      "strength": 8
+      "topic": "Festival-specific Vrat Kathas (Diwali, Dhanteras)",
+      "evidence": "Gyan Adhyatmik Katha's massive spikes during seasonal windows (19.65 vsNormal).",
+      "strength": 10
+    },
+    {
+      "topic": "Cinematic/Visualized War Narratives (Mahakali, Durga, Veerabhadra)",
+      "evidence": "Daksh Cinematics shows extreme performance (1756.7 vsNormal) for high-stakes battle depictions.",
+      "strength": 10
+    },
+    {
+      "topic": "Moral/Life Lessons from mythological encounters",
+      "evidence": "Consistent engagement across channels when framing stories as 'Moral stories' or 'True stories'.",
+      "strength": 7
     }
   ],
   "gaps": [
-    "High-quality visual production that avoids the 'stock-photo slideshow' look common in the niche.",
-    "Authentic historical context for festivals rather than just repeating the standard Puranic stories.",
-    "Detailed explanations of why specific rituals are performed (the logic behind the puja) rather than just the procedure."
+    "Deep-dive psychological motivations of secondary characters (e.g., why specific sages tested deities)",
+    "Chronological continuity between different Puranic events",
+    "High-production value animations for lesser-known regional folklore"
   ],
   "saturated": [
-    "Generic 'Navratri' daily updates (especially short-form or low-effort daily recaps).",
-    "Basic retellings of the Mahishasur Mardini story without a unique angle.",
-    "Surface-level 'Why did X happen' shorts that lack depth."
+    "Generic 'Krishna Leela' clips without a unique narrative hook",
+    "Basic 'Hanuman vs Bheem' power comparison videos",
+    "Repetitive 'Ekadashi Vrat' narratives that lack visual distinction"
   ],
   "title_patterns": [
-    "Historical Hook: '100 साल पहले कैसे होता था...' (How it was 100 years ago)",
-    "Urgency & Benefit: 'सुनने मात्र से दूर होते हैं...' (Remove obstacles just by listening)",
-    "Specific Festival + Action: 'व्रत कथा एवं पूजा विधि' (Vrat Katha and Puja Method)",
-    "Mystery/Secret Angle: 'रहस्यमयी धार्मिक कथा' (Mysterious religious story)"
+    "The 'X vs Y' Battle format (e.g., Mahakali vs Raktabeej)",
+    "The 'Untold Story/Secret' hook (e.g., Ganesha's secret origin)",
+    "Festival-centric 'Vrat Katha' titles with clear utility",
+    "The 'Miracle/Divine Intervention' hook (e.g., 'When God came to save his devotee')"
   ]
 }
