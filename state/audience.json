@@ -1,48 +1,48 @@
 {
-  "at": "2026-11-10T18:59:47.430Z",
+  "at": "2026-11-11T01:07:18.250Z",
   "channels": [
-    "Mystery of the World",
-    "Kalia Katha",
-    "Gyan Adhyatmik Katha",
-    "Daksh Cinematics",
-    "KATHA SAGAR"
+    "Rasiya Films",
+    "THE BH STORIES ",
+    "GuruVaani Studio\n",
+    "GK Hindi Stories 1m",
+    "Bk Usha Motivational "
   ],
   "wants": [
     {
-      "topic": "Origin stories of specific deities (Ganesha, Sati, Satyavati)",
-      "evidence": "High vsNormal performance in 'Mystery of the World' and 'KATHA SAGAR' for origin/birth narratives.",
+      "topic": "Maa Durga Domestic Miracles & Bhakt Pariksha",
+      "evidence": "GuruVaani Studio's videos on Maa Durga doing household work for devotees achieved massive engagement (vsNormal up to 572.42 with 'माँ दुर्गा से आखिर क्यों बूढ़ी औरत ने करवाया खूब काम?'). Rasiya Films also performed strongly with Maa Durga and Adhaiya Brahman stories (vsNormal 10.47).",
+      "strength": 10
+    },
+    {
+      "topic": "Debate & Defense of Sanatan Dharma Concepts",
+      "evidence": "Bk Usha Motivational scored massive hits addressing common skepticism, such as 'हिंदू धर्म में इतने भगवान और दूसरे धर्म में एक ही भगवान क्यों?' (vsNormal 110.94) and 'मक्का में शिवजी को कैद कर दिया है' (vsNormal 69.29).",
       "strength": 9
     },
     {
-      "topic": "Festival-specific Vrat Kathas (Diwali, Dhanteras)",
-      "evidence": "Gyan Adhyatmik Katha's massive spikes during seasonal windows (19.65 vsNormal).",
-      "strength": 10
+      "topic": "Full Epic Story Compilation (Ramayana / Mahabharata Complete)",
+      "evidence": "Rasiya Films' 'Ramayana Full Movie | रामायण की पूरी कहानी एक ही फिल्म में' generated 30.37x normal views, showing high demand for complete mega-stories in one video.",
+      "strength": 8
     },
     {
-      "topic": "Cinematic/Visualized War Narratives (Mahakali, Durga, Veerabhadra)",
-      "evidence": "Daksh Cinematics shows extreme performance (1756.7 vsNormal) for high-stakes battle depictions.",
-      "strength": 10
-    },
-    {
-      "topic": "Moral/Life Lessons from mythological encounters",
-      "evidence": "Consistent engagement across channels when framing stories as 'Moral stories' or 'True stories'.",
-      "strength": 7
+      "topic": "Impossible Challenges & Swayamvar Stories (Moral AI Dramas)",
+      "evidence": "THE BH STORIES dominated with 'घमंडी राजकुमारी का स्वयंवर: 5 असंभव शर्तें' across multiple episodes (vsNormal 33.17, 15.89, 12.18).",
+      "strength": 8
     }
   ],
   "gaps": [
-    "Deep-dive psychological motivations of secondary characters (e.g., why specific sages tested deities)",
-    "Chronological continuity between different Puranic events",
-    "High-production value animations for lesser-known regional folklore"
+    "Stories of lesser-known local bhakts and regional folk traditions (like Adhaiya Brahman) dramatized with emotional AI/3D storytelling.",
+    "Logical, scriptural explanations addressing popular misconceptions about Hindu deities without dry philosophical jargon.",
+    "Complete single-video epics narrating full Puranic leelas continuous from start to finish."
   ],
   "saturated": [
-    "Generic 'Krishna Leela' clips without a unique narrative hook",
-    "Basic 'Hanuman vs Bheem' power comparison videos",
-    "Repetitive 'Ekadashi Vrat' narratives that lack visual distinction"
+    "Standard day-by-day Navratri Vrat Kathas (e.g. Katyayani Katha / Mahishasura Vadh recitations scored standard vsNormal under 0.08).",
+    "Generic motivational shorts/reels disconnected from a story arc.",
+    "Basic repetitive horror/aghori mystery titles without emotional or devotional payoff."
   ],
   "title_patterns": [
-    "The 'X vs Y' Battle format (e.g., Mahakali vs Raktabeej)",
-    "The 'Untold Story/Secret' hook (e.g., Ganesha's secret origin)",
-    "Festival-centric 'Vrat Katha' titles with clear utility",
-    "The 'Miracle/Divine Intervention' hook (e.g., 'When God came to save his devotee')"
+    "Shock & Curiosity Hook: [Deity] से आखिर क्यों [Character] ने कराया [Unusual Action]? 😱🔥",
+    "Provocative Faith Question: [Common Objection/Myth about Hinduism] क्यों? | [Key Theme]",
+    "Impossible Challenge/Swayamvar: [Arrogant Character]: जब [Ordinary Person] पहुंचा [X] असंभव शर्तें पूरी करने!",
+    "Complete Epic Hook: [Epic/Deity Name] Full Movie | [X] की पूरी कहानी एक ही फिल्म में 🚩"
   ]
 }
