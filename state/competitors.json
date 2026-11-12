@@ -28,17 +28,17 @@
       "title": "Krishn Kehte hai",
       "hits": 3,
       "outlierSum": 59.66,
-      "scannedAt": "2026-11-09T19:00:07.587Z",
+      "scannedAt": "2026-11-12T07:27:20.977Z",
       "subs": 254000,
       "lastSeen": "2026-11-07T12:54:16.893Z"
     },
     "UCvEfA6yzID3rEPdJ4lzu0FQ": {
       "title": "Bhakti Gyan",
-      "hits": 11,
-      "outlierSum": 18.66,
+      "hits": 12,
+      "outlierSum": 19.2,
       "scannedAt": null,
       "subs": 1490000,
-      "lastSeen": "2026-11-12T01:14:36.442Z"
+      "lastSeen": "2026-11-12T07:27:19.618Z"
     },
     "UCNiCaBSe15H0yKoujk7-Swg": {
       "title": "The Divine Journey",
@@ -50,11 +50,11 @@
     },
     "UC4V0nc_OVuVMHaLvOpr19dQ": {
       "title": "Vrat Parva Tyohar",
-      "hits": 13,
-      "outlierSum": 16.25,
+      "hits": 14,
+      "outlierSum": 16.64,
       "scannedAt": null,
       "subs": 1960000,
-      "lastSeen": "2026-11-12T01:14:36.442Z"
+      "lastSeen": "2026-11-12T07:27:19.618Z"
     },
     "UCMWGZOfc8d1X8WA8AZMiktQ": {
       "title": "Prem Bhagti Gyan",
@@ -90,11 +90,11 @@
     },
     "UC8chHHavg9xKH-AtHhrYswA": {
       "title": "Gyan Adhyatmik Katha",
-      "hits": 26,
-      "outlierSum": 107.97,
+      "hits": 29,
+      "outlierSum": 120,
       "scannedAt": "2026-11-10T18:59:13.058Z",
       "subs": 214000,
-      "lastSeen": "2026-11-12T01:14:36.442Z"
+      "lastSeen": "2026-11-12T07:27:19.618Z"
     },
     "UCq4XREOGtFvow1rGN6FSOww": {
       "title": "Movie Climax",
@@ -114,11 +114,11 @@
     },
     "UCeJtHjwdWFHJfxy2WOfjG8Q": {
       "title": "⑱ƥѱȓãήȃ$",
-      "hits": 21,
-      "outlierSum": 45.67,
-      "scannedAt": null,
+      "hits": 23,
+      "outlierSum": 53.15,
+      "scannedAt": "2026-11-12T07:27:20.163Z",
       "subs": 986000,
-      "lastSeen": "2026-11-12T01:14:36.442Z"
+      "lastSeen": "2026-11-12T07:27:19.618Z"
     },
     "UCaayLD9i5x4MmIoVZxXSv_g": {
       "title": "T-Series Bhakti Sagar",
@@ -138,19 +138,19 @@
     },
     "UCpKfxcJifC42zVHHHgWFjiQ": {
       "title": "Anmol Baby ",
-      "hits": 3,
-      "outlierSum": 150,
+      "hits": 5,
+      "outlierSum": 250,
       "scannedAt": null,
-      "subs": 3760,
-      "lastSeen": "2026-11-08T07:05:02.941Z"
+      "subs": 3780,
+      "lastSeen": "2026-11-12T07:27:19.618Z"
     },
     "UCnJA8sngkuTMycyDWv-lK9g": {
       "title": "Hubba Bubba",
-      "hits": 6,
-      "outlierSum": 300,
+      "hits": 9,
+      "outlierSum": 450,
       "scannedAt": "2026-11-12T01:14:38.196Z",
-      "subs": 36400,
-      "lastSeen": "2026-11-08T07:05:02.941Z"
+      "subs": 37800,
+      "lastSeen": "2026-11-12T07:27:19.618Z"
     },
     "UCQZufufesHLp0AuFgn92dOw": {
       "title": "Dharmik Gyan.",
@@ -162,11 +162,11 @@
     },
     "UCJ6XZySsj72aCmxb4H7l5SA": {
       "title": "Shri Leela Charitam",
-      "hits": 3,
-      "outlierSum": 41.19,
-      "scannedAt": "2026-11-08T07:05:03.274Z",
+      "hits": 4,
+      "outlierSum": 58.79,
+      "scannedAt": "2026-11-12T07:27:20.501Z",
       "subs": 47400,
-      "lastSeen": "2026-11-11T01:07:03.076Z"
+      "lastSeen": "2026-11-12T07:27:19.618Z"
     },
     "UCgqFezVUukpK1JFwjc7k9_A": {
       "title": "Bhakti Magic ",
@@ -204,7 +204,7 @@
       "title": "Kalia Katha",
       "hits": 2,
       "outlierSum": 100,
-      "scannedAt": "2026-11-10T18:59:12.667Z",
+      "scannedAt": "2026-11-12T07:27:21.731Z",
       "subs": 12200,
       "lastSeen": "2026-11-08T18:50:22.870Z"
     },
@@ -556,7 +556,7 @@
       "title": "Mystery of the World",
       "hits": 2,
       "outlierSum": 50.879999999999995,
-      "scannedAt": "2026-11-10T18:59:12.339Z",
+      "scannedAt": "2026-11-12T07:27:21.389Z",
       "subs": 11200,
       "lastSeen": "2026-11-10T18:59:11.945Z"
     },
@@ -770,11 +770,11 @@
     },
     "UCq2yaNZ_zlFH6Cd3xqKGwEw": {
       "title": "Story by Aradhya ",
-      "hits": 5,
-      "outlierSum": 250,
+      "hits": 6,
+      "outlierSum": 300,
       "scannedAt": null,
-      "subs": 3060,
-      "lastSeen": "2026-11-12T01:14:36.442Z"
+      "subs": 3070,
+      "lastSeen": "2026-11-12T07:27:19.618Z"
     },
     "UCqgCJjec4LaUEXahLJdNx7g": {
       "title": "THE BH STORIES ",

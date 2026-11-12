@@ -1,47 +1,46 @@
 {
-  "at": "2026-11-12T01:15:01.866Z",
+  "at": "2026-11-12T07:27:50.303Z",
   "channels": [
-    "JagaLeela Studio",
-    "FaKT Dharmik Katha",
-    "The Divine Journey",
-    "Hubba Bubba",
-    "Bhakti Magic "
+    "⑱ƥѱȓãήȃ$",
+    "Shri Leela Charitam",
+    "Krishn Kehte hai",
+    "Mystery of the World",
+    "Kalia Katha"
   ],
   "wants": [
     {
-      "topic": "100-year historical and nostalgic festival tradition documentaries",
-      "evidence": "The Divine Journey's '100 साल पहले' series for Kanya Pujan (38.26x vsNormal), Dhanteras (23.44x vsNormal), and Diwali (19.95x vsNormal) generated millions of views",
+      "topic": "Dramatized, unexpected human-Deity interactions where simple mortals scold, challenge, or endearingly demand from Gods (e.g., Old woman/Shopkeeper scolding Lord Shiva, child doing 'katti' with Krishna)",
+      "evidence": "Shri Leela Charitam videos (CeBEeyQTOeY vsNormal 9.82, 7GI0dqfRxvQ vsNormal 3.72); Kalia Katha (hAXRjoeMEHI vsNormal 1.19)",
       "strength": 10
     },
     {
-      "topic": "Event-timed major festival Vrat Kathas with complete puja vidhi and dramatic story hooks",
-      "evidence": "FaKT Dharmik Katha's Karwa Chauth video achieved 17.27x vsNormal (1.76M views) and Govardhan Puja hit 5.63x vsNormal",
+      "topic": "Obscure Puranic trials involving Satis and Great Rishis (e.g., Sati Anasuya's severe test by the Trimurti, Sati confronting Brahma)",
+      "evidence": "Mystery of the World (KH--phUhD6o vsNormal 28.83, RthURP9Y2p8 vsNormal 7.49)",
       "strength": 9
     },
     {
-      "topic": "Lesser-known Puranic sagas of major Rishis and Deities",
-      "evidence": "Bhakti Magic's Shukdev Rishi & Raja Janak (18.03x vsNormal), Mahadev & Sati/Mohini (9.22x vsNormal), and Amarnath Amar Katha (6.64x vsNormal)",
-      "strength": 8
+      "topic": "High-stakes mythological conflict stories tied to specific festivals (e.g., Mata Laxmi vs Daridrata test on Diwali night, Bhai Dooj Deepam story)",
+      "evidence": "⑱ƥѱȓãήȃ$ videos (6hQ5d1wLKEY vsNormal 35, mFC7fKTYraY vsNormal 8.49)",
+      "strength": 9
     },
     {
-      "topic": "Lighthearted, relatable character-driven animated Bhakti stories",
-      "evidence": "JagaLeela Studio's Adhaiya character series consistently driving 4.83x to 5.57x vsNormal",
-      "strength": 7
+      "topic": "Origins and secret Puranic mysteries behind famous Hindu pilgrimage sites and traditions (e.g., Gayasur's story behind Gaya Pind Daan, Ganga Sagar katha)",
+      "evidence": "Krishn Kehte hai (BPtqfrN7Bvo vsNormal 3.73); Mystery of the World (KH--phUhD6o vsNormal 28.83)",
+      "strength": 8
     }
   ],
   "gaps": [
-    "Deep historical documentaries tracing Indian spiritual traditions and festival evolution across the last century",
-    "Engaging narrative adaptations of Puranic philosophical dialogues (e.g., Guru-Shishya stories like Shukdev-Janak) simplified for mainstream audiences"
+    "Deep narrative origins behind everyday Hindu rituals and pilgrimage sites (explaining *why* a ritual like Gaya Pind Daan started through dramatic story, rather than basic instructions).",
+    "Emotional, non-generic storytelling showing the compassionate/humbled side of Mahadev or Krishna when dealing with innocent, illiterate, or stubborn devotees."
   ],
   "saturated": [
-    "Off-season daily chapter recitations (e.g., Kartik Maas Adhyay daily uploads with 0.01x vsNormal)",
-    "Routine off-peak Ekadashi Vrat Kathas without unique narrative angles",
-    "Sectarian saint stories grafted onto major temple legends (e.g., Sant Garibdas/Kabir Sahib Jagannath stories performing under 0.2x vsNormal)"
+    "Generic 'Krishna and Bhondu' 3D animation moral stories (consistently perform poorly across channels like Kalia Katha, Shri Leela Charitam, and Mystery of the World).",
+    "Plain audio recitations of slokas, mantras, or simple quote videos without dramatic Kathas behind them.",
+    "Generic, surface-level Pitru Paksha or Navratri Kathas that lack a unique narrative hook or unknown story angle."
   ],
   "title_patterns": [
-    "100 साल पहले [Festival/Tradition] कैसा होता था? | [Year] Ka [Event] | Hindi Documentary",
-    "[Festival Name] Vrat Katha [Year] | [Dramatic Story Hook] | सम्पूर्ण कथा एवं पूजा विधि !",
-    "[Rishi/Devotee] को [Deity] ने क्यों रोका? | रहस्यमयी धार्मिक कथा | Hindi Story",
-    "[Funny/Relatable Quote]! 😂🙏 | [Deity/Leela Name] | Hindi Animation"
+    "Shocking Mortal-God Confrontation: '[Mortals] ने स्वयं [God] को [Shocking Action] 😱 फिर हुआ चमत्कार | [Story Title]'",
+    "Festival Night Cosmic Conflict: '[Festival Name] की रात [Deity] और [Opposing Character/Entity] की परीक्षा!'",
+    "Origin Mystery Formula: 'Who Was [Obscure Figure]? The Mystery Behind [Famous Hindu Ritual/Tirth] !'"
   ]
 }
