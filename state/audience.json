@@ -1,48 +1,47 @@
 {
-  "at": "2026-11-13T07:23:28.963Z",
+  "at": "2026-11-13T13:13:14.062Z",
   "channels": [
-    "Anant Gatha",
-    "Gyan Adhyatmik Katha",
-    "KATHA SAGAR",
-    "Rasiya Films",
-    "GuruVaani Studio\n"
+    "THE BH STORIES ",
+    "Bk Usha Motivational ",
+    "JagaLeela Studio",
+    "FaKT Dharmik Katha",
+    "The Divine Journey"
   ],
   "wants": [
     {
-      "topic": "Neem Karoli Baba and Modern Miracles",
-      "evidence": "Anant Gatha's high-performing 'Hanuman Ansh Avatar' series on Neem Karoli Baba shows massive audience engagement and high views.",
+      "topic": "100-Year Historical/Nostalgic Angles on Major Festivals (e.g., 1926 Celebration Documentaries)",
+      "evidence": "The Divine Journey's 1926 Dhanteras (vsNormal 30.46), Chhath Puja (vsNormal 29.0), and Diwali (vsNormal 26.21) standard-beating videos.",
       "strength": 10
     },
     {
-      "topic": "Moral-Drama 'Adhaiya' (Devotee) Stories with Maa Durga",
-      "evidence": "Rasiya Films and GuruVaani Studio see massive spikes when framing mythological figures (like Durga) interacting with struggling, common-man devotees (Adhaiya/Sugandha).",
+      "topic": "High-Stakes Swayamvar & Impossible Quest Stories (Serialized Parts)",
+      "evidence": "THE BH STORIES 3-part series 'घमंडी राजकुमारी का स्वयंवर: 5 असंभव शर्तें' generating massive engagement (vsNormal 41.66, 19.64, 15.08).",
       "strength": 9
     },
     {
-      "topic": "Full-Length 4K Epic Movies (Ramayan/Mahabharat)",
-      "evidence": "Anant Gatha's 4K Ramayan full movie achieved a vsNormal of 87.4, indicating a high demand for high-production value, long-form mythological cinema.",
+      "topic": "Provocative Theological & Philosophical Questions about Hindu Deities",
+      "evidence": "Bk Usha Motivational video 'हिंदू धर्म में इतने भगवान... क्यों?' reaching 122.12x vsNormal.",
       "strength": 9
     },
     {
-      "topic": "Festival-Specific Vrat Kathas",
-      "evidence": "Gyan Adhyatmik Katha's success with Diwali and Dhanteras stories shows that seasonal, ritual-based content is a high-velocity driver for the Indian audience.",
+      "topic": "Wholesome Devotional Comedy/3D Animation with Recurring Relatable Characters",
+      "evidence": "JagaLeela Studio's 'Adhaiya' character interacting directly with Gods cooking/making rules (vsNormal 5.91 - 6.84).",
       "strength": 8
     }
   ],
   "gaps": [
-    "Viewers often express frustration with 'incomplete' stories that lack a clear resolution or emotional payoff.",
-    "There is a lack of deep-dive, authentic historical context for obscure mythological figures, as evidenced by the failure of generic 'documentary' style videos compared to emotional storytelling.",
-    "Viewers frequently ask for 'Part 2' of stories involving specific miraculous interventions, suggesting a desire for serialized mythological content."
+    "Immersive documentary-style historical recreations of ancient Hindu rituals and lifestyle beyond standard Vrat recitations.",
+    "Well-produced multi-episode mythological fiction featuring strong character arcs and impossible trials."
   ],
   "saturated": [
-    "Short-form motivational reels/shorts (e.g., GuruVaani's poor performance on generic motivation).",
-    "Generic 'History of Puri' or 'Secrets of Ancient Cities' style documentaries which are currently underperforming.",
-    "Repetitive 'Mahishasur Vadh' or 'Navratri Day' specific recaps which are now saturated during festival seasons."
+    "Standard repetitive Vrat Kathas (e.g., Kartik Mahatmya chapter-by-chapter, Papankusha Ekadashi) without unique narrative hooks.",
+    "Generic 'Is Mahabharat real or fake?' philosophical debates without fresh historical/scientific context.",
+    "Basic origin story Shorts (e.g., 'Why Vishnu turned into stone') presented without emotional depth."
   ],
   "title_patterns": [
-    "High-stakes emotional hooks: 'माँ दुर्गा बनीं सच्ची भक्त का सहारा... सौतेली माँ ने घर से निकाला'",
-    "Shock/Curiosity-driven: 'असली वजह जानकर हैरान रह जाएंगे', '😱🔥😥'",
-    "Format-explicit labeling: 'Full Movie', '4K ULTRA HD', 'संपूर्ण रहस्य', 'Moral Story'",
-    "Character-centric conflict: '[Character A] Vs [Character B]' or '[Character] की अद्भुत कथा'"
+    "100 साल पहले [Festival] कैसी होती थी? | 1926 का [Festival] का पूरा दिन",
+    "[Adjective/Arrogant Character] का स्वयंवर: जब [Protagonist] पहुंचा [Number] असंभव शर्तें पूरी करने!",
+    "[Deep Mythological/Theological Question] ? | [Didi/Maharaj] Best Speech",
+    "[Recurring Character] ने कहा — '[Funny/Emotional Devotional Hook]!' 😂🙏 | [Deity] Ki Divya Leela"
   ]
 }
