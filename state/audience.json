@@ -1,46 +1,48 @@
 {
-  "at": "2026-11-12T07:27:50.303Z",
+  "at": "2026-11-13T07:23:28.963Z",
   "channels": [
-    "⑱ƥѱȓãήȃ$",
-    "Shri Leela Charitam",
-    "Krishn Kehte hai",
-    "Mystery of the World",
-    "Kalia Katha"
+    "Anant Gatha",
+    "Gyan Adhyatmik Katha",
+    "KATHA SAGAR",
+    "Rasiya Films",
+    "GuruVaani Studio\n"
   ],
   "wants": [
     {
-      "topic": "Dramatized, unexpected human-Deity interactions where simple mortals scold, challenge, or endearingly demand from Gods (e.g., Old woman/Shopkeeper scolding Lord Shiva, child doing 'katti' with Krishna)",
-      "evidence": "Shri Leela Charitam videos (CeBEeyQTOeY vsNormal 9.82, 7GI0dqfRxvQ vsNormal 3.72); Kalia Katha (hAXRjoeMEHI vsNormal 1.19)",
+      "topic": "Neem Karoli Baba and Modern Miracles",
+      "evidence": "Anant Gatha's high-performing 'Hanuman Ansh Avatar' series on Neem Karoli Baba shows massive audience engagement and high views.",
       "strength": 10
     },
     {
-      "topic": "Obscure Puranic trials involving Satis and Great Rishis (e.g., Sati Anasuya's severe test by the Trimurti, Sati confronting Brahma)",
-      "evidence": "Mystery of the World (KH--phUhD6o vsNormal 28.83, RthURP9Y2p8 vsNormal 7.49)",
+      "topic": "Moral-Drama 'Adhaiya' (Devotee) Stories with Maa Durga",
+      "evidence": "Rasiya Films and GuruVaani Studio see massive spikes when framing mythological figures (like Durga) interacting with struggling, common-man devotees (Adhaiya/Sugandha).",
       "strength": 9
     },
     {
-      "topic": "High-stakes mythological conflict stories tied to specific festivals (e.g., Mata Laxmi vs Daridrata test on Diwali night, Bhai Dooj Deepam story)",
-      "evidence": "⑱ƥѱȓãήȃ$ videos (6hQ5d1wLKEY vsNormal 35, mFC7fKTYraY vsNormal 8.49)",
+      "topic": "Full-Length 4K Epic Movies (Ramayan/Mahabharat)",
+      "evidence": "Anant Gatha's 4K Ramayan full movie achieved a vsNormal of 87.4, indicating a high demand for high-production value, long-form mythological cinema.",
       "strength": 9
     },
     {
-      "topic": "Origins and secret Puranic mysteries behind famous Hindu pilgrimage sites and traditions (e.g., Gayasur's story behind Gaya Pind Daan, Ganga Sagar katha)",
-      "evidence": "Krishn Kehte hai (BPtqfrN7Bvo vsNormal 3.73); Mystery of the World (KH--phUhD6o vsNormal 28.83)",
+      "topic": "Festival-Specific Vrat Kathas",
+      "evidence": "Gyan Adhyatmik Katha's success with Diwali and Dhanteras stories shows that seasonal, ritual-based content is a high-velocity driver for the Indian audience.",
       "strength": 8
     }
   ],
   "gaps": [
-    "Deep narrative origins behind everyday Hindu rituals and pilgrimage sites (explaining *why* a ritual like Gaya Pind Daan started through dramatic story, rather than basic instructions).",
-    "Emotional, non-generic storytelling showing the compassionate/humbled side of Mahadev or Krishna when dealing with innocent, illiterate, or stubborn devotees."
+    "Viewers often express frustration with 'incomplete' stories that lack a clear resolution or emotional payoff.",
+    "There is a lack of deep-dive, authentic historical context for obscure mythological figures, as evidenced by the failure of generic 'documentary' style videos compared to emotional storytelling.",
+    "Viewers frequently ask for 'Part 2' of stories involving specific miraculous interventions, suggesting a desire for serialized mythological content."
   ],
   "saturated": [
-    "Generic 'Krishna and Bhondu' 3D animation moral stories (consistently perform poorly across channels like Kalia Katha, Shri Leela Charitam, and Mystery of the World).",
-    "Plain audio recitations of slokas, mantras, or simple quote videos without dramatic Kathas behind them.",
-    "Generic, surface-level Pitru Paksha or Navratri Kathas that lack a unique narrative hook or unknown story angle."
+    "Short-form motivational reels/shorts (e.g., GuruVaani's poor performance on generic motivation).",
+    "Generic 'History of Puri' or 'Secrets of Ancient Cities' style documentaries which are currently underperforming.",
+    "Repetitive 'Mahishasur Vadh' or 'Navratri Day' specific recaps which are now saturated during festival seasons."
   ],
   "title_patterns": [
-    "Shocking Mortal-God Confrontation: '[Mortals] ने स्वयं [God] को [Shocking Action] 😱 फिर हुआ चमत्कार | [Story Title]'",
-    "Festival Night Cosmic Conflict: '[Festival Name] की रात [Deity] और [Opposing Character/Entity] की परीक्षा!'",
-    "Origin Mystery Formula: 'Who Was [Obscure Figure]? The Mystery Behind [Famous Hindu Ritual/Tirth] !'"
+    "High-stakes emotional hooks: 'माँ दुर्गा बनीं सच्ची भक्त का सहारा... सौतेली माँ ने घर से निकाला'",
+    "Shock/Curiosity-driven: 'असली वजह जानकर हैरान रह जाएंगे', '😱🔥😥'",
+    "Format-explicit labeling: 'Full Movie', '4K ULTRA HD', 'संपूर्ण रहस्य', 'Moral Story'",
+    "Character-centric conflict: '[Character A] Vs [Character B]' or '[Character] की अद्भुत कथा'"
   ]
 }
