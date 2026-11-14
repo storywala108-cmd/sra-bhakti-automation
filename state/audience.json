@@ -1,47 +1,47 @@
 {
-  "at": "2026-11-13T13:13:14.062Z",
+  "at": "2026-11-14T12:55:44.720Z",
   "channels": [
-    "THE BH STORIES ",
-    "Bk Usha Motivational ",
-    "JagaLeela Studio",
-    "FaKT Dharmik Katha",
-    "The Divine Journey"
+    "Hubba Bubba",
+    "⑱ƥѱȓãήȃ$",
+    "Shri Leela Charitam",
+    "Krishn Kehte hai",
+    "Kalia Katha"
   ],
   "wants": [
     {
-      "topic": "100-Year Historical/Nostalgic Angles on Major Festivals (e.g., 1926 Celebration Documentaries)",
-      "evidence": "The Divine Journey's 1926 Dhanteras (vsNormal 30.46), Chhath Puja (vsNormal 29.0), and Diwali (vsNormal 26.21) standard-beating videos.",
+      "topic": "Seasonal & Festival Specific Puranic Kathas",
+      "evidence": "Diwali Lakshmi-Daridrata Katha (36.36x vsNormal) and Bhai Dooj Yamraj Katha (5.58x vsNormal) on '⑱ƥѱȓãήȃ$', Mahishasur Durga War (14.95x vsNormal) on 'Krishn Kehte hai'.",
       "strength": 10
     },
     {
-      "topic": "High-Stakes Swayamvar & Impossible Quest Stories (Serialized Parts)",
-      "evidence": "THE BH STORIES 3-part series 'घमंडी राजकुमारी का स्वयंवर: 5 असंभव शर्तें' generating massive engagement (vsNormal 41.66, 19.64, 15.08).",
+      "topic": "Relatable Devotee vs. Bholenath Humanized Leelas",
+      "evidence": "Shri Leela Charitam's top videos featuring elderly 'Amma' or shopkeepers scolding or interacting humorously/emotionally with Lord Shiva (11.84x, 4.15x, and 2.97x vsNormal).",
       "strength": 9
     },
     {
-      "topic": "Provocative Theological & Philosophical Questions about Hindu Deities",
-      "evidence": "Bk Usha Motivational video 'हिंदू धर्म में इतने भगवान... क्यों?' reaching 122.12x vsNormal.",
-      "strength": 9
-    },
-    {
-      "topic": "Wholesome Devotional Comedy/3D Animation with Recurring Relatable Characters",
-      "evidence": "JagaLeela Studio's 'Adhaiya' character interacting directly with Gods cooking/making rules (vsNormal 5.91 - 6.84).",
+      "topic": "Mystery & Origin Kathas Behind Sacred Rituals/Curses",
+      "evidence": "'Who Was Gayasur? Mystery Behind Gaya Pind Daan' (3.68x vsNormal) and 'Why Did Lord Shiva Punish Lord Brahma?' (3.1x vsNormal) on 'Krishn Kehte hai'.",
       "strength": 8
+    },
+    {
+      "topic": "Innocent & Emotional Krishna-Devotee Bond Stories",
+      "evidence": "Kalia Katha's top videos focusing on a gwala taking a vow ('katti') or a child's innocent threat bringing Thakurji down (1.36x and 1.27x vsNormal).",
+      "strength": 7
     }
   ],
   "gaps": [
-    "Immersive documentary-style historical recreations of ancient Hindu rituals and lifestyle beyond standard Vrat recitations.",
-    "Well-produced multi-episode mythological fiction featuring strong character arcs and impossible trials."
+    "Deep-dive 3D animated or highly visual storytelling of lesser-known Puranic demons/sages (e.g., Gayasur, Daridrata) linked to modern Hindu practices.",
+    "Warm, relatable family-oriented Shiv-Parvati Leelas that mix gentle humor and extreme devotion rather than dry scriptural recitations."
   ],
   "saturated": [
-    "Standard repetitive Vrat Kathas (e.g., Kartik Mahatmya chapter-by-chapter, Papankusha Ekadashi) without unique narrative hooks.",
-    "Generic 'Is Mahabharat real or fake?' philosophical debates without fresh historical/scientific context.",
-    "Basic origin story Shorts (e.g., 'Why Vishnu turned into stone') presented without emotional depth."
+    "Generic Tirupati Balaji summaries without a specific narrative hook.",
+    "Overdone Mahabharata rivalry recaps like Duryodhana vs. Draupadi.",
+    "Short generic Ram bhakti quotes lacking a distinct story arc."
   ],
   "title_patterns": [
-    "100 साल पहले [Festival] कैसी होती थी? | 1926 का [Festival] का पूरा दिन",
-    "[Adjective/Arrogant Character] का स्वयंवर: जब [Protagonist] पहुंचा [Number] असंभव शर्तें पूरी करने!",
-    "[Deep Mythological/Theological Question] ? | [Didi/Maharaj] Best Speech",
-    "[Recurring Character] ने कहा — '[Funny/Emotional Devotional Hook]!' 😂🙏 | [Deity] Ki Divya Leela"
+    "Shocking Devotee Action + Deity Reaction: 'अम्मा ने स्वयं भगवान शिव को डांटकर बाहर क्यो सुला दिया😱'",
+    "Emotional Devotee Vow: 'जब एक ग्वाले ने स्वयं भगवान से कर ली \"सौ साल की कट्टी\"!'",
+    "Festival Narrative Hook: 'दीवाली की रात माता लक्ष्मी और दरिद्रता की परीक्षा!'",
+    "Origin Mystery Question: 'Who Was [Asura/Sage]? The Mystery Behind [Ritual/Sacred Site]'"
   ]
 }
