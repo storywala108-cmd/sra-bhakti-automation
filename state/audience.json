@@ -1,47 +1,55 @@
 {
-  "at": "2026-11-14T12:55:44.720Z",
+  "at": "2026-11-14T18:50:40.922Z",
   "channels": [
-    "Hubba Bubba",
-    "⑱ƥѱȓãήȃ$",
-    "Shri Leela Charitam",
-    "Krishn Kehte hai",
-    "Kalia Katha"
+    "Mystery of the World",
+    "Anant Gatha",
+    "Gyan Adhyatmik Katha",
+    "KATHA SAGAR",
+    "Rasiya Films"
   ],
   "wants": [
     {
-      "topic": "Seasonal & Festival Specific Puranic Kathas",
-      "evidence": "Diwali Lakshmi-Daridrata Katha (36.36x vsNormal) and Bhai Dooj Yamraj Katha (5.58x vsNormal) on '⑱ƥѱȓãήȃ$', Mahishasur Durga War (14.95x vsNormal) on 'Krishn Kehte hai'.",
+      "topic": "Feature-length 'Full Movie' style compilations of major epics (Ramayana, Neem Karoli Baba)",
+      "evidence": "Anant Gatha's 'RAMAYAN: THE EPIC JOURNEY OF RAM' achieved 73.52x vsNormal, and Rasiya Films' 'Ramayana Full Movie' achieved 29.71x vsNormal.",
       "strength": 10
     },
     {
-      "topic": "Relatable Devotee vs. Bholenath Humanized Leelas",
-      "evidence": "Shri Leela Charitam's top videos featuring elderly 'Amma' or shopkeepers scolding or interacting humorously/emotionally with Lord Shiva (11.84x, 4.15x, and 2.97x vsNormal).",
+      "topic": "Lesser-known folk legends featuring core deities (e.g., Adhaiya Brahmin, Ganga Sagar & Sati)",
+      "evidence": "Rasiya Films' Adhaiya Brahmin stories with Maa Durga and Shri Ram generated 15.21x and 10.48x vsNormal; Mystery of the World's Sati & Ganga Sagar katha hit 26.75x vsNormal.",
       "strength": 9
     },
     {
-      "topic": "Mystery & Origin Kathas Behind Sacred Rituals/Curses",
-      "evidence": "'Who Was Gayasur? Mystery Behind Gaya Pind Daan' (3.68x vsNormal) and 'Why Did Lord Shiva Punish Lord Brahma?' (3.1x vsNormal) on 'Krishn Kehte hai'.",
+      "topic": "Modern Saint & Deity Avtar Linkages (Neem Karoli Baba as Hanuman Avtar)",
+      "evidence": "Anant Gatha's Neem Karoli Baba parts achieved 46.94x and 21.71x vsNormal with over 14M combined views.",
+      "strength": 9
+    },
+    {
+      "topic": "Unusual mythological encounters & origins (Satyavati & Parashar Rishi, Ganesh Gajanan origin)",
+      "evidence": "Mystery of the World's Satyavati katha reached 17.45x vsNormal; KATHA SAGAR's Ganesh origin reached 33.8M views (6.39x vsNormal).",
       "strength": 8
     },
     {
-      "topic": "Innocent & Emotional Krishna-Devotee Bond Stories",
-      "evidence": "Kalia Katha's top videos focusing on a gwala taking a vow ('katti') or a child's innocent threat bringing Thakurji down (1.36x and 1.27x vsNormal).",
-      "strength": 7
+      "topic": "Timely Festival Vrat Kathas (Dhanteras and Diwali Lakshmi Pujan)",
+      "evidence": "Gyan Adhyatmik Katha dominated during festival periods with Dhanteras and Diwali Kathas reaching up to 12.05x vsNormal.",
+      "strength": 8
     }
   ],
   "gaps": [
-    "Deep-dive 3D animated or highly visual storytelling of lesser-known Puranic demons/sages (e.g., Gayasur, Daridrata) linked to modern Hindu practices.",
-    "Warm, relatable family-oriented Shiv-Parvati Leelas that mix gentle humor and extreme devotion rather than dry scriptural recitations."
+    "High-production 4K single-video cinematic compilations combining full sagas into continuous feature lengths.",
+    "Detailed narratives of obscure Hindu folk stories (e.g., Adhaiya Brahmin, Ganga Sagar backstory) that combine high narrative drama with mainstream deities.",
+    "In-depth biographical kathas connecting contemporary 20th-century saints (e.g., Neem Karoli Baba) directly to ancient Vedic avatars."
   ],
   "saturated": [
-    "Generic Tirupati Balaji summaries without a specific narrative hook.",
-    "Overdone Mahabharata rivalry recaps like Duryodhana vs. Draupadi.",
-    "Short generic Ram bhakti quotes lacking a distinct story arc."
+    "Generic short moral stories with vague titles (e.g., 'Moral Story', 'Bhondu story', 'Durga bhakt moral story').",
+    "Devotional music tracks/bhajans published on story-focused katha channels.",
+    "English-titled videos targeted at domestic Hindi-speaking audience (e.g., 'When Hanuman Ate the Sun').",
+    "Standard non-mythological historical documentaries (e.g., Chanakya & Chandragupta).",
+    "Repetitive day-by-day Navratri routine kathas published without unique narrative hooks."
   ],
   "title_patterns": [
-    "Shocking Devotee Action + Deity Reaction: 'अम्मा ने स्वयं भगवान शिव को डांटकर बाहर क्यो सुला दिया😱'",
-    "Emotional Devotee Vow: 'जब एक ग्वाले ने स्वयं भगवान से कर ली \"सौ साल की कट्टी\"!'",
-    "Festival Narrative Hook: 'दीवाली की रात माता लक्ष्मी और दरिद्रता की परीक्षा!'",
-    "Origin Mystery Question: 'Who Was [Asura/Sage]? The Mystery Behind [Ritual/Sacred Site]'"
+    "[EPIC NAME]: Full Movie Hindi || 4K ULTRA HD / सम्पूर्ण कथा",
+    "[Obscure Character/Rishi] और [Main Deity] की अद्भुत/अनोखी कथा",
+    "आखिर क्यों [Intriguing Mystery/Action]? | [Topic] की संपूर्ण कथा",
+    "[Festival Name] की कथा ~ [Festival] Ki Katha | [Deity] Pujan Katha"
   ]
 }
