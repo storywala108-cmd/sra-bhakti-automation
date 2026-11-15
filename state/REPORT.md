@@ -1,11 +1,12 @@
-# Ink & Crowns weekly report (2026-11-08)
+# Ink & Crowns weekly report (2026-11-15)
 
-The channel is currently in its initial launch phase, experiencing low overall traffic ranging from 0 to 2 views per video.
-Despite low impression counts, retention data shows clear performance divergence based on subject matter.
-Major cosmic narratives like 'Samudra Manthan' performed extraordinarily well, holding 99.68% retention over 5.6 minutes.
-In contrast, videos covering lesser-known figures like 'Rishi Dadhichi' suffered massive early drop-offs (7.24% retention).
-Titles with overly dramatic clickbait ('राजा का अहंकार बना धूल') failed to attract clicks entirely.
-Moving forward, script writing must prioritize strong initial hooks, while topic selection should anchor heavily around major figures like Lord Shiva and Lord Vishnu.
+The channel is in its early launch phase, currently suffering from low view counts and several zero-impression videos.
+Content centered on major cosmic events and prominent deities like Lord Shiva and Lord Vishnu yields the highest retention.
+For example, the Samudra Manthan video achieved a standout 99.68% retention over nearly six minutes.
+Conversely, niche topics and weak video intros lead to severe retention drops, as seen in the Rishi Dadhichi story where viewers left after just 15 seconds.
+Regional or overly obscure stories fail to generate initial clicks entirely due to weak topic demand.
+Incorporating clean, bilingual titles with English search terms dramatically improves audience clarity and discoverability.
+Moving forward, scripts must feature strong 10-second hooks and aim for 4 to 6 minutes of detailed, high-stakes storytelling.
 
 Rules for next videos:
-Focus on major deities and cosmic events (e.g., Lord Shiva, Samudra Manthan), which achieved 99%+ retention.,Hook viewers in the first 15 seconds to fix severe retention drops (e.g., Dadhichi story dropped to 7.24%).,Target longer script lengths (5-6+ minutes) as deeper mythological storytelling holds audience duration better.,Simplify titles to under 60 characters with clear Hindi and English keywords for search optimization.,Avoid obscure or niche storylines until a core subscriber base is established.,Ensure video thumbnails and titles directly align with the core conflict of the story to fix 0-view videos.
+Focus on major cosmic legends and well-known deities (Lord Shiva, Vishnu) rather than obscure folk tales.,Hook viewers within the first 10 seconds; current intro drop-offs occur under 15 seconds on weak videos.,Use clean, bilingual titles (Hindi story name + English search keyword) to improve discoverability.,Aim for 4 to 6 minute detailed narrative scripts; deeper storytelling (like Samudra Manthan) drives high retention.,Avoid overly niche or confusing historical settings (e.g., 1920 North Indian village) that turn off audience interest.,Keep titles under 60 characters and remove excess emojis to look authoritative.
