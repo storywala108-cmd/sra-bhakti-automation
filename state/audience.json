@@ -1,40 +1,53 @@
 {
-  "at": "2026-11-16T01:28:25.878Z",
+  "at": "2026-11-16T19:02:09.864Z",
   "channels": [
-    "Mooli Toons TV",
-    "GK Hindi Stories 1m",
-    "The Divine Journey",
-    "Hubba Bubba",
-    "⑱ƥѱȓãήȃ$"
+    "Kalia Katha",
+    "Mystery of the World",
+    "Gyan Adhyatmik Katha",
+    "KATHA SAGAR",
+    "Rasiya Films"
   ],
   "wants": [
     {
-      "topic": "Historical nostalgia framing of festivals ('100 years ago' / 1920s vintage perspective)",
-      "evidence": "The Divine Journey videos on 1926 Chhath Puja (45.18x vsNormal), 1926 Dhanteras (36.02x vsNormal), and 1926 Diwali (31.08x vsNormal).",
+      "topic": "Lesser-Known Origin Stories of Rishis & Vedic Legends (e.g., Rishi Parashar & Satyavati, Sati Anasuya's Test, Ganga Sagar)",
+      "evidence": "Mystery of the World hit 25.41x vsNormal with Ganga Sagar & Sati, and 17.1x with Satyavati-Parashar origin story.",
       "strength": 10
     },
     {
-      "topic": "Devotional moral Kathas featuring divine grace on the poor (Lakshmi blessing poor devotees / Daridrata trials)",
-      "evidence": "Mooli Toons TV 'गरीब कुम्हारिन के कुटिया में आईं मां लक्ष्मी' (18.24x vsNormal) and 18 Puranas 'माता लक्ष्मी और दरिद्रता की परीक्षा' (28.58x vsNormal).",
+      "topic": "Full-Length Cinematic Epics in a Single Video (Full Movie Format)",
+      "evidence": "Rasiya Films achieved 26.23x vsNormal (355k views) on 'Ramayana Full Movie | रामायण की पूरी कहानी एक ही फिल्म में'.",
       "strength": 9
     },
     {
-      "topic": "Festival Kathas driven by family dynamics (Devrani-Jethani, Bhabhi-Nanad conflicts resolved by divine intervention)",
-      "evidence": "18 Puranas videos: 'घमंडी जेठानी का सोने का सूप vs देवरानी' (5.83x vsNormal) and Bhai Dooj 'भाभी का सोना vs बहन का चौमुखी दीपक' (3.62x vsNormal).",
+      "topic": "Childlike Devotion & Emotional Bond with Krishna (Folk Characters like Adhaiya, 'God Se Katti')",
+      "evidence": "Kalia Katha #03 ('सौ साल की कट्टी') achieved 1.5x vsNormal, and Rasiya Films' Adhaiya-Durga/Ram stories got 10x-13x vsNormal.",
       "strength": 8
+    },
+    {
+      "topic": "Timely Festival Vrat Kathas (Dhanteras & Diwali Specific Worship Stories)",
+      "evidence": "Gyan Adhyatmik Katha gained 6x to 10.5x vsNormal on Dhanteras and Diwali Vrat Kathas within 10-13 days.",
+      "strength": 8
+    },
+    {
+      "topic": "Grand Animated Battle/Origin Stories of Major Gods (Ganesh Gajanan creation, Mahishasur Vadh, Kaliya Mardan)",
+      "evidence": "KATHA SAGAR's Ganesh origin video reached 33.9M views (6.34x vsNormal) and Mahishasur Vadh reached 5.3M views.",
+      "strength": 9
     }
   ],
   "gaps": [
-    "Emotional storytelling behind specific ritual traditions (e.g., origin of Chhath Soop or Yamdeep) rather than dry Vrat recitations.",
-    "Immersive historical context videos exploring ancient Indian village celebrations across different eras."
+    "Deeply researched, high-quality 3D/animated accounts of obscure Rishi curses and origins (e.g., Sati-Brahma interaction, Parashar Rishi) that go beyond standard Puranic summaries.",
+    "Bingeable long-form continuous movie-style compilations of complete mythological scriptures (e.g., Complete Shiv Puran or Complete Ramayana) with high production value."
   ],
   "saturated": [
-    "Generic Pitru Paksha / Garuda Puran death and afterlife explainers without narrative hooks (scored 0x vsNormal).",
-    "Standard, repetitive Vrat Kathas (e.g., Papankusha Ekadashi) recited like textbook audio."
+    "Generic day-by-day Navratri Kathas (e.g., Maa Katyayani / Maa Siddhidatri standard readings) without a unique narrative hook.",
+    "Standard audio-only Bhajan/Song releases uploaded on katha storytelling channels.",
+    "English-titled videos targeted at Hindi devotional audiences (e.g., 'When Hanuman Ate the Sun' severely underperformed at 0.01x vsNormal).",
+    "Generic low-effort moral stories featuring unidentified characters without strong mythological grounding."
   ],
   "title_patterns": [
-    "100 साल पहले [Festival] कैसी होती थी? | [Year] का [Festival] महापर्व",
-    "[Goddess/God] ने ठुकराया घमंडी [Relative] का [Item]? | [Moral Contrast Title]",
-    "गरीब [Profession/Person] की कुटिया में आईं [Goddess]! रातों रात बदल गई किस्मत 😱"
+    "जब [God/Bhakt] ने [Unexpected Emotional Action] | [Deity Name] True Story",
+    "[Obscure Deity/Rishi] और [Famous Deity] की अद्भुत/सम्पूर्ण कथा | [Topic]",
+    "[Epic Name] Full Movie | [Epic Name] की पूरी कहानी एक ही फिल्म में 🚩",
+    "[Festival Name] की कथा ~ [Festival Name] Vrat Katha | [Mata/God] Ki Kahani"
   ]
 }
