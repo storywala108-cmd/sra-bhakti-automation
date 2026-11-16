@@ -1,55 +1,40 @@
 {
-  "at": "2026-11-15T18:52:25.873Z",
+  "at": "2026-11-16T01:28:25.878Z",
   "channels": [
-    "GuruVaani Studio\n",
-    "THE BH STORIES ",
-    "Bk Usha Motivational ",
-    "JagaLeela Studio",
-    "FaKT Dharmik Katha"
+    "Mooli Toons TV",
+    "GK Hindi Stories 1m",
+    "The Divine Journey",
+    "Hubba Bubba",
+    "⑱ƥѱȓãήȃ$"
   ],
   "wants": [
     {
-      "topic": "Deities directly interacting with and being tested by humble, poor, or elderly devotees",
-      "evidence": "GuruVaani Studio's video about Maa Durga doing housework for an old woman achieved a 256.95x vsNormal rating, and Chhathi Maiya helping a poor mother reached 58.18x vsNormal.",
+      "topic": "Historical nostalgia framing of festivals ('100 years ago' / 1920s vintage perspective)",
+      "evidence": "The Divine Journey videos on 1926 Chhath Puja (45.18x vsNormal), 1926 Dhanteras (36.02x vsNormal), and 1926 Diwali (31.08x vsNormal).",
       "strength": 10
     },
     {
-      "topic": "Deep theological questions explaining Hindu concepts (e.g., why Hinduism has multiple deities, omnipresence of Ishwar)",
-      "evidence": "Bk Usha Motivational video 'हिंदू धर्म में इतने भगवान...' achieved 132.33x vsNormal.",
+      "topic": "Devotional moral Kathas featuring divine grace on the poor (Lakshmi blessing poor devotees / Daridrata trials)",
+      "evidence": "Mooli Toons TV 'गरीब कुम्हारिन के कुटिया में आईं मां लक्ष्मी' (18.24x vsNormal) and 18 Puranas 'माता लक्ष्मी और दरिद्रता की परीक्षा' (28.58x vsNormal).",
       "strength": 9
     },
     {
-      "topic": "Multi-part impossible swayamvar challenges involving humble protagonists overcoming arrogant royal conditions",
-      "evidence": "THE BH STORIES 'घमंडी राजकुमारी का स्वयंवर' parts 1-3 dominated channel views with vsNormal up to 32.74x.",
+      "topic": "Festival Kathas driven by family dynamics (Devrani-Jethani, Bhabhi-Nanad conflicts resolved by divine intervention)",
+      "evidence": "18 Puranas videos: 'घमंडी जेठानी का सोने का सूप vs देवरानी' (5.83x vsNormal) and Bhai Dooj 'भाभी का सोना vs बहन का चौमुखी दीपक' (3.62x vsNormal).",
       "strength": 8
-    },
-    {
-      "topic": "Seasonal Vrat Kathas emphasizing emotional family bonds (Bhai Dooj sibling stories, Chhath Puja, Karwa Chauth)",
-      "evidence": "FaKT Dharmik Katha's Karwa Chauth (11.04x vsNormal) and Bhai Dooj (8.97x vsNormal) outperformed all their standard daily upload content.",
-      "strength": 8
-    },
-    {
-      "topic": "Lighthearted, playful divine leelas featuring gods in domestic, relatable scenarios (gods cooking, sticking to funny household rules)",
-      "evidence": "JagaLeela Studio's Adhaiya series videos ('आज खाना भगवान बनाएंगे!') consistently earned 8x-9x vsNormal compared to their standard Jagannath stories.",
-      "strength": 7
     }
   ],
   "gaps": [
-    "Relatable emotional dramas connecting major Hindu festivals (Navratri, Chhath) with real-life family hardships rather than just static ritual recitations.",
-    "Engaging, narrative-driven answers to common philosophical questions about Hindu scriptures and iconography.",
-    "Humorous yet respectful character-driven divine animation (banter between cute devotees and deities) with complete narrative arcs."
+    "Emotional storytelling behind specific ritual traditions (e.g., origin of Chhath Soop or Yamdeep) rather than dry Vrat recitations.",
+    "Immersive historical context videos exploring ancient Indian village celebrations across different eras."
   ],
   "saturated": [
-    "Generic motivational shorts/reels with generic audio clips.",
-    "Dry, chapter-by-chapter daily scripture readings (e.g., Kartik Maas Adhyay series) without emotional hooks.",
-    "Absurd or bizarre fairytale mashups disconnected from traditional mythological roots (e.g., princess marrying a turtle).",
-    "Standard routine Ekadashi audio recitals lacking custom visual storytelling."
+    "Generic Pitru Paksha / Garuda Puran death and afterlife explainers without narrative hooks (scored 0x vsNormal).",
+    "Standard, repetitive Vrat Kathas (e.g., Papankusha Ekadashi) recited like textbook audio."
   ],
   "title_patterns": [
-    "[Deity Name] से आखिर क्यों [Humble Character] ने करवाया [Shocking/Extreme Action]? 😱🔥😥",
-    "गरीब [Character] की [Festival Name] में [Villain] ने मचाया आतंक! फिर [Deity] ने दिखाया ऐसा चमत्कार...",
-    "[Arrogant Character] का स्वयंवर: जब एक [Humble Character] पहुंचा [X] असंभव शर्तें पूरी करने!",
-    "[Cute Devotee] की [X] शर्तें सुनकर क्या करेंगे [Deity]? 🙏 | [Deity] Ki Divya Leela",
-    "[Core Scriptural/Philosophical Question]? | [Channel Name] Best Hindi Motivation/Katha"
+    "100 साल पहले [Festival] कैसी होती थी? | [Year] का [Festival] महापर्व",
+    "[Goddess/God] ने ठुकराया घमंडी [Relative] का [Item]? | [Moral Contrast Title]",
+    "गरीब [Profession/Person] की कुटिया में आईं [Goddess]! रातों रात बदल गई किस्मत 😱"
   ]
 }
