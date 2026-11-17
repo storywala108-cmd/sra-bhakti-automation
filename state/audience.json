@@ -1,53 +1,54 @@
 {
-  "at": "2026-11-16T19:02:09.864Z",
+  "at": "2026-11-17T01:13:24.909Z",
   "channels": [
-    "Kalia Katha",
-    "Mystery of the World",
-    "Gyan Adhyatmik Katha",
-    "KATHA SAGAR",
-    "Rasiya Films"
+    "Anant Gatha",
+    "GuruVaani Studio\n",
+    "THE BH STORIES ",
+    "Bk Usha Motivational ",
+    "JagaLeela Studio"
   ],
   "wants": [
     {
-      "topic": "Lesser-Known Origin Stories of Rishis & Vedic Legends (e.g., Rishi Parashar & Satyavati, Sati Anasuya's Test, Ganga Sagar)",
-      "evidence": "Mystery of the World hit 25.41x vsNormal with Ganga Sagar & Sati, and 17.1x with Satyavati-Parashar origin story.",
+      "topic": "Emotional domestic miracles featuring divine tests by Devis/Devtas (e.g., Maa Durga acting as a servant or taking chores)",
+      "evidence": "GuruVaani Studio video 'माँ दुर्गा से आखिर क्यों बूढ़ी औरत ने करवाया खूब काम?' achieved vsNormal 264.64 (6.28M views).",
       "strength": 10
     },
     {
-      "topic": "Full-Length Cinematic Epics in a Single Video (Full Movie Format)",
-      "evidence": "Rasiya Films achieved 26.23x vsNormal (355k views) on 'Ramayana Full Movie | रामायण की पूरी कहानी एक ही फिल्म में'.",
+      "topic": "Modern saint miracle bio-dramas (Neem Karoli Baba, modern Avtars)",
+      "evidence": "Anant Gatha's Neem Karoli Baba films generated vsNormal 45.8 and 21.13 across multiple long-form videos.",
       "strength": 9
     },
     {
-      "topic": "Childlike Devotion & Emotional Bond with Krishna (Folk Characters like Adhaiya, 'God Se Katti')",
-      "evidence": "Kalia Katha #03 ('सौ साल की कट्टी') achieved 1.5x vsNormal, and Rasiya Films' Adhaiya-Durga/Ram stories got 10x-13x vsNormal.",
-      "strength": 8
-    },
-    {
-      "topic": "Timely Festival Vrat Kathas (Dhanteras & Diwali Specific Worship Stories)",
-      "evidence": "Gyan Adhyatmik Katha gained 6x to 10.5x vsNormal on Dhanteras and Diwali Vrat Kathas within 10-13 days.",
-      "strength": 8
-    },
-    {
-      "topic": "Grand Animated Battle/Origin Stories of Major Gods (Ganesh Gajanan creation, Mahishasur Vadh, Kaliya Mardan)",
-      "evidence": "KATHA SAGAR's Ganesh origin video reached 33.9M views (6.34x vsNormal) and Mahishasur Vadh reached 5.3M views.",
+      "topic": "Addressing common theological questions and doubts about Sanatan Dharma logically",
+      "evidence": "Bk Usha Motivational video 'हिंदू धर्म में इतने भगवान और दूसरे धर्म में एक ही भगवान क्यों?' hit vsNormal 138.3.",
       "strength": 9
+    },
+    {
+      "topic": "Multi-part serialized AI Kathas involving high-stakes challenges (Swayamvar with impossible conditions)",
+      "evidence": "THE BH STORIES 'घमंडी राजकुमारी का स्वयंवर' Part 1, 2, and 3 consistently outperformed with vsNormal 34.58, 15.99, and 12.3.",
+      "strength": 8
+    },
+    {
+      "topic": "Playful and humorous character-driven Bhakt-Bhagwan interaction stories",
+      "evidence": "JagaLeela Studio's 'Adhaiya' character series consistently achieved vsNormal 9.13 to 10.63.",
+      "strength": 7
     }
   ],
   "gaps": [
-    "Deeply researched, high-quality 3D/animated accounts of obscure Rishi curses and origins (e.g., Sati-Brahma interaction, Parashar Rishi) that go beyond standard Puranic summaries.",
-    "Bingeable long-form continuous movie-style compilations of complete mythological scriptures (e.g., Complete Shiv Puran or Complete Ramayana) with high production value."
+    "High-quality 4K cinematic storytelling of modern Hindu saints and avatars.",
+    "Emotional kathas where deities interact directly with everyday household struggles (poverty, family mistreatment) rather than abstract cosmic battles.",
+    "Clear, engaging explanations answering defensive theological questions about Hindu customs and iconography."
   ],
   "saturated": [
-    "Generic day-by-day Navratri Kathas (e.g., Maa Katyayani / Maa Siddhidatri standard readings) without a unique narrative hook.",
-    "Standard audio-only Bhajan/Song releases uploaded on katha storytelling channels.",
-    "English-titled videos targeted at Hindi devotional audiences (e.g., 'When Hanuman Ate the Sun' severely underperformed at 0.01x vsNormal).",
-    "Generic low-effort moral stories featuring unidentified characters without strong mythological grounding."
+    "Dry historical documentaries (e.g., Chanakya history, dry temple history without narrative drama).",
+    "Generic short-form motivational reels and generic quotes.",
+    "Abstract philosophical discourses (e.g., Karma Yoga vs Sanyas Yoga).",
+    "Absurd or unrelatable folk tales lacking emotional connection (e.g., marrying animals)."
   ],
   "title_patterns": [
-    "जब [God/Bhakt] ने [Unexpected Emotional Action] | [Deity Name] True Story",
-    "[Obscure Deity/Rishi] और [Famous Deity] की अद्भुत/सम्पूर्ण कथा | [Topic]",
-    "[Epic Name] Full Movie | [Epic Name] की पूरी कहानी एक ही फिल्म में 🚩",
-    "[Festival Name] की कथा ~ [Festival Name] Vrat Katha | [Mata/God] Ki Kahani"
+    "[Devi/Devta] से आखिर क्यों [Ordinary Person] ने करवाया [Unexpected Household Task]? 😱🔥😥 | [Devi/Devta] Story",
+    "[Arrogant Character] का स्वयंवर: जब [Ordinary Person] पहुंचा [X] असंभव शर्तें पूरी करने! | [Format]",
+    "[Direct Doubt about Sanatan Dharma] ? || [Speaker/Channel] Best Speech",
+    "[Character Name] का अनोखा नियम! 😱 [Playful Conflict with Bhagwan]"
   ]
 }
