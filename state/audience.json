@@ -1,42 +1,49 @@
 {
-  "at": "2026-11-18T00:57:28.381Z",
+  "at": "2026-11-18T07:28:48.559Z",
   "channels": [
-    "FaKT Dharmik Katha",
-    "Mooli Toons TV",
-    "GK Hindi Stories 1m",
-    "The Divine Journey",
-    "Hubba Bubba"
+    "⑱ƥѱȓãήȃ$",
+    "Kalia Katha",
+    "Gyan Adhyatmik Katha",
+    "KATHA SAGAR",
+    "Rasiya Films"
   ],
   "wants": [
     {
-      "topic": "Historical/Nostalgic Mythology (100 years ago)",
-      "evidence": "The Divine Journey's top-performing videos (1926 Diwali, Dhanteras, Chhath) show massive vsNormal spikes (35x-52x).",
+      "topic": "Household conflict & divine moral testing (Devrani-Jethani, Bhabhi-Nanad vs Divine Justice)",
+      "evidence": "⑱ƥѱȓãήȃ$: Diwali Laxmi vs Daridrata (30.61x), Chhath Devrani-Jethani gold soup (4.39x), Bhai Dooj Bhabhi's gold vs Sister's Diya beating Yamraj (3.31x)",
       "strength": 10
     },
     {
-      "topic": "Festival-Specific Vrat Kathas with Puja Vidhi",
-      "evidence": "FaKT Dharmik Katha's Karwa Chauth and Bhai Dooj videos significantly outperformed their channel median.",
+      "topic": "Innocent & stubborn devotee bonding with God (रूठना, कट्टी, बालक की हठ)",
+      "evidence": "Kalia Katha: Gwala cutting ties for 100 years 'सौ साल की कट्टी' (1.59x), Child's threat making Thakur Ji run (1.54x); Rasiya Films: Adhaiya making Maa Durga work (10.27x)",
       "strength": 9
     },
     {
-      "topic": "Emotional/Moral 'Rags-to-Riches' Mythology",
-      "evidence": "GK Hindi Stories and Mooli Toons TV see high engagement when mixing mythological elements with emotional/poverty-to-prosperity tropes.",
+      "topic": "Comprehensive full-story epics in a single sitting ('Full Movie' format)",
+      "evidence": "Rasiya Films: Ramayana Full Movie in one video beat normal by 24.95x (359K views in 13 days)",
+      "strength": 8
+    },
+    {
+      "topic": "Iconic origin stories and high-stakes divine face-offs (Untold origin, God vs Demon)",
+      "evidence": "KATHA SAGAR: Ganesha's head replacement untold story (34M views, 6.3x vsNormal), Durga vs Mahishasur (2.05x), Bal Krishna vs Kaliya Naag (1.27x)",
       "strength": 8
     }
   ],
   "gaps": [
-    "Authentic visual recreations of ancient Vedic era settings (most channels rely on stock or low-quality animation)",
-    "Detailed 'scientific' or historical explanation of why specific rituals were performed in ancient India",
-    "Interactive Q&A sessions addressing specific doubts about Vrat rules (many viewers ask about 'niyam' and 'vidhi' in comments)"
+    "Folkloric household kathas that blend domestic relationship dynamics with scriptural lessons (viewers engage heavily with humility vs arrogance stories rather than dry ritual readings)",
+    "Deeply emotional 'Bhakta Vatsalya' leelas highlighting rustic or child devotees holding God accountable to their love",
+    "Complete, uninterrupted chronological sagas (full movies/long compilations) done with high narrative pace"
   ],
   "saturated": [
-    "Generic 'Hanuman Chalisa' or 'Tuesday Vrat Katha' videos",
-    "Standard Ekadashi Vrat Kathas (these are currently underperforming across multiple channels)",
-    "Short-form 'Tulsi Vivah' or 'Sharad Purnima' clips that lack depth"
+    "Routine nine-day Navratri vrat kathas (e.g., standard Day 6 Katyayani, Day 9 Siddhidatri perform at 0.07x - 0.11x vsNormal)",
+    "Standalone Bhajans and music tracks posted on story-driven channels (consistently dropping to 0.01x vsNormal)",
+    "English-titled mythological summaries ('When Hanuman Ate the Sun' hit 0.01x)",
+    "Dry temple documentary/mystery explainers lacking dramatic story arcs (e.g., Tirupati Balaji mystery at 0.01x)"
   ],
   "title_patterns": [
-    "Time-based nostalgia: '100 साल पहले [Festival] कैसी होती थी?'",
-    "Urgency/Fear-of-Missing-Out: 'संतान सुख के लिए जरूर सुनें' or 'रातों रात बदल गई किस्मत'",
-    "Controversial/Mystery hooks: 'आखिर पत्नी ने ऐसा क्या किया?' or 'तूफानी रात में गरीब चरवाहे को अपने घर क्यों बुलाया'"
+    "High-contrast domestic drama hook: [घमंडी रिश्तेदार का अहंकार] Vs [सच्चे भक्त की तुच्छ भेंट/दीपक] + [चमत्कारिक परिणाम]",
+    "Playful devotee defiance hook: 'जब [ग्वाले/बालक/अढ़ैया] ने भगवान से की [कट्टी/धमकी/काम करवाया]...'",
+    "Definitive single-video promise: '[ग्रंथ/चरित्र] Full Movie | पूरी कहानी एक ही वीडियो/फिल्म में 🚩'",
+    "Origin drama & vs showdown: '[भगवान] के [घटना] बनने की अद्भुत कथा | [पात्र 1] Vs [पात्र 2]'"
   ]
 }
