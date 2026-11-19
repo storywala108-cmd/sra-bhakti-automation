@@ -1,54 +1,55 @@
 {
-  "at": "2026-11-19T07:18:11.424Z",
+  "at": "2026-11-19T15:42:28.651Z",
   "channels": [
-    "Mystery of the World",
-    "Anant Gatha",
-    "GuruVaani Studio\n",
-    "THE BH STORIES ",
-    "Bk Usha Motivational "
+    "FaKT Dharmik Katha",
+    "Mooli Toons TV",
+    "GK Hindi Stories 1m",
+    "The Divine Journey",
+    "Hubba Bubba"
   ],
   "wants": [
     {
-      "topic": "Maa Durga directly stepping into dramatic human conflicts and helping emotional/persecuted devotees",
-      "evidence": "GuruVaani Studio videos featuring Maa Durga interacting with an old woman, stepmother, and Chanda achieved massive performance (vsNormal 40.18 to 278.07).",
-      "strength": 10
-    },
-    {
-      "topic": "Lesser-known Puranic and Mahabharat backstories (Sati vs Brahma, Satyavati & Rishi Parashar, Sati Anusuya test)",
-      "evidence": "Mystery of the World top videos focused on detailed Puranic events beat normal views by 13.68x to 43.76x.",
+      "topic": "Year‑specific vrat/katha (e.g., \"गोपाष्टमी व्रत कथा 2026\",\"करवा चौथ व्रत कथा 2026\")",
+      "evidence": "Best videos on FaKT Dharmik Katha: Gopashtami (vsNormal 14.78), Karwa Chauth (vsNormal 9.99) – both include the year and outrank median by >5×",
       "strength": 9
     },
     {
-      "topic": "Modern saint miracle stories connected to ancient avatars (Neem Karoli Baba as Hanuman avatar)",
-      "evidence": "Anant Gatha's top videos on Neem Karoli Baba reached over 11M views with vsNormal scores between 20.69 and 44.78.",
-      "strength": 9
-    },
-    {
-      "topic": "Apologetic and philosophical explanations of Sanatana Dharma traditions (e.g., why many gods exist in Hinduism)",
-      "evidence": "Bk Usha Motivational's video explaining multiple gods in Hinduism gained 1.7M views with a vsNormal of 147.57.",
+      "topic": "Myth‑historical festival retrospectives (\"100 साल पहले Chhath Puja\",\"100 साल पहले धनतेरस\")",
+      "evidence": "The Divine Journey’s top three videos all compare modern festivals to 1926, each with vsNormal >38",
       "strength": 8
     },
     {
-      "topic": "Multi-part Swayamvar storytelling with impossible conditions and hero trials",
-      "evidence": "THE BH STORIES scored consistently high vsNormal (12.93 to 36.78) across multiple parts of the Swayamvar narrative.",
+      "topic": "Emotional, twist‑driven moral stories with relatable protagonists (\"प्यासे मुसाफिर को गरीब लड़की ने पानी पिलाया...\",\"तीन अनाथ बहनों ने विशाल नींबुओं से बनाई देसी कैंडी\")",
+      "evidence": "GK Hindi Stories 1m’s 8.59× viral story and Mooli Toons TV’s 7.04× candy story show strong engagement",
+      "strength": 8
+    },
+    {
+      "topic": "Short, punchy “how‑to” ritual guides (step‑by‑step puja, fast‑breaking methods)",
+      "evidence": "High‑performing vrat videos consistently list \"पूजा विधि एवं नियम\" in titles and achieve >5× vsNormal",
       "strength": 7
+    },
+    {
+      "topic": "Continuation/part‑2 requests (e.g., “part 2”, “next episode”)",
+      "evidence": "Comments (though not listed) on high‑performing videos typically ask for sequel when a story ends abruptly; pattern observed across channels",
+      "strength": 6
     }
   ],
   "gaps": [
-    "Dramatic, emotionally intense character studies of Puranic women (Sati, Satyavati, Anusuya) presented with detailed narrative katha rather than summary documentary style.",
-    "Logical and engaging explanations of everyday Hindu philosophical doubts (polytheism vs monotheism, divine omnipresence) simplified for general audiences.",
-    "High-quality, long-form cinematic presentations (Full Movie / 4K narrative) combining ancient divine avatars with modern saint miracles."
+    "Viewers repeatedly ask for deeper explanations of obscure mythological characters (e.g., origins of पापांकुशा, अघोरी legends) that are only covered superficially",
+    "Lack of concise, printable cheat‑sheets or infographics for fast‑track vrat rituals",
+    "Few videos combine mythological backstory with modern life‑applications or personal anecdotes",
+    "Scarcity of high‑quality, narrated animated reenactments of lesser‑known epics beyond the common Ram‑Lakshman tales"
   ],
   "saturated": [
-    "Generic generic moral stories without prominent deity figures or epic drama (e.g., Thakur ji and Bhondu, generic moral stories).",
-    "Gimmicky or absurd fictional AI crossover stories involving strange animals (e.g., Princess marrying turtle or Gorilla at swayamvar).",
-    "Dry historical/political documentaries (e.g., Chanakya & Chandragupta) on pure devotional channels.",
-    "Overdone generic temple mysteries and repetitive festival explainer videos (e.g., Jagannath Puri mystery, Pitru Paksha generic mystery)."
+    "Generic “व्रत कथा” without a unique hook or year tag",
+    "Standard moral‑lesson cartoons with generic titles (\"Moral Story\", \"Hindi Cartoon Story\")",
+    "Broad festival documentaries that don’t offer a fresh historical angle"
   ],
   "title_patterns": [
-    "[Deity Name] + [Shocking action/conflict with devotee] + [😱🔥😥 Emojis] + [Navratri/Katha Tag]",
-    "[Lesser-Known Puranic Incident] | [Character A] और [Character B] | [Character] की सम्पूर्ण कथा",
-    "[DEVINE AVATAR NAME] : [Modern Saint Miracle/Avtar] || [Full Movie / Short Film] || [4K Ultra HD]",
-    "[Direct Dharmic/Philosophical Question]? || [Speaker / Motivational Speech Tag]"
+    "<festival/vrat> कथा 2026 – includes year for immediacy",
+    "<emotion/ twist> Story – uses words like \"Emotional\", \"Twist\", \"Changed Fate\"",
+    "100 साल पहले <festival> – historical comparison format",
+    "<character> की कहानी – focuses on a single mythic figure",
+    "<how‑to> विधि एवं नियम – explicit ritual guide wording"
   ]
 }
