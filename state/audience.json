@@ -1,49 +1,54 @@
 {
-  "at": "2026-11-18T07:28:48.559Z",
+  "at": "2026-11-19T07:18:11.424Z",
   "channels": [
-    "⑱ƥѱȓãήȃ$",
-    "Kalia Katha",
-    "Gyan Adhyatmik Katha",
-    "KATHA SAGAR",
-    "Rasiya Films"
+    "Mystery of the World",
+    "Anant Gatha",
+    "GuruVaani Studio\n",
+    "THE BH STORIES ",
+    "Bk Usha Motivational "
   ],
   "wants": [
     {
-      "topic": "Household conflict & divine moral testing (Devrani-Jethani, Bhabhi-Nanad vs Divine Justice)",
-      "evidence": "⑱ƥѱȓãήȃ$: Diwali Laxmi vs Daridrata (30.61x), Chhath Devrani-Jethani gold soup (4.39x), Bhai Dooj Bhabhi's gold vs Sister's Diya beating Yamraj (3.31x)",
+      "topic": "Maa Durga directly stepping into dramatic human conflicts and helping emotional/persecuted devotees",
+      "evidence": "GuruVaani Studio videos featuring Maa Durga interacting with an old woman, stepmother, and Chanda achieved massive performance (vsNormal 40.18 to 278.07).",
       "strength": 10
     },
     {
-      "topic": "Innocent & stubborn devotee bonding with God (रूठना, कट्टी, बालक की हठ)",
-      "evidence": "Kalia Katha: Gwala cutting ties for 100 years 'सौ साल की कट्टी' (1.59x), Child's threat making Thakur Ji run (1.54x); Rasiya Films: Adhaiya making Maa Durga work (10.27x)",
+      "topic": "Lesser-known Puranic and Mahabharat backstories (Sati vs Brahma, Satyavati & Rishi Parashar, Sati Anusuya test)",
+      "evidence": "Mystery of the World top videos focused on detailed Puranic events beat normal views by 13.68x to 43.76x.",
       "strength": 9
     },
     {
-      "topic": "Comprehensive full-story epics in a single sitting ('Full Movie' format)",
-      "evidence": "Rasiya Films: Ramayana Full Movie in one video beat normal by 24.95x (359K views in 13 days)",
+      "topic": "Modern saint miracle stories connected to ancient avatars (Neem Karoli Baba as Hanuman avatar)",
+      "evidence": "Anant Gatha's top videos on Neem Karoli Baba reached over 11M views with vsNormal scores between 20.69 and 44.78.",
+      "strength": 9
+    },
+    {
+      "topic": "Apologetic and philosophical explanations of Sanatana Dharma traditions (e.g., why many gods exist in Hinduism)",
+      "evidence": "Bk Usha Motivational's video explaining multiple gods in Hinduism gained 1.7M views with a vsNormal of 147.57.",
       "strength": 8
     },
     {
-      "topic": "Iconic origin stories and high-stakes divine face-offs (Untold origin, God vs Demon)",
-      "evidence": "KATHA SAGAR: Ganesha's head replacement untold story (34M views, 6.3x vsNormal), Durga vs Mahishasur (2.05x), Bal Krishna vs Kaliya Naag (1.27x)",
-      "strength": 8
+      "topic": "Multi-part Swayamvar storytelling with impossible conditions and hero trials",
+      "evidence": "THE BH STORIES scored consistently high vsNormal (12.93 to 36.78) across multiple parts of the Swayamvar narrative.",
+      "strength": 7
     }
   ],
   "gaps": [
-    "Folkloric household kathas that blend domestic relationship dynamics with scriptural lessons (viewers engage heavily with humility vs arrogance stories rather than dry ritual readings)",
-    "Deeply emotional 'Bhakta Vatsalya' leelas highlighting rustic or child devotees holding God accountable to their love",
-    "Complete, uninterrupted chronological sagas (full movies/long compilations) done with high narrative pace"
+    "Dramatic, emotionally intense character studies of Puranic women (Sati, Satyavati, Anusuya) presented with detailed narrative katha rather than summary documentary style.",
+    "Logical and engaging explanations of everyday Hindu philosophical doubts (polytheism vs monotheism, divine omnipresence) simplified for general audiences.",
+    "High-quality, long-form cinematic presentations (Full Movie / 4K narrative) combining ancient divine avatars with modern saint miracles."
   ],
   "saturated": [
-    "Routine nine-day Navratri vrat kathas (e.g., standard Day 6 Katyayani, Day 9 Siddhidatri perform at 0.07x - 0.11x vsNormal)",
-    "Standalone Bhajans and music tracks posted on story-driven channels (consistently dropping to 0.01x vsNormal)",
-    "English-titled mythological summaries ('When Hanuman Ate the Sun' hit 0.01x)",
-    "Dry temple documentary/mystery explainers lacking dramatic story arcs (e.g., Tirupati Balaji mystery at 0.01x)"
+    "Generic generic moral stories without prominent deity figures or epic drama (e.g., Thakur ji and Bhondu, generic moral stories).",
+    "Gimmicky or absurd fictional AI crossover stories involving strange animals (e.g., Princess marrying turtle or Gorilla at swayamvar).",
+    "Dry historical/political documentaries (e.g., Chanakya & Chandragupta) on pure devotional channels.",
+    "Overdone generic temple mysteries and repetitive festival explainer videos (e.g., Jagannath Puri mystery, Pitru Paksha generic mystery)."
   ],
   "title_patterns": [
-    "High-contrast domestic drama hook: [घमंडी रिश्तेदार का अहंकार] Vs [सच्चे भक्त की तुच्छ भेंट/दीपक] + [चमत्कारिक परिणाम]",
-    "Playful devotee defiance hook: 'जब [ग्वाले/बालक/अढ़ैया] ने भगवान से की [कट्टी/धमकी/काम करवाया]...'",
-    "Definitive single-video promise: '[ग्रंथ/चरित्र] Full Movie | पूरी कहानी एक ही वीडियो/फिल्म में 🚩'",
-    "Origin drama & vs showdown: '[भगवान] के [घटना] बनने की अद्भुत कथा | [पात्र 1] Vs [पात्र 2]'"
+    "[Deity Name] + [Shocking action/conflict with devotee] + [😱🔥😥 Emojis] + [Navratri/Katha Tag]",
+    "[Lesser-Known Puranic Incident] | [Character A] और [Character B] | [Character] की सम्पूर्ण कथा",
+    "[DEVINE AVATAR NAME] : [Modern Saint Miracle/Avtar] || [Full Movie / Short Film] || [4K Ultra HD]",
+    "[Direct Dharmic/Philosophical Question]? || [Speaker / Motivational Speech Tag]"
   ]
 }
