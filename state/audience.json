@@ -1,40 +1,47 @@
 {
-  "at": "2026-11-21T19:10:34.168Z",
+  "at": "2026-11-21T23:12:37.057Z",
   "channels": [
-    "Divine Soul India",
-    "FaKT Dharmik Katha",
-    "GK Hindi Stories 1m",
-    "The Divine Journey",
-    "Hubba Bubba"
+    "⑱ƥѱȓãήȃ$",
+    "Kalia Katha",
+    "Gyan Adhyatmik Katha",
+    "KATHA SAGAR",
+    "Rasiya Films"
   ],
   "wants": [
     {
-      "topic": "Historical perspective on how Hindu festivals were celebrated 100 years ago (1920s vintage/retro format)",
-      "evidence": "The Divine Journey videos on '100 साल पहले Chhath Puja', '100 साल पहले धनतेरस', and '1926 में Diwali' generated massive engagement with vsNormal between 42.26 and 62.51.",
+      "topic": "Festival Vrat Kathas merged with Household/Family Drama",
+      "evidence": "⑱ƥѱȓãήȃ$'s Diwali Laxmi vs Daridrata (33.03x normal), Chhath Devrani-Jethani gold soup story (3.43x), and Bhai Dooj Bhabhi vs Sister story (3.04x).",
       "strength": 10
     },
     {
-      "topic": "Timely Vrat Kathas released right before seasonal festivals with full story twist and Puja Vidhi",
-      "evidence": "FaKT Dharmik Katha videos on Karwa Chauth (vsNormal 8.08), Gopashtami (vsNormal 8.11), and Amla Navami (vsNormal 10.97) heavily outperformed daily routine content.",
+      "topic": "Emotional Devotee-God Bond & Innocent Stubbornness Stories",
+      "evidence": "Kalia Katha's stories of a Gwala doing '100-year Katti' with Krishna (1.77x) and a child devotee threatening Thakur Ji to appear (1.77x); Rasiya Films' Adhaiya Brahman testing Durga/Ram (10.55x-12.26x).",
       "strength": 9
     },
     {
-      "topic": "Heart-touching Jagannath Puri Mahaprabhu & Sant Prakash Das Ji devotional Bhajans",
-      "evidence": "Divine Soul India video 'तू ना संभाले तो हमें कौन संभाले | Jagannath Chaka Nain' achieved vsNormal of 13.63.",
+      "topic": "Full Epic Story Compilations ('Full Movie' format)",
+      "evidence": "Rasiya Films' 'Ramayana Full Movie | रामायण की पूरी कहानी एक ही फिल्म में' (22.87x normal).",
+      "strength": 9
+    },
+    {
+      "topic": "Iconic Divine Battles and Origin Myths with Clash Framing",
+      "evidence": "KATHA SAGAR's 'Ganesh Ji ke Gajanan Banne Ki Katha' (34.2M views, 6.14x normal) and 'Maa Durga Vs Mahishasur' (1.94x normal).",
       "strength": 8
     }
   ],
   "gaps": [
-    "100-year historical documentary style applied to ancient temple traditions and lesser-known regional Hindu festivals.",
-    "Detailed narrative Kathas explaining the deep spiritual 'why' behind specific Hindu rituals rather than just routine speed-reading of standard fast stories."
+    "Emotionally dramatized versions of festival kathas focusing on interpersonal human dynamics (e.g., sister vs sister-in-law, greed vs devotion) rather than plain ritual narrations.",
+    "Lesser-known folklore dev-bhakt characters (like Adhaiya Brahman) presented in long-form animation storytelling."
   ],
   "saturated": [
-    "Generic, off-season routine Vrat Kathas (e.g., standard Papankusha Ekadashi or Tuesday Mangalwar Vrat Katha uploaded out of key festival windows).",
-    "Generic Nonstop Nirgun / Chetawani Geet without strong artist branding or visual storytelling."
+    "Standard daily Navratri Vrat Kathas without unique narrative angles (e.g., Maa Katyayani or Maa Siddhidatri day-by-day stories performing as low as 0.07x-0.11x).",
+    "Generic musical tracks or bhajan uploads on storytelling channels (Janmashtami HD song at 0.01x).",
+    "Dry biographical summaries of saints or temples without dramatic conflict (Neem Karoli Baba at 0.05x, Tirupati Balaji at 0.01x)."
   ],
   "title_patterns": [
-    "100 साल पहले [Festival Name] कैसी होती थी? | [Year] का [Festival Name]",
-    "[Festival Name] व्रत कथा | [Key narrative hook/twist] , सम्पूर्ण कथा एवं पूजा विधि!",
-    "तू ना संभाले तो हमें कौन संभाले | [Deity/Temple Name] | [Bhajan Title]"
+    "Emotional/Shocking Devotee Hook: 'जब [Character] ने [Shocking Action/Threat]!' (e.g., 'जब एक ग्वाले ने स्वयं भगवान से कर ली \"सौ साल की कट्टी\"!')",
+    "Family Contrast + Divine Element: '[Jethani/Bhabhi] का [Material Item] vs [Devrani/Sister] का [Devotional Item] + [Festival Name]'",
+    "Action & Epic Conflict: '[Deity] Vs [Demon/Entity] | [Event] की अद्भुत कथा'",
+    "Complete Compilation Hook: '[Epic/Deity Name] Full Movie | पूरी कहानी एक ही फिल्म में 🚩'"
   ]
 }
