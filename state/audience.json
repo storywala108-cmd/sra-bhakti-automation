@@ -1,55 +1,40 @@
 {
-  "at": "2026-11-20T20:07:40.078Z",
+  "at": "2026-11-21T19:10:34.168Z",
   "channels": [
-    "Mystery of the World",
-    "Anant Gatha",
-    "GuruVaani Studio\n",
-    "THE BH STORIES ",
-    "Bk Usha Motivational "
+    "Divine Soul India",
+    "FaKT Dharmik Katha",
+    "GK Hindi Stories 1m",
+    "The Divine Journey",
+    "Hubba Bubba"
   ],
   "wants": [
     {
-      "topic": "Emotional Durga / Navratri miracle stories involving vulnerable devotees tested or saved by the Goddess",
-      "evidence": "GuruVaani Studio's video 'माँ दुर्गा से आखिर क्यों बूढ़ी औरत ने करवाया खूब काम?' hit 287x normal views (6.3M views); top 3 best videos all revolve around dramatic Maa Durga devotee miracles.",
+      "topic": "Historical perspective on how Hindu festivals were celebrated 100 years ago (1920s vintage/retro format)",
+      "evidence": "The Divine Journey videos on '100 साल पहले Chhath Puja', '100 साल पहले धनतेरस', and '1926 में Diwali' generated massive engagement with vsNormal between 42.26 and 62.51.",
       "strength": 10
     },
     {
-      "topic": "Modern saint miracles presented as divine reincarnations (e.g., Neem Karoli Baba as Hanuman Avtar)",
-      "evidence": "Anant Gatha's 4K movie on Neem Karoli Baba reached 11.4M views (44.1x vsNormal) and a full movie followup did 20.5x vsNormal.",
-      "strength": 10
-    },
-    {
-      "topic": "Lesser-known Puranic backstories and dramatic tests of chastity/power (Sati, Sati Anasuya, Satyavati & Parashar)",
-      "evidence": "Mystery of the World achieved 42.6x vsNormal with 'ब्रह्मा जी से सती ने छीने पति के प्राण' and 30.2x with Satyavati/Parashar Rishi.",
+      "topic": "Timely Vrat Kathas released right before seasonal festivals with full story twist and Puja Vidhi",
+      "evidence": "FaKT Dharmik Katha videos on Karwa Chauth (vsNormal 8.08), Gopashtami (vsNormal 8.11), and Amla Navami (vsNormal 10.97) heavily outperformed daily routine content.",
       "strength": 9
     },
     {
-      "topic": "Provocative apologetics and defensive Hindu faith questions addressing common doubts or myths",
-      "evidence": "Bk Usha Motivational video 'हिंदू धर्म में इतने भगवान और दूसरे धर्म में एक ही भगवान क्यों?' achieved 151.4x vsNormal (1.7M views); 'मक्का में शिवजी' got 47.3x vsNormal.",
-      "strength": 9
-    },
-    {
-      "topic": "High-stakes Swayamvar and 'impossible task' folk/mythological AI stories",
-      "evidence": "THE BH STORIES generated 5.2M views (39x vsNormal) across multiple parts using 'घमंडी राजकुमारी का स्वयंवर: 5 असंभव शर्तें'.",
+      "topic": "Heart-touching Jagannath Puri Mahaprabhu & Sant Prakash Das Ji devotional Bhajans",
+      "evidence": "Divine Soul India video 'तू ना संभाले तो हमें कौन संभाले | Jagannath Chaka Nain' achieved vsNormal of 13.63.",
       "strength": 8
     }
   ],
   "gaps": [
-    "High-production cinematic/4K AI animated kathas focused on modern modern-era saints and localized miracles (e.g., Neem Karoli Baba, Shirdi Sai, Gajanan Maharaj) tied directly to main Hindu avatars.",
-    "Dramatic, emotionally charged narrative portrayals of female Puranic figures (Sati, Satyavati, Anasuya, Vrinda) focusing on intense divine conflicts rather than simple recitations.",
-    "Clear, respectful apologetics answering modern faith questions with engaging visual storytelling rather than simple talking-head lectures."
+    "100-year historical documentary style applied to ancient temple traditions and lesser-known regional Hindu festivals.",
+    "Detailed narrative Kathas explaining the deep spiritual 'why' behind specific Hindu rituals rather than just routine speed-reading of standard fast stories."
   ],
   "saturated": [
-    "Generic 'Moral Story' videos lacking iconic mythological gods or specific scriptural roots (e.g., generic stories like 'Thakur ji and Bhondu' underperformed at 0.09x).",
-    "Dry historical documentaries without high mythic/emotional hooks (e.g., standard Chanakya/Chandragupta history performed at 0.18x vsNormal).",
-    "Absurd or overly fictionalized fairy-tale AI stories featuring nonsensical animal pairings (e.g., Princess marrying turtle/gorilla flopped at 0.09x-0.23x).",
-    "Dense, abstract philosophical lectures without sensational or relatable hooks (e.g., Karma Yoga vs Sannyasa Yoga flopped at 0.23x)."
+    "Generic, off-season routine Vrat Kathas (e.g., standard Papankusha Ekadashi or Tuesday Mangalwar Vrat Katha uploaded out of key festival windows).",
+    "Generic Nonstop Nirgun / Chetawani Geet without strong artist branding or visual storytelling."
   ],
   "title_patterns": [
-    "[Deity/Goddess] से आखिर क्यों [Devotee] ने [Shocking Action]? 😱🔥 | [Festival/Occasion]",
-    "[Deity] ANSH AVTAR : || Part/Movie || The Story Of [Saint Name] || 4K Full Story",
-    "[Arrogant Character] का स्वयंवर: जब [Underdog] पहुंचा [Impossible Condition] पूरी करने!",
-    "[Character A] ने [Character B] से छीने [Power/Life] | [Story Name] की अद्भुत कथा",
-    "[Bold/Provocative Faith Question] ? || [Speaker/Brand] best hindi speech"
+    "100 साल पहले [Festival Name] कैसी होती थी? | [Year] का [Festival Name]",
+    "[Festival Name] व्रत कथा | [Key narrative hook/twist] , सम्पूर्ण कथा एवं पूजा विधि!",
+    "तू ना संभाले तो हमें कौन संभाले | [Deity/Temple Name] | [Bhajan Title]"
   ]
 }
