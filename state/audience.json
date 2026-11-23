@@ -1,52 +1,42 @@
 {
-  "at": "2026-11-22T23:35:59.264Z",
+  "at": "2026-11-23T07:27:36.043Z",
   "channels": [
-    "Mystery of the World",
-    "Anant Gatha",
-    "GuruVaani Studio\n",
-    "THE BH STORIES ",
-    "Bk Usha Motivational "
+    "Shri Leela Charitam",
+    "Divine Soul India",
+    "FaKT Dharmik Katha",
+    "GK Hindi Stories 1m",
+    "The Divine Journey"
   ],
   "wants": [
     {
-      "topic": "High-emotion Navratri/Durga stories featuring ordinary people facing injustice (stepmothers, cruel employers) resolved by divine intervention",
-      "evidence": "GuruVaani Studio videos on Maa Durga & old woman (468.42x normal), Maa Durga & Sugandha stepmother story (66.72x normal)",
+      "topic": "Historical nostalgia framing of Hindu festivals ('100 साल पहले 1926 में [Festival] कैसे मनाया जाता था?')",
+      "evidence": "The Divine Journey achieved massive view spikes with 100-year-ago festival retrospectives: Chhath Puja (64.8x vsNormal), Dhanteras (51.56x vsNormal), and Diwali (43.91x vsNormal).",
       "strength": 10
     },
     {
-      "topic": "Provocative/Philosophical Puranic debates and comparative questions about Hindu belief systems",
-      "evidence": "Bk Usha video 'हिंदू धर्म में इतने भगवान और दूसरे धर्म में एक ही भगवान क्यों ?' (157.38x normal) and 'मक्का में शिवजी' (46.18x normal)",
+      "topic": "Unusual and humorous human-divine interactions involving Lord Shiva (e.g., Yamraj seeing Shiva sweep, old woman chasing Shiva with a broom)",
+      "evidence": "Shri Leela Charitam dominated with Shiva sweeping before Yamraj (22.64x vsNormal), old woman chasing Shiva (11.87x vsNormal), and a swindler trying to cheat Shiva in Kashi (6.04x vsNormal).",
       "strength": 9
     },
     {
-      "topic": "Lesser-known explicit Puranic tales involving Rishis, curses, and intricate relationship secrets from Mahabharat & Markandeya Puran",
-      "evidence": "Mystery of the World videos on Rishi Markandeya & Indra's wife (34.08x normal), Parashar Rishi & Satyavati (16.74x normal)",
+      "topic": "Festival-tied Vrat Kathas with complete Puja Vidhi and dramatic human story elements (e.g., 7 brothers breaking sister's fast)",
+      "evidence": "FaKT Dharmik Katha scored high on Tulsi Vivah katha (11.9x vsNormal), Amla Navami (8.12x vsNormal), and Karwa Chauth 7 brothers story (7.55x vsNormal).",
       "strength": 8
-    },
-    {
-      "topic": "Cinematic/4K sagas on modern saint miracles connected to deities (e.g., Neem Karoli Baba as Hanuman Avatar)",
-      "evidence": "Anant Gatha videos 'The Story Of Neem Karoli BaBa' Part 1 (43.26x normal) and full movie (20.47x normal)",
-      "strength": 8
-    },
-    {
-      "topic": "Multi-part Swayamvar fantasy AI stories centered around humbling arrogant princesses with impossible conditions",
-      "evidence": "THE BH STORIES 'घमंडी राजकुमारी का स्वयंवर' series generating 41.17x, 18.37x, and 14.25x performance across parts",
-      "strength": 7
     }
   ],
   "gaps": [
-    "Deep, multi-part cinematic narratives of modern avatars (e.g. Neem Karoli Baba, Deoraha Baba) backed by Puranic context rather than basic summaries",
-    "Detailed mythological context explaining controversial Puranic incidents (e.g. Parashar-Satyavati, Markandeya stories) without sensationalizing into generic moral shorts",
-    "Clear, respectful scriptural answers to common comparative religion doubts without shifting into generic motivational lectures"
+    "100-year historical documentary-style retrospectives applied to major temple traditions and lesser-known regional festivals (e.g., 100 years ago Jagannath Rath Yatra or Mahakumbh).",
+    "Richly animated/narrated lesser-known Shiv Leela stories highlighting Mahadev's innocence (Bholenath) and playful interactions with everyday villagers."
   ],
   "saturated": [
-    "Generic short moral stories about Thakur Ji / simple villagers without dramatic stakes or visual production",
-    "Basic historical retellings of Chanakya-Chandragupta and Jagannath Puri history without a strong narrative hook",
-    "Generic motivational reels/shorts and basic ritual advice for Pitru Paksha"
+    "Generic chapter-by-chapter recitations without dramatic storytelling (e.g., Kartik Maas Mahatmya Adhyay 3 at 0.01x vsNormal).",
+    "Standard weekly vrat kathas without novel angles (e.g., generic Mangalwar Vrat Katha at 0x vsNormal).",
+    "Repetitive short summaries of well-known myth origins (e.g., Papankusha Ekadashi or why Vishnu turned to stone at 0.03x-0.05x vsNormal).",
+    "Generic background Bhajans without compelling visual storytelling (Divine Soul India videos staying near 1x vsNormal)."
   ],
   "title_patterns": [
-    "Shock/Curiosity dramatic narrative: [Deity/Rishi] ने [Unusual action] क्यों किया/करवाया? | [Topic] की अद्भुत कथा",
-    "Provocative Question format: [Controversial Topic/Doubt]? | [Expert/Speaker] best hindi kathas",
-    "High-stakes Swayamvar/Fantasy hook: घमंडी [Character] का स्वयंवर: जब [Unlikely protagonist] पहुंचा [X] असंभव शर्तें पूरी करने!"
+    "100 साल पहले [Festival Name] कैसा होता था? | [Year] का [Festival Name] || Hindi Documentary",
+    "जब [Character/Yamraj/Swindler]... स्वयं [Deity] को [Unusual Act] देख रह गया दंग! 😱 फिर जो हुआ...",
+    "[Festival Name] की संपूर्ण कथा और पूजा विधि | [Dramatic story hook/twist] ! fakt katha"
   ]
 }
