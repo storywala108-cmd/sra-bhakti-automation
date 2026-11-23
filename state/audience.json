@@ -1,47 +1,52 @@
 {
-  "at": "2026-11-21T23:12:37.057Z",
+  "at": "2026-11-22T23:35:59.264Z",
   "channels": [
-    "⑱ƥѱȓãήȃ$",
-    "Kalia Katha",
-    "Gyan Adhyatmik Katha",
-    "KATHA SAGAR",
-    "Rasiya Films"
+    "Mystery of the World",
+    "Anant Gatha",
+    "GuruVaani Studio\n",
+    "THE BH STORIES ",
+    "Bk Usha Motivational "
   ],
   "wants": [
     {
-      "topic": "Festival Vrat Kathas merged with Household/Family Drama",
-      "evidence": "⑱ƥѱȓãήȃ$'s Diwali Laxmi vs Daridrata (33.03x normal), Chhath Devrani-Jethani gold soup story (3.43x), and Bhai Dooj Bhabhi vs Sister story (3.04x).",
+      "topic": "High-emotion Navratri/Durga stories featuring ordinary people facing injustice (stepmothers, cruel employers) resolved by divine intervention",
+      "evidence": "GuruVaani Studio videos on Maa Durga & old woman (468.42x normal), Maa Durga & Sugandha stepmother story (66.72x normal)",
       "strength": 10
     },
     {
-      "topic": "Emotional Devotee-God Bond & Innocent Stubbornness Stories",
-      "evidence": "Kalia Katha's stories of a Gwala doing '100-year Katti' with Krishna (1.77x) and a child devotee threatening Thakur Ji to appear (1.77x); Rasiya Films' Adhaiya Brahman testing Durga/Ram (10.55x-12.26x).",
+      "topic": "Provocative/Philosophical Puranic debates and comparative questions about Hindu belief systems",
+      "evidence": "Bk Usha video 'हिंदू धर्म में इतने भगवान और दूसरे धर्म में एक ही भगवान क्यों ?' (157.38x normal) and 'मक्का में शिवजी' (46.18x normal)",
       "strength": 9
     },
     {
-      "topic": "Full Epic Story Compilations ('Full Movie' format)",
-      "evidence": "Rasiya Films' 'Ramayana Full Movie | रामायण की पूरी कहानी एक ही फिल्म में' (22.87x normal).",
-      "strength": 9
-    },
-    {
-      "topic": "Iconic Divine Battles and Origin Myths with Clash Framing",
-      "evidence": "KATHA SAGAR's 'Ganesh Ji ke Gajanan Banne Ki Katha' (34.2M views, 6.14x normal) and 'Maa Durga Vs Mahishasur' (1.94x normal).",
+      "topic": "Lesser-known explicit Puranic tales involving Rishis, curses, and intricate relationship secrets from Mahabharat & Markandeya Puran",
+      "evidence": "Mystery of the World videos on Rishi Markandeya & Indra's wife (34.08x normal), Parashar Rishi & Satyavati (16.74x normal)",
       "strength": 8
+    },
+    {
+      "topic": "Cinematic/4K sagas on modern saint miracles connected to deities (e.g., Neem Karoli Baba as Hanuman Avatar)",
+      "evidence": "Anant Gatha videos 'The Story Of Neem Karoli BaBa' Part 1 (43.26x normal) and full movie (20.47x normal)",
+      "strength": 8
+    },
+    {
+      "topic": "Multi-part Swayamvar fantasy AI stories centered around humbling arrogant princesses with impossible conditions",
+      "evidence": "THE BH STORIES 'घमंडी राजकुमारी का स्वयंवर' series generating 41.17x, 18.37x, and 14.25x performance across parts",
+      "strength": 7
     }
   ],
   "gaps": [
-    "Emotionally dramatized versions of festival kathas focusing on interpersonal human dynamics (e.g., sister vs sister-in-law, greed vs devotion) rather than plain ritual narrations.",
-    "Lesser-known folklore dev-bhakt characters (like Adhaiya Brahman) presented in long-form animation storytelling."
+    "Deep, multi-part cinematic narratives of modern avatars (e.g. Neem Karoli Baba, Deoraha Baba) backed by Puranic context rather than basic summaries",
+    "Detailed mythological context explaining controversial Puranic incidents (e.g. Parashar-Satyavati, Markandeya stories) without sensationalizing into generic moral shorts",
+    "Clear, respectful scriptural answers to common comparative religion doubts without shifting into generic motivational lectures"
   ],
   "saturated": [
-    "Standard daily Navratri Vrat Kathas without unique narrative angles (e.g., Maa Katyayani or Maa Siddhidatri day-by-day stories performing as low as 0.07x-0.11x).",
-    "Generic musical tracks or bhajan uploads on storytelling channels (Janmashtami HD song at 0.01x).",
-    "Dry biographical summaries of saints or temples without dramatic conflict (Neem Karoli Baba at 0.05x, Tirupati Balaji at 0.01x)."
+    "Generic short moral stories about Thakur Ji / simple villagers without dramatic stakes or visual production",
+    "Basic historical retellings of Chanakya-Chandragupta and Jagannath Puri history without a strong narrative hook",
+    "Generic motivational reels/shorts and basic ritual advice for Pitru Paksha"
   ],
   "title_patterns": [
-    "Emotional/Shocking Devotee Hook: 'जब [Character] ने [Shocking Action/Threat]!' (e.g., 'जब एक ग्वाले ने स्वयं भगवान से कर ली \"सौ साल की कट्टी\"!')",
-    "Family Contrast + Divine Element: '[Jethani/Bhabhi] का [Material Item] vs [Devrani/Sister] का [Devotional Item] + [Festival Name]'",
-    "Action & Epic Conflict: '[Deity] Vs [Demon/Entity] | [Event] की अद्भुत कथा'",
-    "Complete Compilation Hook: '[Epic/Deity Name] Full Movie | पूरी कहानी एक ही फिल्म में 🚩'"
+    "Shock/Curiosity dramatic narrative: [Deity/Rishi] ने [Unusual action] क्यों किया/करवाया? | [Topic] की अद्भुत कथा",
+    "Provocative Question format: [Controversial Topic/Doubt]? | [Expert/Speaker] best hindi kathas",
+    "High-stakes Swayamvar/Fantasy hook: घमंडी [Character] का स्वयंवर: जब [Unlikely protagonist] पहुंचा [X] असंभव शर्तें पूरी करने!"
   ]
 }
