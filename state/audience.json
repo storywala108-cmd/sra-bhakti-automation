@@ -1,48 +1,53 @@
 {
-  "at": "2026-11-24T03:58:11.665Z",
+  "at": "2026-11-24T09:48:06.958Z",
   "channels": [
-    "Hubba Bubba",
-    "⑱ƥѱȓãήȃ$",
-    "Kalia Katha",
-    "Gyan Adhyatmik Katha",
-    "KATHA SAGAR"
+    "Rasiya Films",
+    "Mystery of the World",
+    "Anant Gatha",
+    "GuruVaani Studio\n",
+    "THE BH STORIES "
   ],
   "wants": [
     {
-      "topic": "Seasonal Festival Vrat Kathas with Relatable Family & Moral Drama (Laxmi-Daridrata, Devrani-Jethani, Bhai Dooj)",
-      "evidence": "⑱ƥѱȓãήȃ$ Deepavali Katha achieved 34.05x vsNormal (8.1M views) and Chhath Vrat Katha reached 3.14x vsNormal; Gyan Adhyatmik Katha Dhanteras & Diwali stories hit 8.16x and 6.55x vsNormal.",
+      "topic": "Maa Durga disguised in domestic human life / testing devotees through hard labor or household ordeal",
+      "evidence": "GuruVaani Studio's video 'माँ दुर्गा से आखिर क्यों बूढ़ी औरत ने करवाया खूब काम?' achieved 479.84x normal views, and Rasiya Films' Adhiya Durga story achieved 10.47x normal views.",
       "strength": 10
     },
     {
-      "topic": "Childhood Krishna (Bal Krishna) Stories & Sweet Bhakta-Bhagwan Emotional Bonds in 3D Animation",
-      "evidence": "Kalia Katha's 'Balak ki dhamki' (1.89x vsNormal) and 'Gwala 100 saal ki katti' (1.86x vsNormal); KATHA SAGAR's 'Kaliya Naag Vs Bal Krishna' (8.6M views).",
+      "topic": "Neem Karoli Baba miracles framed as Hanuman Ansh Avatar in full-length film format",
+      "evidence": "Anant Gatha's Neem Karoli Baba videos achieved 42.72x and 20.36x normal views with millions of views on 4K short film packaging.",
       "strength": 9
     },
     {
-      "topic": "Epic Origin Stories & High-Stakes Deity Battles (Ganesh Origin, Durga vs Mahisasur)",
-      "evidence": "KATHA SAGAR's 'Ganesh ji ke Gajanan banne ki katha' gained 34M+ views (6.04x vsNormal) and 'Mahisasur Vadh' achieved 1.88x vsNormal.",
+      "topic": "Full Epic Story 'Full Movie' style single-video consolidations (e.g., Ramayana Full Story)",
+      "evidence": "Rasiya Films' Ramayana Full Movie hit 21.46x normal views, and Anant Gatha's Ramayan Full Movie hit 37.14x normal views.",
       "strength": 9
     },
     {
-      "topic": "Moral Twist Narratives where Deities Test Devotees' Intentions",
-      "evidence": "Top performing videos emphasize moral tests like Laxmi testing Daridrata/devotees or Krishna tricking/testing disciples ('Bhagwan ne khud karwa di chori').",
+      "topic": "Provocative/Unusual Sage & Purana tales (Markandeya Purana, Parashar-Satyavati encounter)",
+      "evidence": "Mystery of the World's Rishi Markandeya Purana video hit 31.92x normal views and Satyavati-Parashar story hit 16.75x normal views.",
+      "strength": 8
+    },
+    {
+      "topic": "Multi-part impossible task swayamvar/fantasy stories with clear progression",
+      "evidence": "THE BH STORIES' 5 impossible conditions swayamvar story gained 42.17x normal views on part 1 and maintained high performance across parts 2 and 3.",
       "strength": 8
     }
   ],
   "gaps": [
-    "High-quality 3D animated character narratives explaining the deeper mythological origin stories behind specific ritual items (e.g., Chaumukhi Deepak, Sone ka Soop).",
-    "Emotionally resonant devotee-god interaction stories told from the perspective of simple villagers/children rather than dry textual recitations."
+    "Deep-dive character-focused Puranic stories with provocative emotional hooks (e.g., lesser-known acts of Rishis and specific Purana episodes)",
+    "High-production 'Full Movie' consolidated format for individual deity miracles and saint biographies"
   ],
   "saturated": [
-    "Generic Pitru Paksha / Garud Puran death and soul mechanics (0.00x to 0.01x vsNormal on ⑱ƥѱȓãήȃ$).",
-    "Standard audio-only Bhajans or HD Song uploads on story-focused channels (0.01x vsNormal on KATHA SAGAR).",
-    "English-titled mythological videos targeting Hindi audiences (0.01x vsNormal on KATHA SAGAR).",
-    "Routine day-by-day Navratri ritual kathas lacking dramatic storytelling hooks (0.11x vsNormal on Gyan Adhyatmik Katha)."
+    "Generic Krishna birth in Devaki's cell stories without unique narrative angles",
+    "Standard Mahishasura Vadh / day-by-day routine Navratri updates",
+    "Generic Pitru Paksha mystery recaps",
+    "Chanakya and Chandragupta historical summaries on purely devotional/bhakti channels"
   ],
   "title_patterns": [
-    "Dramatic Question / Moral Twist Hook: '[Character] ने [Unexpected Action]? | [Deity/Festival] Vrat Katha' (e.g., 'छठी मैया ने ठुकराया घमंडी जेठानी का सोने का सूप?')",
-    "Shocking Devotee Hook: 'जब [Deity] ने स्वयं [Unexpected Moral Action]!' (e.g., 'जब भगवान ने खुद एक शिष्य से करवा दी चोरी!')",
-    "Epic Origin / Battle Formula: '[Deity] के [Transformation/Vadh] की अद्भुत कथा | [Deity 1] Vs [Deity 2/Demon]'",
-    "Seasonal Wealth & Family Focus: '[Festival Name] की कथा ~ [Deity] Pujan Katha | [Story Angle]'"
+    "Dramatic domestic conflict hook: '[Deity] से आखिर क्यों [Person] ने [Shocking Action]? 😱🔥'",
+    "Full story consolidation: '[Epic/Deity Name] Full Movie | [Topic] की पूरी कहानी एक ही फिल्म में 🚩'",
+    "Provocative sage hook: '[Rishi Name] ने [Character] के साथ ऐसा क्यों किया | [Purana Name]'",
+    "Saint avatar linkage: 'HANUMAN ANSH AVTAR : The Miracles / Story Of [Saint Name]'"
   ]
 }
