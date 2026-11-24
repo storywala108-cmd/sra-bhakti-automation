@@ -1,42 +1,48 @@
 {
-  "at": "2026-11-23T07:27:36.043Z",
+  "at": "2026-11-24T03:58:11.665Z",
   "channels": [
-    "Shri Leela Charitam",
-    "Divine Soul India",
-    "FaKT Dharmik Katha",
-    "GK Hindi Stories 1m",
-    "The Divine Journey"
+    "Hubba Bubba",
+    "⑱ƥѱȓãήȃ$",
+    "Kalia Katha",
+    "Gyan Adhyatmik Katha",
+    "KATHA SAGAR"
   ],
   "wants": [
     {
-      "topic": "Historical nostalgia framing of Hindu festivals ('100 साल पहले 1926 में [Festival] कैसे मनाया जाता था?')",
-      "evidence": "The Divine Journey achieved massive view spikes with 100-year-ago festival retrospectives: Chhath Puja (64.8x vsNormal), Dhanteras (51.56x vsNormal), and Diwali (43.91x vsNormal).",
+      "topic": "Seasonal Festival Vrat Kathas with Relatable Family & Moral Drama (Laxmi-Daridrata, Devrani-Jethani, Bhai Dooj)",
+      "evidence": "⑱ƥѱȓãήȃ$ Deepavali Katha achieved 34.05x vsNormal (8.1M views) and Chhath Vrat Katha reached 3.14x vsNormal; Gyan Adhyatmik Katha Dhanteras & Diwali stories hit 8.16x and 6.55x vsNormal.",
       "strength": 10
     },
     {
-      "topic": "Unusual and humorous human-divine interactions involving Lord Shiva (e.g., Yamraj seeing Shiva sweep, old woman chasing Shiva with a broom)",
-      "evidence": "Shri Leela Charitam dominated with Shiva sweeping before Yamraj (22.64x vsNormal), old woman chasing Shiva (11.87x vsNormal), and a swindler trying to cheat Shiva in Kashi (6.04x vsNormal).",
+      "topic": "Childhood Krishna (Bal Krishna) Stories & Sweet Bhakta-Bhagwan Emotional Bonds in 3D Animation",
+      "evidence": "Kalia Katha's 'Balak ki dhamki' (1.89x vsNormal) and 'Gwala 100 saal ki katti' (1.86x vsNormal); KATHA SAGAR's 'Kaliya Naag Vs Bal Krishna' (8.6M views).",
       "strength": 9
     },
     {
-      "topic": "Festival-tied Vrat Kathas with complete Puja Vidhi and dramatic human story elements (e.g., 7 brothers breaking sister's fast)",
-      "evidence": "FaKT Dharmik Katha scored high on Tulsi Vivah katha (11.9x vsNormal), Amla Navami (8.12x vsNormal), and Karwa Chauth 7 brothers story (7.55x vsNormal).",
+      "topic": "Epic Origin Stories & High-Stakes Deity Battles (Ganesh Origin, Durga vs Mahisasur)",
+      "evidence": "KATHA SAGAR's 'Ganesh ji ke Gajanan banne ki katha' gained 34M+ views (6.04x vsNormal) and 'Mahisasur Vadh' achieved 1.88x vsNormal.",
+      "strength": 9
+    },
+    {
+      "topic": "Moral Twist Narratives where Deities Test Devotees' Intentions",
+      "evidence": "Top performing videos emphasize moral tests like Laxmi testing Daridrata/devotees or Krishna tricking/testing disciples ('Bhagwan ne khud karwa di chori').",
       "strength": 8
     }
   ],
   "gaps": [
-    "100-year historical documentary-style retrospectives applied to major temple traditions and lesser-known regional festivals (e.g., 100 years ago Jagannath Rath Yatra or Mahakumbh).",
-    "Richly animated/narrated lesser-known Shiv Leela stories highlighting Mahadev's innocence (Bholenath) and playful interactions with everyday villagers."
+    "High-quality 3D animated character narratives explaining the deeper mythological origin stories behind specific ritual items (e.g., Chaumukhi Deepak, Sone ka Soop).",
+    "Emotionally resonant devotee-god interaction stories told from the perspective of simple villagers/children rather than dry textual recitations."
   ],
   "saturated": [
-    "Generic chapter-by-chapter recitations without dramatic storytelling (e.g., Kartik Maas Mahatmya Adhyay 3 at 0.01x vsNormal).",
-    "Standard weekly vrat kathas without novel angles (e.g., generic Mangalwar Vrat Katha at 0x vsNormal).",
-    "Repetitive short summaries of well-known myth origins (e.g., Papankusha Ekadashi or why Vishnu turned to stone at 0.03x-0.05x vsNormal).",
-    "Generic background Bhajans without compelling visual storytelling (Divine Soul India videos staying near 1x vsNormal)."
+    "Generic Pitru Paksha / Garud Puran death and soul mechanics (0.00x to 0.01x vsNormal on ⑱ƥѱȓãήȃ$).",
+    "Standard audio-only Bhajans or HD Song uploads on story-focused channels (0.01x vsNormal on KATHA SAGAR).",
+    "English-titled mythological videos targeting Hindi audiences (0.01x vsNormal on KATHA SAGAR).",
+    "Routine day-by-day Navratri ritual kathas lacking dramatic storytelling hooks (0.11x vsNormal on Gyan Adhyatmik Katha)."
   ],
   "title_patterns": [
-    "100 साल पहले [Festival Name] कैसा होता था? | [Year] का [Festival Name] || Hindi Documentary",
-    "जब [Character/Yamraj/Swindler]... स्वयं [Deity] को [Unusual Act] देख रह गया दंग! 😱 फिर जो हुआ...",
-    "[Festival Name] की संपूर्ण कथा और पूजा विधि | [Dramatic story hook/twist] ! fakt katha"
+    "Dramatic Question / Moral Twist Hook: '[Character] ने [Unexpected Action]? | [Deity/Festival] Vrat Katha' (e.g., 'छठी मैया ने ठुकराया घमंडी जेठानी का सोने का सूप?')",
+    "Shocking Devotee Hook: 'जब [Deity] ने स्वयं [Unexpected Moral Action]!' (e.g., 'जब भगवान ने खुद एक शिष्य से करवा दी चोरी!')",
+    "Epic Origin / Battle Formula: '[Deity] के [Transformation/Vadh] की अद्भुत कथा | [Deity 1] Vs [Deity 2/Demon]'",
+    "Seasonal Wealth & Family Focus: '[Festival Name] की कथा ~ [Deity] Pujan Katha | [Story Angle]'"
   ]
 }
