@@ -1,41 +1,62 @@
 {
-  "at": "2026-11-25T08:22:28.824Z",
+  "at": "2026-11-25T17:11:25.714Z",
   "channels": [
-    "Jagannath Toons",
-    "Shri Leela Charitam",
-    "Divine Soul India",
-    "FaKT Dharmik Katha",
-    "GK Hindi Stories 1m"
+    "Kalyug Rahasya",
+    "The Divine Journey",
+    "Hubba Bubba",
+    "⑱ƥѱȓãήȃ$",
+    "Gyan Adhyatmik Katha"
   ],
   "wants": [
     {
-      "topic": "Lord Shiva (Mahadev) in disguised, humble, or humorous situations",
-      "evidence": "Shri Leela Charitam's 'Mahadev sweeping floor in front of Yamraj' (vsNormal: 22.71) and 'Boodhi Amma chasing Shiva with broom' (vsNormal: 12.25); Jagannath Toons' 'Bure Fase Mahadev' (vsNormal: 19.79)",
-      "strength": 10
+      "topic": "Origin stories of major deities (Trimurti, Vishnu, Shiva, Ganesha)",
+      "evidence": "Kalyug Rahasya videos \"🔱 तीनों देवताओं की उत्पत्ति...\" (vsNormal 96.35) and \"🔱 भगवान विष्णु कौन हैं?\" (vsNormal 55.72); The Divine Journey \"भगवान विष्णु पत्थर क्यों बने?\" (comment requests for more detail)",
+      "strength": 9
     },
     {
-      "topic": "Time-sensitive festival Vrat Kathas combined with Puja Vidhi",
-      "evidence": "FaKT Dharmik Katha's Tulsi Vivah Katha (vsNormal: 7.44), Karwa Chauth Vrat Katha (vsNormal: 6.66), and Amla Navami Katha (vsNormal: 5.77)",
+      "topic": "Historical recreations of festivals (e.g., \"100 साल पहले Chhath Puja\", \"1926 में Diwali\")",
+      "evidence": "The Divine Journey best videos on Chhath and Diwali with vsNormal 68.81 and 47.72; high engagement (comments 1362)",
       "strength": 8
     },
     {
-      "topic": "Kailash drama and celestial conflicts with emotional twists",
-      "evidence": "Jagannath Toons' 'Kailash par Bawal!' (vsNormal: 4.45) and Dev Diwali Lotus theft story (vsNormal: 5.71)",
+      "topic": "Mystery/secret angle – “real parents”, “hidden origins”, “unexplained facts”",
+      "evidence": "Kalyug Rahasya titles using \"असली माता-पिता\", \"असली कथा\" (vsNormal 78.31, 55.72); viewers often ask “क्या यह सच है?” in comments",
+      "strength": 7
+    },
+    {
+      "topic": "Heroic rescue or moral‑lesson episodes (e.g., Shiva saving passengers)",
+      "evidence": "Hubba Bubba \"Shiva Ne Apne Dimaag Se...\" (vsNormal 30.12) attracted high per‑day views despite non‑mythology channel",
+      "strength": 6
+    },
+    {
+      "topic": "Short, punchy “Katha” formats on lesser‑known myths (e.g., Mahishasura, Siddhidatri)",
+      "evidence": "Weakest videos on Mahishasura and Siddhidatri have very low vsNormal (<0.1), indicating demand for better‑produced, deeper versions",
+      "strength": 5
+    },
+    {
+      "topic": "Requests for sequels/part 2 of popular stories",
+      "evidence": "Comments on high‑performing videos repeatedly ask “अगला भाग कब आएगा?” and “क्या आप इस कथा का दूसरा भाग बनाएँगे?”",
       "strength": 7
     }
   ],
   "gaps": [
-    "Deep-dive Kathas of lesser-known avatars of Lord Shiva and unexpected encounters between deities and everyday villagers without repetitive clickbait tropes",
-    "Step-by-step ritual significance integrated seamlessly into engaging story-driven animation rather than plain text narrations"
+    "In‑depth coverage of Pitru Paksha and ancestor‑worship stories (currently lowest vsNormal)",
+    "Comprehensive explanations of why certain deities turned into stone or took unusual forms (e.g., Vishnu stone myth)",
+    "Detailed narratives of lesser‑known festivals like Navratri day 9 (Siddhidatri) and regional customs",
+    "Analytical breakdown of symbolic meanings behind mythic events (e.g., Mahishasura’s defeat)",
+    "Modern‑life application of ancient myths (practical lessons missing in most videos)"
   ],
   "saturated": [
-    "Generic Ram vs Ravan battle scenes without novel emotional hooks (vsNormal: 0.04)",
-    "Standard non-seasonal weekly Vrat Kathas like generic Tuesday Hanuman Vrat Katha (vsNormal: 0)",
-    "Plain mantra/stuti audio tracks without narrative storytelling or visuals (Divine Soul India videos vsNormal <= 1)"
+    "General Trimurti origin tales – many channels repeat the same “parents of gods” angle",
+    "Standard Diwali/Chhath historical retrospectives – dozens of similar “100 साल पहले” videos",
+    "Generic “Katha” titles without a unique hook (e.g., simple “Diwali Ki Katha”)"
   ],
   "title_patterns": [
-    "जब [Deity] ने [Unexpected Action]... 😱 फिर जो हुआ | [Catchy Topic]",
-    "[Deity] का [Unusual Situation/Conflict]! 😱 | [Story Name]",
-    "[Character] ने स्वयं [Deity] को [Ordinary/Shocking Encounter] 😱"
+    "🔱 [Topic] – [Hook/Question] (e.g., \"🔱 भगवान विष्णु कौन हैं?\" )",
+    "100 साल पहले [Event] | [Year] का [Festival] (e.g., \"100 साल पहले Chhath Puja कैसी होती थी?\" )",
+    "\"[Number] साल पहले\" + festival name + \"कैसी होती थी\"",
+    "\"Full Documentary\" + [Subject] + \"|\" + [Year/Decade]\"",
+    "\"कथा\" + \"#\" + keyword (e.g., \"Diwali Ki Katha #shorts\")",
+    "Questions in title: \"क्या हुआ?\", \"कैसे हुई?\", \"कौन हैं?\""
   ]
 }
