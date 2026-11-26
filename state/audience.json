@@ -1,48 +1,42 @@
 {
-  "at": "2026-11-26T16:51:25.643Z",
+  "at": "2026-11-26T21:29:22.857Z",
   "channels": [
-    "KATHA SAGAR",
-    "Rasiya Films",
-    "Mystery of the World",
-    "Anant Gatha",
-    "GuruVaani Studio\n"
+    "FaKT Pauranik Katha",
+    "Jagannath Toons",
+    "Shri Leela Charitam",
+    "Divine Soul India",
+    "FaKT Dharmik Katha"
   ],
   "wants": [
     {
-      "topic": "Miracle stories of saints (Neem Karoli Baba)",
-      "evidence": "Anant Gatha's top performing videos are exclusively about Neem Karoli Baba, showing massive vsNormal scores (up to 41.86).",
+      "topic": "Vrat Katha (Ritual-specific mythology)",
+      "evidence": "High vsNormal performance in FaKT Pauranik Katha and FaKT Dharmik Katha for Ekadashi, Kartik Purnima, and Amla Navami videos.",
       "strength": 10
     },
     {
-      "topic": "Moral-driven 'Maa Durga' domestic intervention stories",
-      "evidence": "GuruVaani Studio's top videos feature Maa Durga intervening in the lives of common people (e.g., 'Maa Durga helping Sugandha'), achieving extreme vsNormal scores (316.79).",
+      "topic": "Anthropomorphic/Humanized Leelas (Mahadev/Shiva as a common man)",
+      "evidence": "Shri Leela Charitam's massive viral success with 'Mahadev sweeping/working' narratives (8.9M views).",
       "strength": 9
     },
     {
-      "topic": "Untold or 'Secret' Puranic backstories",
-      "evidence": "Mystery of the World's high performance on obscure topics like Rishi Markandeya and Ahilya's story suggests a hunger for deep-lore rather than mainstream epics.",
+      "topic": "Emotional/Dramatic conflict in mythological settings",
+      "evidence": "Jagannath Toons' high-performing videos featuring 'trouble' or 'confrontation' (e.g., 'Bure fase Mahadev').",
       "strength": 8
-    },
-    {
-      "topic": "Full-length cinematic retellings of Epics",
-      "evidence": "Rasiya Films and Anant Gatha both show high engagement on 'Full Movie' formats of Ramayana, indicating the audience prefers long-form narrative consumption.",
-      "strength": 7
     }
   ],
   "gaps": [
-    "Lack of high-quality, long-form content on the specific life lessons of minor Puranic characters.",
-    "Viewers often ask for 'Part 2' in comments, suggesting a gap in serialized content that maintains narrative continuity.",
-    "A shortage of authentic historical context mixed with mythology; viewers show interest in 'Real History' but often get generic storytelling."
+    "In-depth explanations of specific rituals for working professionals who have limited time.",
+    "Stories that connect ancient Vrat Vidhi (rituals) with modern-day life struggles (financial or family stress).",
+    "Clear, step-by-step visual guides for Puja that do not rely on long-form narration."
   ],
   "saturated": [
-    "Generic 'Kaliya Mardan' or standard Krishna childhood stories which have become commoditized.",
-    "Short-form motivation reels or standard 'Shorts' that lack deep narrative substance.",
-    "Over-dramatized thumbnails for basic Navratri stories that are now being ignored by the audience (as seen in weak performance of some Navratri-themed videos)."
+    "Generic 'Ramayana' or 'Mahabharata' summaries that lack a specific emotional angle or unique twist.",
+    "Standard Bhajan compilations without a narrative or storytelling element.",
+    "Repetitive Kartik Maas Mahatmya chapters which are currently being uploaded by many channels simultaneously."
   ],
   "title_patterns": [
-    "Using emotional triggers like 'अद्भुत कथा' (Amazing story) or 'रहस्य' (Secret/Mystery).",
-    "High-stakes conflict framing: 'Maa Durga vs [Demon/Villain]' or 'Why did [Character] do [Shocking Act]?'",
-    "Combining high-authority figures with common struggles: 'Maa Durga helping a poor devotee'.",
-    "Explicitly labeling content as 'Full Movie' or '4K Ultra HD' to signal production value."
+    "High-stakes emotional hooks: 'अरे.. यह किसान स्वयं भगवान शिव से मजदूरी क्यों करवा रहा है? 😱'",
+    "Urgency + Ritual: 'Devuthani Ekadashi Vrat katha ~ पूजा विधि नियम 2026 ~ पूर्ण व्रत कथा'",
+    "Direct conflict/shock value: 'बुरे फसे महादेव 😢', 'कैलाश पर बवाल! 🔥'"
   ]
 }
