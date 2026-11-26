@@ -1,62 +1,48 @@
 {
-  "at": "2026-11-25T17:11:25.714Z",
+  "at": "2026-11-26T16:51:25.643Z",
   "channels": [
-    "Kalyug Rahasya",
-    "The Divine Journey",
-    "Hubba Bubba",
-    "⑱ƥѱȓãήȃ$",
-    "Gyan Adhyatmik Katha"
+    "KATHA SAGAR",
+    "Rasiya Films",
+    "Mystery of the World",
+    "Anant Gatha",
+    "GuruVaani Studio\n"
   ],
   "wants": [
     {
-      "topic": "Origin stories of major deities (Trimurti, Vishnu, Shiva, Ganesha)",
-      "evidence": "Kalyug Rahasya videos \"🔱 तीनों देवताओं की उत्पत्ति...\" (vsNormal 96.35) and \"🔱 भगवान विष्णु कौन हैं?\" (vsNormal 55.72); The Divine Journey \"भगवान विष्णु पत्थर क्यों बने?\" (comment requests for more detail)",
+      "topic": "Miracle stories of saints (Neem Karoli Baba)",
+      "evidence": "Anant Gatha's top performing videos are exclusively about Neem Karoli Baba, showing massive vsNormal scores (up to 41.86).",
+      "strength": 10
+    },
+    {
+      "topic": "Moral-driven 'Maa Durga' domestic intervention stories",
+      "evidence": "GuruVaani Studio's top videos feature Maa Durga intervening in the lives of common people (e.g., 'Maa Durga helping Sugandha'), achieving extreme vsNormal scores (316.79).",
       "strength": 9
     },
     {
-      "topic": "Historical recreations of festivals (e.g., \"100 साल पहले Chhath Puja\", \"1926 में Diwali\")",
-      "evidence": "The Divine Journey best videos on Chhath and Diwali with vsNormal 68.81 and 47.72; high engagement (comments 1362)",
+      "topic": "Untold or 'Secret' Puranic backstories",
+      "evidence": "Mystery of the World's high performance on obscure topics like Rishi Markandeya and Ahilya's story suggests a hunger for deep-lore rather than mainstream epics.",
       "strength": 8
     },
     {
-      "topic": "Mystery/secret angle – “real parents”, “hidden origins”, “unexplained facts”",
-      "evidence": "Kalyug Rahasya titles using \"असली माता-पिता\", \"असली कथा\" (vsNormal 78.31, 55.72); viewers often ask “क्या यह सच है?” in comments",
-      "strength": 7
-    },
-    {
-      "topic": "Heroic rescue or moral‑lesson episodes (e.g., Shiva saving passengers)",
-      "evidence": "Hubba Bubba \"Shiva Ne Apne Dimaag Se...\" (vsNormal 30.12) attracted high per‑day views despite non‑mythology channel",
-      "strength": 6
-    },
-    {
-      "topic": "Short, punchy “Katha” formats on lesser‑known myths (e.g., Mahishasura, Siddhidatri)",
-      "evidence": "Weakest videos on Mahishasura and Siddhidatri have very low vsNormal (<0.1), indicating demand for better‑produced, deeper versions",
-      "strength": 5
-    },
-    {
-      "topic": "Requests for sequels/part 2 of popular stories",
-      "evidence": "Comments on high‑performing videos repeatedly ask “अगला भाग कब आएगा?” and “क्या आप इस कथा का दूसरा भाग बनाएँगे?”",
+      "topic": "Full-length cinematic retellings of Epics",
+      "evidence": "Rasiya Films and Anant Gatha both show high engagement on 'Full Movie' formats of Ramayana, indicating the audience prefers long-form narrative consumption.",
       "strength": 7
     }
   ],
   "gaps": [
-    "In‑depth coverage of Pitru Paksha and ancestor‑worship stories (currently lowest vsNormal)",
-    "Comprehensive explanations of why certain deities turned into stone or took unusual forms (e.g., Vishnu stone myth)",
-    "Detailed narratives of lesser‑known festivals like Navratri day 9 (Siddhidatri) and regional customs",
-    "Analytical breakdown of symbolic meanings behind mythic events (e.g., Mahishasura’s defeat)",
-    "Modern‑life application of ancient myths (practical lessons missing in most videos)"
+    "Lack of high-quality, long-form content on the specific life lessons of minor Puranic characters.",
+    "Viewers often ask for 'Part 2' in comments, suggesting a gap in serialized content that maintains narrative continuity.",
+    "A shortage of authentic historical context mixed with mythology; viewers show interest in 'Real History' but often get generic storytelling."
   ],
   "saturated": [
-    "General Trimurti origin tales – many channels repeat the same “parents of gods” angle",
-    "Standard Diwali/Chhath historical retrospectives – dozens of similar “100 साल पहले” videos",
-    "Generic “Katha” titles without a unique hook (e.g., simple “Diwali Ki Katha”)"
+    "Generic 'Kaliya Mardan' or standard Krishna childhood stories which have become commoditized.",
+    "Short-form motivation reels or standard 'Shorts' that lack deep narrative substance.",
+    "Over-dramatized thumbnails for basic Navratri stories that are now being ignored by the audience (as seen in weak performance of some Navratri-themed videos)."
   ],
   "title_patterns": [
-    "🔱 [Topic] – [Hook/Question] (e.g., \"🔱 भगवान विष्णु कौन हैं?\" )",
-    "100 साल पहले [Event] | [Year] का [Festival] (e.g., \"100 साल पहले Chhath Puja कैसी होती थी?\" )",
-    "\"[Number] साल पहले\" + festival name + \"कैसी होती थी\"",
-    "\"Full Documentary\" + [Subject] + \"|\" + [Year/Decade]\"",
-    "\"कथा\" + \"#\" + keyword (e.g., \"Diwali Ki Katha #shorts\")",
-    "Questions in title: \"क्या हुआ?\", \"कैसे हुई?\", \"कौन हैं?\""
+    "Using emotional triggers like 'अद्भुत कथा' (Amazing story) or 'रहस्य' (Secret/Mystery).",
+    "High-stakes conflict framing: 'Maa Durga vs [Demon/Villain]' or 'Why did [Character] do [Shocking Act]?'",
+    "Combining high-authority figures with common struggles: 'Maa Durga helping a poor devotee'.",
+    "Explicitly labeling content as 'Full Movie' or '4K Ultra HD' to signal production value."
   ]
 }
