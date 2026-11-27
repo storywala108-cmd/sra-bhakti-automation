@@ -1,42 +1,41 @@
 {
-  "at": "2026-11-26T21:29:22.857Z",
+  "at": "2026-11-27T21:11:19.716Z",
   "channels": [
-    "FaKT Pauranik Katha",
-    "Jagannath Toons",
-    "Shri Leela Charitam",
-    "Divine Soul India",
-    "FaKT Dharmik Katha"
+    "GK Hindi Stories 1m",
+    "The Divine Journey",
+    "Hubba Bubba",
+    "⑱ƥѱȓãήȃ$",
+    "Gyan Adhyatmik Katha"
   ],
   "wants": [
     {
-      "topic": "Vrat Katha (Ritual-specific mythology)",
-      "evidence": "High vsNormal performance in FaKT Pauranik Katha and FaKT Dharmik Katha for Ekadashi, Kartik Purnima, and Amla Navami videos.",
+      "topic": "Historical / Nostalgic perspective of Hindu festivals ('100 Years Ago' / 1920s Chhath & Diwali)",
+      "evidence": "The Divine Journey's '100 साल पहले Chhath Puja' (vsNormal 70.06) and '1926 में Diwali' (vsNormal 49.66)",
       "strength": 10
     },
     {
-      "topic": "Anthropomorphic/Humanized Leelas (Mahadev/Shiva as a common man)",
-      "evidence": "Shri Leela Charitam's massive viral success with 'Mahadev sweeping/working' narratives (8.9M views).",
+      "topic": "Moral & Emotional Kathas focused on Divine Intervention (Rich vs. Poor, Laxmi vs. Daridrata)",
+      "evidence": "⑱ƥѱȓãήȃ$'s 'माता लक्ष्मी और दरिद्रता की परीक्षा' (vsNormal 35.31) and Mahadev helping a poor devotee (vsNormal 3.13)",
       "strength": 9
     },
     {
-      "topic": "Emotional/Dramatic conflict in mythological settings",
-      "evidence": "Jagannath Toons' high-performing videos featuring 'trouble' or 'confrontation' (e.g., 'Bure fase Mahadev').",
+      "topic": "Major Laxmi Pujan & Festival Kathas timed ahead of peak occasions (Diwali, Dhanteras, Kojagiri Purnima)",
+      "evidence": "Gyan Adhyatmik Katha's Diwali (vsNormal 7.59) & Dhanteras (vsNormal 6.24) Kathas",
       "strength": 8
     }
   ],
   "gaps": [
-    "In-depth explanations of specific rituals for working professionals who have limited time.",
-    "Stories that connect ancient Vrat Vidhi (rituals) with modern-day life struggles (financial or family stress).",
-    "Clear, step-by-step visual guides for Puja that do not rely on long-form narration."
+    "Documentary-style historical reconstructions of ancient Indian traditions and festival origins",
+    "Relatable family-drama narrative storytelling embedded within standard Vrat Kathas"
   ],
   "saturated": [
-    "Generic 'Ramayana' or 'Mahabharata' summaries that lack a specific emotional angle or unique twist.",
-    "Standard Bhajan compilations without a narrative or storytelling element.",
-    "Repetitive Kartik Maas Mahatmya chapters which are currently being uploaded by many channels simultaneously."
+    "Dry, ritual-only readings of minor Ekadashi Vrat Kathas without emotional hooks",
+    "Generic Pitru Paksha rules and death mystery videos (Garuda Purana tropes)",
+    "Repetitive day-by-day Navratri audio Kathas without engaging storylines"
   ],
   "title_patterns": [
-    "High-stakes emotional hooks: 'अरे.. यह किसान स्वयं भगवान शिव से मजदूरी क्यों करवा रहा है? 😱'",
-    "Urgency + Ritual: 'Devuthani Ekadashi Vrat katha ~ पूजा विधि नियम 2026 ~ पूर्ण व्रत कथा'",
-    "Direct conflict/shock value: 'बुरे फसे महादेव 😢', 'कैलाश पर बवाल! 🔥'"
+    "[X] साल पहले [Festival] कैसी होती थी? | [Year] का महापर्व",
+    "आखिर क्यों [Deity] ने [Dramatic/Emotional Action]? | [Festival/Tithi] Katha",
+    "[Festival/Goddess Laxmi] Katha: [Rich Relative] vs [Poor Devotee]"
   ]
 }
