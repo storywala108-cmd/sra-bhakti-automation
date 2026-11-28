@@ -1,41 +1,54 @@
 {
-  "at": "2026-11-27T21:11:19.716Z",
+  "at": "2026-11-28T01:26:24.666Z",
   "channels": [
-    "GK Hindi Stories 1m",
-    "The Divine Journey",
-    "Hubba Bubba",
-    "⑱ƥѱȓãήȃ$",
-    "Gyan Adhyatmik Katha"
+    "KATHA SAGAR",
+    "Rasiya Films",
+    "Mystery of the World",
+    "Anant Gatha",
+    "GuruVaani Studio\n"
   ],
   "wants": [
     {
-      "topic": "Historical / Nostalgic perspective of Hindu festivals ('100 Years Ago' / 1920s Chhath & Diwali)",
-      "evidence": "The Divine Journey's '100 साल पहले Chhath Puja' (vsNormal 70.06) and '1926 में Diwali' (vsNormal 49.66)",
+      "topic": "Domestic drama & daily life struggles resolved by divine intervention (Maa Durga)",
+      "evidence": "GuruVaani Studio's video about an old woman making Maa Durga do chores hit 322.13x vsNormal, and stepmother drama stories hit 45.96x-63.54x vsNormal.",
       "strength": 10
     },
     {
-      "topic": "Moral & Emotional Kathas focused on Divine Intervention (Rich vs. Poor, Laxmi vs. Daridrata)",
-      "evidence": "⑱ƥѱȓãήȃ$'s 'माता लक्ष्मी और दरिद्रता की परीक्षा' (vsNormal 35.31) and Mahadev helping a poor devotee (vsNormal 3.13)",
+      "topic": "High-curiosity Puranic secrets and untold post-event consequences",
+      "evidence": "Mystery of the World achieved 44.91x with Markandeya Purana secrets and 14.66x with 'which son was born after Indra fooled Ahalya'.",
       "strength": 9
     },
     {
-      "topic": "Major Laxmi Pujan & Festival Kathas timed ahead of peak occasions (Diwali, Dhanteras, Kojagiri Purnima)",
-      "evidence": "Gyan Adhyatmik Katha's Diwali (vsNormal 7.59) & Dhanteras (vsNormal 6.24) Kathas",
+      "topic": "Modern saint miracle stories framed as divine avatars (Neem Karoli Baba)",
+      "evidence": "Anant Gatha scored 41.38x and 20.2x vsNormal with 'Neem Karoli Baba: Hanuman Ansh Avtar' cinematic films.",
+      "strength": 9
+    },
+    {
+      "topic": "'Full Movie' mega-edits consolidating complete epics into one long video",
+      "evidence": "Rasiya Films got 20.47x vsNormal with 'Ramayana Full Movie in 1 Video', and Anant Gatha got 31.53x with their Ramayan 4K film.",
       "strength": 8
+    },
+    {
+      "topic": "Lesser-known regional folk kathas (e.g., Adhaiya Brahmana Katha)",
+      "evidence": "Rasiya Films achieved 10.9x and 10.47x vsNormal on videos specifically covering Adhaiya Brahmana.",
+      "strength": 7
     }
   ],
   "gaps": [
-    "Documentary-style historical reconstructions of ancient Indian traditions and festival origins",
-    "Relatable family-drama narrative storytelling embedded within standard Vrat Kathas"
+    "Lesser-known consequences of major mythological events (e.g., descendants, lineage born out of divine/cursed events).",
+    "Deep-dive Puranic stories beyond standard Ramayan/Mahabharat episodes (e.g., Markandeya Purana, Ganga Sagar origins).",
+    " cinematic short film treatments for 20th-century Indian saints presented through a divine avatar lens."
   ],
   "saturated": [
-    "Dry, ritual-only readings of minor Ekadashi Vrat Kathas without emotional hooks",
-    "Generic Pitru Paksha rules and death mystery videos (Garuda Purana tropes)",
-    "Repetitive day-by-day Navratri audio Kathas without engaging storylines"
+    "Standard day-by-day Navratri ritual kathas (e.g., generic Katyayani story flopped at 0.07x vsNormal).",
+    "Generic Krishna birth in prison scene (Devaki in jail flopped at 0.04x vsNormal).",
+    "Standalone Janmashtami bhajan/HD song tracks (flopped at 0.01x vsNormal).",
+    "Dry historical documentaries without divine miracle focus (Chanakya/Chandragupta history flopped at 0.18x vsNormal)."
   ],
   "title_patterns": [
-    "[X] साल पहले [Festival] कैसी होती थी? | [Year] का महापर्व",
-    "आखिर क्यों [Deity] ने [Dramatic/Emotional Action]? | [Festival/Tithi] Katha",
-    "[Festival/Goddess Laxmi] Katha: [Rich Relative] vs [Poor Devotee]"
+    "Shocking Question / Domestic Conflict Hook: [गॉड] से आखिर क्यों [कैरेक्टर] ने [अनोखा काम / झाड़ू उठाई]?",
+    "Untold Detail / Secret Result: [घटना] के बाद, तब किस [पुत्र/अवतार] का जन्म हुआ?",
+    "Consolidated Feature Format: [विषय] Full Movie | [कहानी] एक ही फिल्म में 🚩",
+    "Avatar Connection Hook: [भगवान] अंश अवतार : The Story Of [संत/बाबा]"
   ]
 }
